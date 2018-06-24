@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -50,7 +50,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Test - Selection List Target.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2018/examples/Application Control/VI Scripting/Selected Objects and the Clipboard/Test - Selection List Target.vi"/>
+			<Item Name="Test - Selection List Target.vi" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2018/examples/Application Control/VI Scripting/Selected Objects and the Clipboard/Test - Selection List Target.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
