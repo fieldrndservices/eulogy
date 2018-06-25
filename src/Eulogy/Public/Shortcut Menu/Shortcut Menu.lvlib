@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">Eulogy.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../Eulogy.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!*Q(C=\&gt;;^41."%)&lt;BTYC!V"UANT!&amp;E,A&amp;RUA%ER%2/)41,5Q,FKD!!1V-#UY)E8!&amp;G//^P1'-15!!%A&amp;X8P^]?TP\X+]MN?6)/F4X)QP6&gt;H[UV^P_X?CD`HZ]`S:6P\1XPI7V0H`M^&gt;@YI=D(?[:X8\[R;Z]M``X``8_\`_P,__K\N]*P,&gt;*IO'_\,GF"=ZI.NX'3*XG3*XG3*XG1"XG1"XG1"\G4/\G4/\G4/\G2'\G2'\G2G_K21CZSE=P[RYC3S:/*EK**A72D+%L?%E`C34S*BZ^+0)EH]33?R--G3DS**`%EHM4$-#7?R*.Y%E`CI634:&amp;P*]31?SCPQ"*\!%XA#$V-K]!3!9,+A=&amp;!%BI,/Y%PA#4S"B[]+0)%H]!3?Q%/X!E`A#4S"*`!QJ"W6;*J_*=&gt;$'4E?R_.Y()`DI&lt;1=D_.R0)\(]4#&gt;()`D=2$/B%ZR#()'/2MY0RS0Y_&amp;$DM@R/"\(YXDI;G@)WZ(J.@V+DM@Q'"\$9XA-$S6E?!S0Y4%]BI?S-DS'R`!9(M0$6$)]BM@Q'""D5K;85=Q9;'RE");(6\N;L*WF;"*L;^W;QY7KOA"6&amp;Z&lt;KAF&amp;&gt;#+I4L$JRKB/C/N#K![A[-+I&gt;6OW)#KC;7&amp;61N;%WP+^J+^K3NK$.;40;F$;BD@OB0\TB:L02?LX7;L83=LH59L(1@$\8&lt;$&lt;4&gt;$L6:$,2?$R_?6I&gt;MQ\,;0?Z^("ZXWVP\LO(M`/4\&gt;XV[@&lt;WYK2\\#\\PCOW`9UW0*@_QL.2"].`GN&gt;D^!1*ON+V!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>

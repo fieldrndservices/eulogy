@@ -15,6 +15,9 @@
 		<Item Name="Configs" Type="Folder"/>
 		<Item Name="Examples" Type="Folder"/>
 		<Item Name="Eulogy.lvlib" Type="Library" URL="../src/Eulogy/Eulogy.lvlib"/>
+		<Item Name="Graveyard.lvlib" Type="Library" URL="../src/Eulogy/Public/Bookmark Manager/Graveyard.lvlib"/>
+		<Item Name="Quick Drop.lvlib" Type="Library" URL="../src/Eulogy/Public/Quick Drop/Quick Drop.lvlib"/>
+		<Item Name="Shortcut Menu.lvlib" Type="Library" URL="../src/Eulogy/Public/Shortcut Menu/Shortcut Menu.lvlib"/>
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -102,15 +105,15 @@
 				<Property Name="Source[0].itemID" Type="Str">{1DA16503-2D68-4F9C-B258-E855CCEBBBE6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Quick Drop.lvlib/Public/Dig Grave.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib/Public/Dig Grave.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Quick Drop.lvlib/Public/Cure.vi</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Quick Drop.lvlib/Public/Cure.vi</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Quick Drop.lvlib/Public/Infect.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Quick Drop.lvlib/Public/Infect.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
@@ -118,11 +121,11 @@
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Quick Drop.lvlib</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
 				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Shortcut Menu.lvlib</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib</Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
@@ -176,17 +179,17 @@
 				<Property Name="Source[0].itemID" Type="Str">{8E72423A-A07D-4DB5-AF11-88DC12DF89E2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Shortcut Menu.lvlib/Public/Dig Grave.ctl</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Dig Grave.ctl</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[1].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Shortcut Menu.lvlib/Public/Dig Grave.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Dig Grave.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[2].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Shortcut Menu.lvlib/Public/Execute Dig Grave.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Execute Dig Grave.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[3].VI.LLBtopLevel" Type="Bool">true</Property>
@@ -198,7 +201,7 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Quick Drop.lvlib</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
 				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[6].type" Type="Str">Library</Property>
