@@ -11,7 +11,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Cure.vi" Type="VI" URL="../Public/Cure.vi"/>
-		<Item Name="Dig Grave.vi" Type="VI" URL="../Public/Dig Grave.vi"/>
+		<Item Name="Dig.vi" Type="VI" URL="../Public/Dig.vi"/>
 		<Item Name="Infect.vi" Type="VI" URL="../Public/Infect.vi"/>
 	</Item>
 </Library>

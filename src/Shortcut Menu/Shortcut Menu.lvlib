@@ -9,8 +9,8 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Dig Grave.ctl" Type="VI" URL="../Public/Dig Grave.ctl"/>
-		<Item Name="Dig Grave.vi" Type="VI" URL="../Public/Dig Grave.vi"/>
-		<Item Name="Execute Dig Grave.vi" Type="VI" URL="../Public/Execute Dig Grave.vi"/>
+		<Item Name="Dig.ctl" Type="VI" URL="../Public/Dig.ctl"/>
+		<Item Name="Dig.vi" Type="VI" URL="../Public/Dig.vi"/>
+		<Item Name="Execute Dig.vi" Type="VI" URL="../Public/Execute Dig.vi"/>
 	</Item>
 </Library>

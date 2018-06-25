@@ -10,7 +10,7 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Cure Test.vi" Type="VI" URL="../Public/Cure Test.vi"/>
-		<Item Name="Dig Grave Test.vi" Type="VI" URL="../Public/Dig Grave Test.vi"/>
+		<Item Name="Dig Test.vi" Type="VI" URL="../Public/Dig Test.vi"/>
 		<Item Name="Infect Test.vi" Type="VI" URL="../Public/Infect Test.vi"/>
 		<Item Name="Practice.vi" Type="VI" URL="../Public/Practice.vi"/>
 	</Item>
