@@ -21,4 +21,5 @@
 		<Item Name="Quick Drop.lvlib" Type="Library" URL="../Public/Quick Drop/Quick Drop.lvlib"/>
 		<Item Name="Shortcut Menu.lvlib" Type="Library" URL="../Public/Shortcut Menu/Shortcut Menu.lvlib"/>
 	</Item>
+	<Item Name="Remove Controls from Selection.vi" Type="VI" URL="../Private/Remove Controls from Selection.vi"/>
 </Library>
