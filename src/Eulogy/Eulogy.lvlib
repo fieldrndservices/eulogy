@@ -18,9 +18,10 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Cure.vi" Type="VI" URL="../Public/Cure.vi"/>
 		<Item Name="Dig Grave.vi" Type="VI" URL="../Public/Dig Grave.vi"/>
+		<Item Name="Infect.vi" Type="VI" URL="../Public/Infect.vi"/>
 		<Item Name="Quick Drop.lvlib" Type="Library" URL="../Public/Quick Drop/Quick Drop.lvlib"/>
-		<Item Name="Revive.vi" Type="VI" URL="../Public/Revive.vi"/>
 		<Item Name="Shortcut Menu.lvlib" Type="Library" URL="../Public/Shortcut Menu/Shortcut Menu.lvlib"/>
 	</Item>
 </Library>
