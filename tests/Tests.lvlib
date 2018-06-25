@@ -11,6 +11,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Dig Grave Test.vi" Type="VI" URL="../Public/Dig Grave Test.vi"/>
 		<Item Name="Practice.vi" Type="VI" URL="../Public/Practice.vi"/>
-		<Item Name="Zombie Test.vi" Type="VI" URL="../Public/Zombie Test.vi"/>
+		<Item Name="Revive Test.vi" Type="VI" URL="../Public/Revive Test.vi"/>
 	</Item>
 </Library>

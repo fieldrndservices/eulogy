@@ -20,7 +20,7 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Dig Grave.vi" Type="VI" URL="../Public/Dig Grave.vi"/>
 		<Item Name="Quick Drop.lvlib" Type="Library" URL="../Public/Quick Drop/Quick Drop.lvlib"/>
+		<Item Name="Revive.vi" Type="VI" URL="../Public/Revive.vi"/>
 		<Item Name="Shortcut Menu.lvlib" Type="Library" URL="../Public/Shortcut Menu/Shortcut Menu.lvlib"/>
-		<Item Name="Zombie.vi" Type="VI" URL="../Public/Zombie.vi"/>
 	</Item>
 </Library>
