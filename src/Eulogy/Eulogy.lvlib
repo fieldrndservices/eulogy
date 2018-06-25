@@ -12,6 +12,7 @@
 		<Item Name="Bookmark Diagram Disable Structure.vi" Type="VI" URL="../Private/Bookmark Diagram Disable Structure.vi"/>
 		<Item Name="Duplicate Disabled Frame.vi" Type="VI" URL="../Private/Duplicate Disabled Frame.vi"/>
 		<Item Name="Enclose with Diagram Disable Structure.vi" Type="VI" URL="../Private/Enclose with Diagram Disable Structure.vi"/>
+		<Item Name="Remove Controls from Selection.vi" Type="VI" URL="../Private/Remove Controls from Selection.vi"/>
 		<Item Name="Write Subdiagram Labels.vi" Type="VI" URL="../Private/Write Subdiagram Labels.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
@@ -20,6 +21,6 @@
 		<Item Name="Dig Grave.vi" Type="VI" URL="../Public/Dig Grave.vi"/>
 		<Item Name="Quick Drop.lvlib" Type="Library" URL="../Public/Quick Drop/Quick Drop.lvlib"/>
 		<Item Name="Shortcut Menu.lvlib" Type="Library" URL="../Public/Shortcut Menu/Shortcut Menu.lvlib"/>
+		<Item Name="Zombie.vi" Type="VI" URL="../Public/Zombie.vi"/>
 	</Item>
-	<Item Name="Remove Controls from Selection.vi" Type="VI" URL="../Private/Remove Controls from Selection.vi"/>
 </Library>

@@ -9,7 +9,7 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Dig Grave Practice.vi" Type="VI" URL="../Public/Dig Grave Practice.vi"/>
 		<Item Name="Dig Grave Test.vi" Type="VI" URL="../Public/Dig Grave Test.vi"/>
+		<Item Name="Practice.vi" Type="VI" URL="../Public/Practice.vi"/>
 	</Item>
 </Library>

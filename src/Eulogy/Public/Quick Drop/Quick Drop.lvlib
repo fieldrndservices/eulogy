@@ -10,6 +10,8 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Dig Grave.vi" Type="VI" URL="../Public/Dig Grave.vi"/>
+		<Item Name="Zombie.vi" Type="VI" URL="../Public/Zombie.vi"/>
 	</Item>
 </Library>
