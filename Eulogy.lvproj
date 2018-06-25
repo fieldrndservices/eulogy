@@ -15,9 +15,9 @@
 		<Item Name="Configs" Type="Folder"/>
 		<Item Name="Examples" Type="Folder"/>
 		<Item Name="Eulogy.lvlib" Type="Library" URL="../src/Eulogy/Eulogy.lvlib"/>
-		<Item Name="Graveyard.lvlib" Type="Library" URL="../src/Eulogy/Public/Bookmark Manager/Graveyard.lvlib"/>
-		<Item Name="Quick Drop.lvlib" Type="Library" URL="../src/Eulogy/Public/Quick Drop/Quick Drop.lvlib"/>
-		<Item Name="Shortcut Menu.lvlib" Type="Library" URL="../src/Eulogy/Public/Shortcut Menu/Shortcut Menu.lvlib"/>
+		<Item Name="Graveyard.lvlib" Type="Library" URL="../src/Graveyard/Graveyard.lvlib"/>
+		<Item Name="Quick Drop.lvlib" Type="Library" URL="../src/Quick Drop/Quick Drop.lvlib"/>
+		<Item Name="Shortcut Menu.lvlib" Type="Library" URL="../src/Shortcut Menu/Shortcut Menu.lvlib"/>
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
