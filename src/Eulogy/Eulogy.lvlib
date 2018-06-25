@@ -17,5 +17,7 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Dig Grave.vi" Type="VI" URL="../Public/Dig Grave.vi"/>
+		<Item Name="QD Dig Grave.vi" Type="VI" URL="../Public/QD Dig Grave.vi"/>
+		<Item Name="Shortcut Menu.lvlib" Type="Library" URL="../Public/Shortcut Menu/Shortcut Menu.lvlib"/>
 	</Item>
 </Library>
