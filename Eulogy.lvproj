@@ -62,7 +62,7 @@
 			<Item Name="Shortcut Menu" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B18AFA13-07B3-4115-997A-AF08D97096C6}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Builds a LLB for a shortcut menu</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Builds a LLB for the Dig Grave shortcut menu. The Dig Grave shortcut menu appears in the right-click context menu of a block diagram when there is a selection.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Shortcut Menu</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
@@ -75,36 +75,56 @@
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Shortcut Menu/NI_AB_PROJECTNAME.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Shortcut Menu/Dig Grave.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B23CD3DA-6053-4B73-84D7-9BF70E398FD3}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Shortcut Menu/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Shortcut Menu/NI_AB_PROJECTNAME.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Shortcut Menu/Dig Grave.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Shortcut Menu/Eulogy.llb/builds/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Shortcut Menu/Dig Grave.llb/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F5D93E1D-08CF-416B-A669-8E5EABE34A37}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8E72423A-A07D-4DB5-AF11-88DC12DF89E2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Shortcut Menu.lvlib/Public/Eulogy.ctl</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Shortcut Menu.lvlib/Public/Dig Grave.ctl</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[1].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Shortcut Menu.lvlib/Public/Eulogy.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Shortcut Menu.lvlib/Public/Dig Grave.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[2].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Shortcut Menu.lvlib/Public/Execute Eulogy.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Shortcut Menu.lvlib/Public/Execute Dig Grave.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[3].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Dig Grave.vi</Property>
+				<Property Name="Source[4].newName" Type="Str">_Dig Grave.vi</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Zombie.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Quick Drop.lvlib</Property>
+				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Tests.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 		</Item>
 	</Item>
