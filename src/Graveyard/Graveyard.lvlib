@@ -12,16 +12,26 @@
 		<Item Name="Active Project Scope Index.vi" Type="VI" URL="../Private/Active Project Scope Index.vi"/>
 		<Item Name="Application Information.ctl" Type="VI" URL="../Private/Application Information.ctl"/>
 		<Item Name="Begin UI Update.vi" Type="VI" URL="../Private/Begin UI Update.vi"/>
+		<Item Name="Bookmarks.vi" Type="VI" URL="../Private/Bookmarks.vi"/>
 		<Item Name="Clear Tree.vi" Type="VI" URL="../Private/Clear Tree.vi"/>
 		<Item Name="Create Message Queue.vi" Type="VI" URL="../Private/Create Message Queue.vi"/>
+		<Item Name="Create Tree.vi" Type="VI" URL="../Private/Create Tree.vi"/>
 		<Item Name="Dequeue Message.vi" Type="VI" URL="../Private/Dequeue Message.vi"/>
 		<Item Name="Enqueue Message.vi" Type="VI" URL="../Private/Enqueue Message.vi"/>
+		<Item Name="Filter Bookmarks.vi" Type="VI" URL="../Private/Filter Bookmarks.vi"/>
+		<Item Name="Filter Only Graves.vi" Type="VI" URL="../Private/Filter Only Graves.vi"/>
+		<Item Name="Filter Only Zombies.vi" Type="VI" URL="../Private/Filter Only Zombies.vi"/>
+		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Private/Filter vi.lib VIs.vi"/>
 		<Item Name="Message.ctl" Type="VI" URL="../Private/Message.ctl"/>
+		<Item Name="Populate Graves.vi" Type="VI" URL="../Private/Populate Graves.vi"/>
 		<Item Name="Populate Scope.vi" Type="VI" URL="../Private/Populate Scope.vi"/>
 		<Item Name="Previous Scope Selection.vi" Type="VI" URL="../Private/Previous Scope Selection.vi"/>
 		<Item Name="Project Names.vi" Type="VI" URL="../Private/Project Names.vi"/>
+		<Item Name="Project Target Application.vi" Type="VI" URL="../Private/Project Target Application.vi"/>
+		<Item Name="Project VIs.vi" Type="VI" URL="../Private/Project VIs.vi"/>
 		<Item Name="Select Scope.vi" Type="VI" URL="../Private/Select Scope.vi"/>
 		<Item Name="State.ctl" Type="VI" URL="../Private/State.ctl"/>
+		<Item Name="VI Information.ctl" Type="VI" URL="../Private/VI Information.ctl"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
