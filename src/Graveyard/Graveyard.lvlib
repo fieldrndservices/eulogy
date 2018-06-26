@@ -38,4 +38,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Public/Main.vi"/>
 	</Item>
+	<Item Name="Eulogy Date.vi" Type="VI" URL="../Private/Eulogy Date.vi"/>
+	<Item Name="Eulogy User.vi" Type="VI" URL="../Private/Eulogy User.vi"/>
 </Library>
