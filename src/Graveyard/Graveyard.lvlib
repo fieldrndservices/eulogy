@@ -12,7 +12,8 @@
 		<Item Name="Active Project Scope Index.vi" Type="VI" URL="../Private/Active Project Scope Index.vi"/>
 		<Item Name="Application Information.ctl" Type="VI" URL="../Private/Application Information.ctl"/>
 		<Item Name="Begin UI Update.vi" Type="VI" URL="../Private/Begin UI Update.vi"/>
-		<Item Name="Bookmark Types.ctl" Type="VI" URL="../Private/Bookmark Types.ctl"/>
+		<Item Name="Bookmarks Type.ctl" Type="VI" URL="../Private/Bookmarks Type.ctl"/>
+		<Item Name="Change Bookmarks Type.vi" Type="VI" URL="../Private/Change Bookmarks Type.vi"/>
 		<Item Name="Child Text.vi" Type="VI" URL="../Private/Child Text.vi"/>
 		<Item Name="Clear Bookmarks.vi" Type="VI" URL="../Private/Clear Bookmarks.vi"/>
 		<Item Name="Create Message Queue.vi" Type="VI" URL="../Private/Create Message Queue.vi"/>
