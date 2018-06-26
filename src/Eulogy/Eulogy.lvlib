@@ -19,9 +19,9 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Cure.vi" Type="VI" URL="../Public/Cure.vi"/>
 		<Item Name="Dig.vi" Type="VI" URL="../Public/Dig.vi"/>
 		<Item Name="Find All.vi" Type="VI" URL="../Public/Find All.vi"/>
-		<Item Name="Infect.vi" Type="VI" URL="../Public/Infect.vi"/>
+		<Item Name="Reanimate.vi" Type="VI" URL="../Public/Reanimate.vi"/>
+		<Item Name="Smite.vi" Type="VI" URL="../Public/Smite.vi"/>
 	</Item>
 </Library>

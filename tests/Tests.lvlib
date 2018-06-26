@@ -9,11 +9,11 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Cure Target.vi" Type="VI" URL="../Public/Cure Target.vi"/>
-		<Item Name="Cure Test.vi" Type="VI" URL="../Public/Cure Test.vi"/>
 		<Item Name="Dig Target.vi" Type="VI" URL="../Public/Dig Target.vi"/>
 		<Item Name="Dig Test.vi" Type="VI" URL="../Public/Dig Test.vi"/>
-		<Item Name="Infect Target.vi" Type="VI" URL="../Public/Infect Target.vi"/>
-		<Item Name="Infect Test.vi" Type="VI" URL="../Public/Infect Test.vi"/>
+		<Item Name="Reanimate Target.vi" Type="VI" URL="../Public/Reanimate Target.vi"/>
+		<Item Name="Reanimate Test.vi" Type="VI" URL="../Public/Reanimate Test.vi"/>
+		<Item Name="Smite Target.vi" Type="VI" URL="../Public/Smite Target.vi"/>
+		<Item Name="Smite Test.vi" Type="VI" URL="../Public/Smite Test.vi"/>
 	</Item>
 </Library>
