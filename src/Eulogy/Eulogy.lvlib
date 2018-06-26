@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Application User Name.vi" Type="VI" URL="../Private/Application User Name.vi"/>
 		<Item Name="Bookmark Diagram Disable Structure.vi" Type="VI" URL="../Private/Bookmark Diagram Disable Structure.vi"/>
 		<Item Name="Duplicate Disabled Frame.vi" Type="VI" URL="../Private/Duplicate Disabled Frame.vi"/>
 		<Item Name="Enclose with Diagram Disable Structure.vi" Type="VI" URL="../Private/Enclose with Diagram Disable Structure.vi"/>
