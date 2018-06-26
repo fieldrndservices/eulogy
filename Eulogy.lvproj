@@ -59,7 +59,10 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
+				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Checkmark Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Checkmark Status.ctl"/>
@@ -105,7 +108,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{1DA16503-2D68-4F9C-B258-E855CCEBBBE6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib/Public/Dig Grave.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib/Public/Dig.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
@@ -130,7 +133,7 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Dig Grave.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Dig.vi</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Infect.vi</Property>
@@ -179,21 +182,21 @@
 				<Property Name="Source[0].itemID" Type="Str">{8E72423A-A07D-4DB5-AF11-88DC12DF89E2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Dig Grave.ctl</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Dig.ctl</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[1].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Dig Grave.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Dig.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[2].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Execute Dig Grave.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Execute Dig.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[3].VI.LLBtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Dig Grave.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Eulogy.lvlib/Public/Dig.vi</Property>
 				<Property Name="Source[4].newName" Type="Str">_Dig Grave.vi</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>

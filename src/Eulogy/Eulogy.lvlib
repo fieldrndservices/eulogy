@@ -20,6 +20,7 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Cure.vi" Type="VI" URL="../Public/Cure.vi"/>
 		<Item Name="Dig.vi" Type="VI" URL="../Public/Dig.vi"/>
+		<Item Name="Find All.vi" Type="VI" URL="../Public/Find All.vi"/>
 		<Item Name="Infect.vi" Type="VI" URL="../Public/Infect.vi"/>
 	</Item>
 </Library>
