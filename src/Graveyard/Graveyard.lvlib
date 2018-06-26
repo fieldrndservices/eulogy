@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Active Project Scope Index.vi" Type="VI" URL="../Private/Active Project Scope Index.vi"/>
 		<Item Name="Application Information.ctl" Type="VI" URL="../Private/Application Information.ctl"/>
 		<Item Name="Begin UI Update.vi" Type="VI" URL="../Private/Begin UI Update.vi"/>
 		<Item Name="Clear Tree.vi" Type="VI" URL="../Private/Clear Tree.vi"/>
@@ -17,7 +18,9 @@
 		<Item Name="Enqueue Message.vi" Type="VI" URL="../Private/Enqueue Message.vi"/>
 		<Item Name="Message.ctl" Type="VI" URL="../Private/Message.ctl"/>
 		<Item Name="Populate Scope.vi" Type="VI" URL="../Private/Populate Scope.vi"/>
+		<Item Name="Previous Scope Selection.vi" Type="VI" URL="../Private/Previous Scope Selection.vi"/>
 		<Item Name="Project Names.vi" Type="VI" URL="../Private/Project Names.vi"/>
+		<Item Name="Select Scope.vi" Type="VI" URL="../Private/Select Scope.vi"/>
 		<Item Name="State.ctl" Type="VI" URL="../Private/State.ctl"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
