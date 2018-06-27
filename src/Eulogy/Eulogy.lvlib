@@ -10,7 +10,7 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Application User Name.vi" Type="VI" URL="../Private/Application User Name.vi"/>
-		<Item Name="Bookmark Diagram Disable Structure.vi" Type="VI" URL="../Private/Bookmark Diagram Disable Structure.vi"/>
+		<Item Name="Apply Tombstone.vi" Type="VI" URL="../Private/Apply Tombstone.vi"/>
 		<Item Name="Duplicate Disabled Frame.vi" Type="VI" URL="../Private/Duplicate Disabled Frame.vi"/>
 		<Item Name="Enclose with Diagram Disable Structure.vi" Type="VI" URL="../Private/Enclose with Diagram Disable Structure.vi"/>
 		<Item Name="Remove Controls from Selection.vi" Type="VI" URL="../Private/Remove Controls from Selection.vi"/>
@@ -19,6 +19,9 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Bookmarks.ctl" Type="VI" URL="../Public/Bookmarks.ctl"/>
+		</Item>
 		<Item Name="Dig.vi" Type="VI" URL="../Public/Dig.vi"/>
 		<Item Name="Find All.vi" Type="VI" URL="../Public/Find All.vi"/>
 		<Item Name="Reanimate.vi" Type="VI" URL="../Public/Reanimate.vi"/>
