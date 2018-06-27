@@ -23,7 +23,6 @@
 		<Item Name="Eulogy Date.vi" Type="VI" URL="../Private/Eulogy Date.vi"/>
 		<Item Name="Eulogy User.vi" Type="VI" URL="../Private/Eulogy User.vi"/>
 		<Item Name="Filter Only Eulogy.vi" Type="VI" URL="../Private/Filter Only Eulogy.vi"/>
-		<Item Name="Filter Only Zombies.vi" Type="VI" URL="../Private/Filter Only Zombies.vi"/>
 		<Item Name="Filter Only.vi" Type="VI" URL="../Private/Filter Only.vi"/>
 		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Private/Filter vi.lib VIs.vi"/>
 		<Item Name="Is Bookmark.vi" Type="VI" URL="../Private/Is Bookmark.vi"/>
