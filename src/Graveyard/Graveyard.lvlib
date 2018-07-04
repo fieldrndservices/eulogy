@@ -25,6 +25,7 @@
 		<Item Name="Filter Only Eulogy.vi" Type="VI" URL="../Private/Filter Only Eulogy.vi"/>
 		<Item Name="Filter Only.vi" Type="VI" URL="../Private/Filter Only.vi"/>
 		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Private/Filter vi.lib VIs.vi"/>
+		<Item Name="Grave Left Cell String.vi" Type="VI" URL="../Private/Grave Left Cell String.vi"/>
 		<Item Name="Is Bookmark.vi" Type="VI" URL="../Private/Is Bookmark.vi"/>
 		<Item Name="Message.ctl" Type="VI" URL="../Private/Message.ctl"/>
 		<Item Name="Populate Bookmarks View.vi" Type="VI" URL="../Private/Populate Bookmarks View.vi"/>
@@ -39,6 +40,7 @@
 		<Item Name="VI Bookmark.ctl" Type="VI" URL="../Private/VI Bookmark.ctl"/>
 		<Item Name="VI Bookmarks.vi" Type="VI" URL="../Private/VI Bookmarks.vi"/>
 		<Item Name="VI Information.ctl" Type="VI" URL="../Private/VI Information.ctl"/>
+		<Item Name="Zombie Left Cell String.vi" Type="VI" URL="../Private/Zombie Left Cell String.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>

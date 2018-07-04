@@ -21,6 +21,8 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Bookmarks.ctl" Type="VI" URL="../Public/Bookmarks.ctl"/>
+			<Item Name="Grave States.ctl" Type="VI" URL="../Public/Grave States.ctl"/>
+			<Item Name="Zombie States.ctl" Type="VI" URL="../Public/Zombie States.ctl"/>
 		</Item>
 		<Item Name="Dig.vi" Type="VI" URL="../Public/Dig.vi"/>
 		<Item Name="Find All.vi" Type="VI" URL="../Public/Find All.vi"/>
