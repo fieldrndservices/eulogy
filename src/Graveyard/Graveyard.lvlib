@@ -13,7 +13,7 @@
 		<Item Name="Application Information.ctl" Type="VI" URL="../Private/Application Information.ctl"/>
 		<Item Name="Begin UI Update.vi" Type="VI" URL="../Private/Begin UI Update.vi"/>
 		<Item Name="Bookmarks Views.ctl" Type="VI" URL="../Private/Bookmarks Views.ctl"/>
-		<Item Name="Change Bookmark View.vi" Type="VI" URL="../Private/Change Bookmark View.vi"/>
+		<Item Name="Change Bookmark Filter.vi" Type="VI" URL="../Private/Change Bookmark Filter.vi"/>
 		<Item Name="Child Text.vi" Type="VI" URL="../Private/Child Text.vi"/>
 		<Item Name="Clear Bookmarks.vi" Type="VI" URL="../Private/Clear Bookmarks.vi"/>
 		<Item Name="Create Message Queue.vi" Type="VI" URL="../Private/Create Message Queue.vi"/>
@@ -27,12 +27,13 @@
 		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Private/Filter vi.lib VIs.vi"/>
 		<Item Name="Is Bookmark.vi" Type="VI" URL="../Private/Is Bookmark.vi"/>
 		<Item Name="Message.ctl" Type="VI" URL="../Private/Message.ctl"/>
-		<Item Name="Populate Bookmarks.vi" Type="VI" URL="../Private/Populate Bookmarks.vi"/>
+		<Item Name="Populate Bookmarks View.vi" Type="VI" URL="../Private/Populate Bookmarks View.vi"/>
 		<Item Name="Populate Scope.vi" Type="VI" URL="../Private/Populate Scope.vi"/>
 		<Item Name="Previous Scope Selection.vi" Type="VI" URL="../Private/Previous Scope Selection.vi"/>
 		<Item Name="Project Names.vi" Type="VI" URL="../Private/Project Names.vi"/>
 		<Item Name="Project Target Application.vi" Type="VI" URL="../Private/Project Target Application.vi"/>
 		<Item Name="Project VIs.vi" Type="VI" URL="../Private/Project VIs.vi"/>
+		<Item Name="Read Eulogy Bookmarks.vi" Type="VI" URL="../Private/Read Eulogy Bookmarks.vi"/>
 		<Item Name="Select Scope.vi" Type="VI" URL="../Private/Select Scope.vi"/>
 		<Item Name="State.ctl" Type="VI" URL="../Private/State.ctl"/>
 		<Item Name="VI Bookmark.ctl" Type="VI" URL="../Private/VI Bookmark.ctl"/>
