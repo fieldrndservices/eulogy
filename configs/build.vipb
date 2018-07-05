@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-05 10:32:36" Creator="cfield" Comments="" ID="886953910d2a095cc9c09de935726b96">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-05 12:49:49" Creator="cfield" Comments="" ID="b070e39bd9808c591dccd59a091d8da3">
   <Library_General_Settings>
     <Package_File_Name>Field_R&amp;D_Services_Eulogy</Package_File_Name>
-    <Library_Version>1.0.0.1</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -12,7 +12,7 @@
     <Community_Edition>true</Community_Edition>
     <Package_Icon>00000CFC002900000012000000020000000D01000000000100000000000A000000080000000000240024002900000012000000020000000D00B2B2B900010000000000100000001000000002002300000000000000000023002900000012000000020000000D00FCFCFD00010000000000100000001000000002002200010001000100010022002900000012000000020000000D00B2B2B900010000000000100000001000000002000000240024002400240000002900000012000000020000000D0080808A00010000000000100000001000000002000100230023002300230001001D00000C1800000C00000200020022002200180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFF6C00006C0000CCCCFF6C0000CCCCFF6C00006C0000CCCCFF6C0000CCCCFFCCCCFF6C00006C0000CCCCFFCCCCFFCCCCFF6C00006C0000CCCCFFCCCCFFCCCCFF6C00006C0000CCCCFFCCCCFFCCCCFF6C00006C0000CCCCFFCCCCFFCCCCFFCCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFFCCCCFF6C00006C0000CCCCFF6C0000CCCCFF6C00006C0000CCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C00006C0000CCCCFFCCCCFFCCCCFF6C00006C0000CCCCFFCCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFFCCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFFCCCCFF6C0000CCCCFFCCCCFF6C0000CCCCFF6C00006C0000CCCCFF6C00006C0000CCCCFF6C00006C0000CCCCFFCCCCFFCCCCFF6C0000CCCCFF6C0000CCCCFFCCCCFF6C00006C00006C00006C0000CCCCFF6C00006C0000CCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFFCCCCFF</Package_Icon>
     <Product_Name>Eulogy</Product_Name>
-    <Was_Built>false</Was_Built>
+    <Was_Built>true</Was_Built>
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
@@ -97,13 +97,19 @@
         <Name>Bookmark Managers</Name>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;resource&gt;\dialog\BookmarkManager\managers\Graveyard</Path>
+        <Path>&lt;resource&gt;\dialog\BookmarkManager\managers</Path>
       </Additional_Destination>
       <Additional_Destination>
         <Name>Popup Menus</Name>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path>&lt;resource&gt;\plugins\PopupMenus\edit time panel and diagram</Path>
+      </Additional_Destination>
+      <Additional_Destination>
+        <Name>Bookmark Managers Eulogy</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;resource&gt;\dialog\BookmarkManager\managers\Eulogy</Path>
       </Additional_Destination>
     </Destinations>
     <Source_Files>
@@ -117,13 +123,61 @@
         <Path>builds/Bookmark Manager/support</Path>
         <Destination>0</Destination>
         <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>builds/Bookmark Manager/Graveyard.vi</Path>
+        <Path>builds/Bookmark Manager/Eulogy.txt</Path>
         <Destination>0</Destination>
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>builds/Quick Drop/Dig.vi</Path>
+        <Destination>11</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>builds/Quick Drop/Reanimate.vi</Path>
+        <Destination>11</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>builds/Quick Drop/Smite.vi</Path>
+        <Destination>11</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>builds/Shortcut Menu/Eulogy.llb</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>1</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>src/Eulogy</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>builds/Quick Drop</Path>
+        <Destination>11</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>builds/Bookmark Manager/controls</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>builds/Bookmark Manager/BMark_MainWindow.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
@@ -145,7 +199,22 @@
         <Path>Eulogy.lvproj</Path>
       </Exclusions>
       <Exclusions>
-        <Path>src</Path>
+        <Path>builds/Bookmark Manager/log.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>builds/Shortcut Menu/log.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>builds/Quick Drop/log.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>src/Bookmark Manager</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>src/Quick Drop</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>src/Shortcut Menu</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -274,7 +343,7 @@
         <Path>..\tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFFB841303C7696934B69BF80D243B8A</GUID>
+      <GUID>BE898992B02B1E1C46C2387C79D53F09</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -323,7 +392,7 @@
         <Path>..\builds\Shortcut Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9C4A03B03D4091E6ED0F50B8D38C9906</GUID>
+      <GUID>BBD493946B7C8B285C54AA5CFFC5C7F0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -400,7 +469,7 @@
         <Path>..\src\Shortcut Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2829C441BBF17B3E8285444D314B867B</GUID>
+      <GUID>009F430C1F90389864E4D9C1D61619FD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -435,7 +504,7 @@
         <Path>..\tests\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0EDC79D63922D7997B035B5F4BD4A0AB</GUID>
+      <GUID>72D4609B218F7C475DD860DC9945E7CA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -470,21 +539,7 @@
         <Path>..\builds\Quick Drop\Eulogy</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Zombie.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Quick Drop\Zombie.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>667C9E7106FC0E95A73B6D0F2E0D9DE2</GUID>
+      <GUID>2A2D9D6A6A20B283021101CEBF25F4D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -519,7 +574,7 @@
         <Path>..\builds\Shortcut Menu\Dig Grave.llb</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A786D5705F60C8323459330932182A8</GUID>
+      <GUID>BD5209C5DBF54E6D29387331A0BA139E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -543,20 +598,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Dig Grave.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Quick Drop\Eulogy\Dig Grave.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Duplicate Disabled Frame.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -565,7 +606,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Bookmark Manager\support\Duplicate Disabled Frame.vi</Path>
+        <Path>..\src\Eulogy\Private\Duplicate Disabled Frame.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -579,7 +620,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Bookmark Manager\support\Enclose with Diagram Disable Structure.vi</Path>
+        <Path>..\src\Eulogy\Private\Enclose with Diagram Disable Structure.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -593,7 +634,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Bookmark Manager\support\Remove Controls from Selection.vi</Path>
+        <Path>..\src\Eulogy\Private\Remove Controls from Selection.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -607,10 +648,10 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Bookmark Manager\support\Write Subdiagram Labels.vi</Path>
+        <Path>..\src\Eulogy\Private\Write Subdiagram Labels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8B7A7680851BD9AA003B7821603CCEF</GUID>
+      <GUID>2124C7CFA0C1E0DDF9A5FB7ECA3F02FB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -634,20 +675,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Dig Grave.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Shortcut Menu\Dig Grave.llb\Dig Grave.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Duplicate Disabled Frame.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -656,7 +683,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Bookmark Manager\support\Duplicate Disabled Frame.vi</Path>
+        <Path>..\src\Eulogy\Private\Duplicate Disabled Frame.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -670,7 +697,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Bookmark Manager\support\Enclose with Diagram Disable Structure.vi</Path>
+        <Path>..\src\Eulogy\Private\Enclose with Diagram Disable Structure.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -684,7 +711,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Shortcut Menu\Dig Grave.llb\Remove Controls from Selection.vi</Path>
+        <Path>..\src\Eulogy\Private\Remove Controls from Selection.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -698,10 +725,10 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Bookmark Manager\support\Write Subdiagram Labels.vi</Path>
+        <Path>..\src\Eulogy\Private\Write Subdiagram Labels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>262D720DFD2F0FE0C929FDE73438D6C7</GUID>
+      <GUID>2D62B4E0DB3F987909BB23C720A6EF23</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -750,7 +777,7 @@
         <Path>..\src\Eulogy\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D85971D21BAFCA6B49AF170D602EF4B</GUID>
+      <GUID>363A1D91718D06D5915B4098D72EF883</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -799,7 +826,7 @@
         <Path>..\src\Graveyard\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6AA8AC7FCD85D549FD92B3BB6A8EF89A</GUID>
+      <GUID>620E9DDB4EC9AF7585741995BD5B169B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -834,7 +861,7 @@
         <Path>..\src\Quick Drop\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01460E73EEDF6705F80105643F79B104</GUID>
+      <GUID>5137922868B7C866E6845CBEF2CE0983</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -869,7 +896,7 @@
         <Path>..\src\Shortcut Menu\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC5BCFDF2DE9753C51034892E5332272</GUID>
+      <GUID>400A44EC3E0CDE730050F4021D523C52</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -974,7 +1001,7 @@
         <Path>..\src\Eulogy\Private\Write Subdiagram Labels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>430E9F7232D101C4A0A6A5E65EDAA1D5</GUID>
+      <GUID>B84E1BB99EF1096442FF4BE8ED75531B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1037,7 +1064,7 @@
         <Path>..\src\Eulogy\Public\Smite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB32D412009D8593A43EA79920D9D4B5</GUID>
+      <GUID>D081F8F66FE1C4BE41947AE32F98F1A3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1069,7 +1096,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Active Project Scope Index.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Active Project Scope Index.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1083,7 +1110,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Begin UI Update.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Begin UI Update.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1097,7 +1124,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Change Bookmark Filter.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Change Bookmark Filter.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1111,7 +1138,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Child Text.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Child Text.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1125,7 +1152,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Clear Bookmarks.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Clear Bookmarks.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1139,7 +1166,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Create Message Queue.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Create Message Queue.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1153,7 +1180,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Create Tree.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Create Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1167,7 +1194,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Dequeue Message.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Dequeue Message.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1181,7 +1208,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Enqueue Message.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Enqueue Message.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1195,7 +1222,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Eulogy Date.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Eulogy Date.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1209,7 +1236,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Eulogy User.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Eulogy User.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1223,7 +1250,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Filter Only Eulogy.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Filter Only Eulogy.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1237,7 +1264,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Filter Only.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Filter Only.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1251,7 +1278,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Filter vi.lib VIs.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Filter vi.lib VIs.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1265,7 +1292,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Grave Left Cell String.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Grave Left Cell String.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1279,7 +1306,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Highlight Bookmark.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Highlight Bookmark.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1293,7 +1320,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Highlight Object.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Highlight Object.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1307,7 +1334,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Is Bookmark.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Is Bookmark.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1321,7 +1348,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Populate Bookmarks View.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Populate Bookmarks View.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1335,7 +1362,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Populate Scope.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Populate Scope.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1349,7 +1376,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Previous Scope Selection.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Previous Scope Selection.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1363,7 +1390,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Project Names.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Project Names.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1377,7 +1404,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Project Target Application.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Project Target Application.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1391,7 +1418,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Project VIs.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Project VIs.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1405,7 +1432,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Read Eulogy Bookmarks.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Read Eulogy Bookmarks.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1419,7 +1446,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Select Scope.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Select Scope.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1433,7 +1460,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\VI Bookmarks.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\VI Bookmarks.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1447,10 +1474,10 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Zombie Left Cell String.vi</Path>
+        <Path>..\builds\Bookmark Manager\support\Zombie Left Cell String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D759B4F0E75241824C3075F429FED9F9</GUID>
+      <GUID>2208B919D9EC89F5C781089A3B383C13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1482,10 +1509,10 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Public\Main.vi</Path>
+        <Path>..\src\Bookmark Manager\Main.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBB7A63E7C5BEBBD1D256F188B3AC739</GUID>
+      <GUID>265AAC309AFD53537CE06C94C3632C13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1548,7 +1575,7 @@
         <Path>..\src\Quick Drop\Public\Smite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6B6CD883E9B027E02280644A831952A5</GUID>
+      <GUID>9A7AEA0E99F0EC76147CB368494F67B2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -1597,7 +1624,7 @@
         <Path>..\src\Shortcut Menu\Public\Execute Dig.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F2B8FEDF726D4DE1A0F0DC8ADCADA6E9</GUID>
+      <GUID>5F432E6F6A5E06DDA017F9E65BD3BE9F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1702,7 +1729,7 @@
         <Path>..\tests\Public\Smite Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56F87267F47829D61BDE5E5A69036FAB</GUID>
+      <GUID>08F7168105F3457630B37C1138D060FC</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1751,7 +1778,7 @@
         <Path>..\src</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BE453C372B9B90EB674E0EB171CF49E5</GUID>
+      <GUID>14D9D14F9A205B787A7940268594718A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1786,7 +1813,7 @@
         <Path>..\builds\Shortcut Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14EE16DBA70967CC3E92331EBB643151</GUID>
+      <GUID>ED30E389988489F6C7EC72948F02D006</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1849,7 +1876,7 @@
         <Path>..\src\Shortcut Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1EF9C55D3AF29CB1D50ECD3DA4BB326</GUID>
+      <GUID>D47255B5E5A2DB7E88A33135B3B22E59</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1884,7 +1911,7 @@
         <Path>..\builds\Shortcut Menu\Dig Grave.llb</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7CB63B180033D5202E97811CFB585F2C</GUID>
+      <GUID>90B48FB948F3E005D51E46055A702F9B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1908,20 +1935,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Dig Grave.ctl</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Shortcut Menu\Dig Grave.llb\Dig Grave.ctl</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Position In Menu.ctl</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1930,7 +1943,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Shortcut Menu\Dig Grave.llb\Position In Menu.ctl</Path>
+        <Path>..\builds\Shortcut Menu\Eulogy.llb\Position In Menu.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1944,10 +1957,10 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Shortcut Menu\Dig Grave.llb\Shortcut Menu Item Definition.ctl</Path>
+        <Path>..\builds\Shortcut Menu\Eulogy.llb\Shortcut Menu Item Definition.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>09DAC49FB3FEA5AF2CA3491A8A29EF44</GUID>
+      <GUID>D8A4E61859F97A76FFD43C6A76AF8970</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1982,7 +1995,7 @@
         <Path>..\src\Eulogy\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E0DD7D418C857FF8CFBE6401A29B157E</GUID>
+      <GUID>1CFDA17DDC939F8588557662A81ABEA6</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2017,7 +2030,7 @@
         <Path>..\src\Graveyard\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0A37359969899E6C0B57399D305AD9C</GUID>
+      <GUID>B40387110351C00F6DAB99791D3BCC4F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2052,7 +2065,7 @@
         <Path>..\src\Shortcut Menu\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>16C092B37BEBDEE504F501A12DFDC61D</GUID>
+      <GUID>C4955B0ECC09A8FEF6257FAA32C9E923</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2087,7 +2100,7 @@
         <Path>..\src\Eulogy\Public\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EBF861DB70A23A0FC5B82C2B9D1A5C6</GUID>
+      <GUID>FA09F8C699969A32AB4FE5CB9AAF06B4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2150,7 +2163,7 @@
         <Path>..\src\Eulogy\Public\Typedefs\Zombie States.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D3A016141625F0F4102CFC34CFC5D87</GUID>
+      <GUID>DB67B7D9E35AF1EA1114E946699DB36E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2182,7 +2195,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Application Information.ctl</Path>
+        <Path>..\builds\Bookmark Manager\controls\Application Information.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2196,7 +2209,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Bookmarks Views.ctl</Path>
+        <Path>..\builds\Bookmark Manager\controls\Bookmarks Views.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2210,7 +2223,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\Message.ctl</Path>
+        <Path>..\builds\Bookmark Manager\controls\Message.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2224,7 +2237,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\State.ctl</Path>
+        <Path>..\builds\Bookmark Manager\controls\State.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2238,7 +2251,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\VI Bookmark.ctl</Path>
+        <Path>..\builds\Bookmark Manager\controls\VI Bookmark.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2252,10 +2265,10 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Graveyard\Private\VI Information.ctl</Path>
+        <Path>..\builds\Bookmark Manager\controls\VI Information.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1C674E9E62EC16F7DCE61C9961BC1AEF</GUID>
+      <GUID>CD4BD04CE5919E22BA2C40DC11422B41</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2290,7 +2303,7 @@
         <Path>..\src\Shortcut Menu\Public\Dig.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>81B53C5CF1A32AF5B16BDDA8F4BF7C2C</GUID>
+      <GUID>24DDF26A6B2ABB365D553BBD0645A1EF</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
