@@ -19,7 +19,7 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Typedefs" Type="Folder">
+		<Item Name="Typdefs" Type="Folder">
 			<Item Name="Bookmarks.ctl" Type="VI" URL="../Public/Typedefs/Bookmarks.ctl"/>
 			<Item Name="Grave States.ctl" Type="VI" URL="../Public/Typedefs/Grave States.ctl"/>
 			<Item Name="Zombie States.ctl" Type="VI" URL="../Public/Typedefs/Zombie States.ctl"/>
