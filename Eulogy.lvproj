@@ -200,7 +200,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{47C24FFC-0823-43C9-89F6-701762A394C6}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Quick Drop/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Quick Drop</Property>
