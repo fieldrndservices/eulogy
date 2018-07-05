@@ -23,7 +23,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Configs" Type="Folder">
-			<Item Name="build.vipb" Type="Document" URL="../configs/build.vipb"/>
+			<Item Name="Eulogy.vipb" Type="Document" URL="../configs/Eulogy.vipb"/>
+		</Item>
+		<Item Name="Documentation" Type="Folder">
+			<Item Name="LICENSE-APACHE.txt" Type="Document" URL="../docs/LICENSE-APACHE.txt"/>
+			<Item Name="LICENSE-MIT.txt" Type="Document" URL="../docs/LICENSE-MIT.txt"/>
+			<Item Name="LICENSE.txt" Type="Document" URL="../docs/LICENSE.txt"/>
 		</Item>
 		<Item Name="Examples" Type="Folder"/>
 		<Item Name="Scripts" Type="Folder">
