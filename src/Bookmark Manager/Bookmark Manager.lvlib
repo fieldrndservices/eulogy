@@ -11,10 +11,8 @@
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Active Project Scope Index.vi" Type="VI" URL="../Support/Active Project Scope Index.vi"/>
-		<Item Name="Begin UI Update.vi" Type="VI" URL="../Support/Begin UI Update.vi"/>
 		<Item Name="Change Bookmark Filter.vi" Type="VI" URL="../Support/Change Bookmark Filter.vi"/>
 		<Item Name="Child Text.vi" Type="VI" URL="../Support/Child Text.vi"/>
-		<Item Name="Clear Bookmarks.vi" Type="VI" URL="../Support/Clear Bookmarks.vi"/>
 		<Item Name="Create Message Queue.vi" Type="VI" URL="../Support/Create Message Queue.vi"/>
 		<Item Name="Create Tree.vi" Type="VI" URL="../Support/Create Tree.vi"/>
 		<Item Name="Dequeue Message.vi" Type="VI" URL="../Support/Dequeue Message.vi"/>
