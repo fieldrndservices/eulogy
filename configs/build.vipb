@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-05 12:58:13" Creator="cfield" Comments="" ID="9ee3b6191a4d666c5f15c4d7386b7d1a">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-05 13:22:36" Creator="cfield" Comments="" ID="f4b2df92fce27bf5bb84f684a0842b3f">
   <Library_General_Settings>
     <Package_File_Name>Field_R&amp;D_Services_Eulogy</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -21,7 +21,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>..\src\Scripts\Post-Install Custom Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -150,12 +150,6 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>builds/Shortcut Menu/Eulogy.llb</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>1</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>src/Eulogy</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
@@ -178,6 +172,12 @@
         <Destination>11</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>builds/Shortcut Menu/Dig.llb</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>1</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
@@ -215,6 +215,18 @@
       </Exclusions>
       <Exclusions>
         <Path>src/Shortcut Menu</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>builds/field_r&amp;d_services_eulogy-1.0.0.1.vip</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>builds/field_r&amp;d_services_eulogy-1.0.0.2.vip</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>builds/field_r&amp;d_services_eulogy-1.0.0.3.vip</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>src/Scripts</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -343,7 +355,7 @@
         <Path>..\tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BE898992B02B1E1C46C2387C79D53F09</GUID>
+      <GUID>F2E0535D3499958B73D1F25187D36424</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -392,7 +404,7 @@
         <Path>..\builds\Shortcut Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BBD493946B7C8B285C54AA5CFFC5C7F0</GUID>
+      <GUID>03730B4CD9E494439C8682D56C1EA2C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -469,7 +481,7 @@
         <Path>..\src\Shortcut Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>009F430C1F90389864E4D9C1D61619FD</GUID>
+      <GUID>E887E8155AB1D64F3009754A0D629925</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -504,7 +516,7 @@
         <Path>..\tests\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>72D4609B218F7C475DD860DC9945E7CA</GUID>
+      <GUID>78AE0E3812475388AAB3C760C4752875</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -539,7 +551,7 @@
         <Path>..\builds\Quick Drop\Eulogy</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A2D9D6A6A20B283021101CEBF25F4D3</GUID>
+      <GUID>3AEA68EFD664C3D9D6EB59CE496B6274</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -574,7 +586,7 @@
         <Path>..\builds\Shortcut Menu\Dig Grave.llb</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD5209C5DBF54E6D29387331A0BA139E</GUID>
+      <GUID>B1528584A19AFE5F67F3112E62EB5C9A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -651,7 +663,7 @@
         <Path>..\src\Eulogy\Private\Write Subdiagram Labels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2124C7CFA0C1E0DDF9A5FB7ECA3F02FB</GUID>
+      <GUID>084661C9D2D1143E0AB30BECCD564708</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -728,7 +740,7 @@
         <Path>..\src\Eulogy\Private\Write Subdiagram Labels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D62B4E0DB3F987909BB23C720A6EF23</GUID>
+      <GUID>F2906543810582B8EC6EA2C4120F1639</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -777,7 +789,7 @@
         <Path>..\src\Eulogy\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>363A1D91718D06D5915B4098D72EF883</GUID>
+      <GUID>976F27DBFB6BE8A5737B917DF8399E74</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -826,7 +838,7 @@
         <Path>..\src\Graveyard\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>620E9DDB4EC9AF7585741995BD5B169B</GUID>
+      <GUID>1A12E7DAC47990A4717B1170800641C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -861,7 +873,7 @@
         <Path>..\src\Quick Drop\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5137922868B7C866E6845CBEF2CE0983</GUID>
+      <GUID>EDEBCD1657EDC9F347FCBD1D9C7BB668</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -896,7 +908,7 @@
         <Path>..\src\Shortcut Menu\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>400A44EC3E0CDE730050F4021D523C52</GUID>
+      <GUID>B3583882716517D21F5C4C7196527780</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1001,7 +1013,7 @@
         <Path>..\src\Eulogy\Private\Write Subdiagram Labels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B84E1BB99EF1096442FF4BE8ED75531B</GUID>
+      <GUID>47F6AA2CED2EAE0B553892A4D2E9EE9D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1064,7 +1076,7 @@
         <Path>..\src\Eulogy\Public\Smite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D081F8F66FE1C4BE41947AE32F98F1A3</GUID>
+      <GUID>B7FF5BB0D6B7A8AA92CC174FC6B4C90F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1477,7 +1489,7 @@
         <Path>..\builds\Bookmark Manager\support\Zombie Left Cell String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2208B919D9EC89F5C781089A3B383C13</GUID>
+      <GUID>F4AFCADEF7D202875E729DF242165257</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1512,7 +1524,7 @@
         <Path>..\src\Bookmark Manager\Main.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>265AAC309AFD53537CE06C94C3632C13</GUID>
+      <GUID>BA00D284B19A74E4F925E3E4B6817B0C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1575,7 +1587,7 @@
         <Path>..\src\Quick Drop\Public\Smite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9A7AEA0E99F0EC76147CB368494F67B2</GUID>
+      <GUID>547A959CED69D6283E6DCB22BD6253C4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -1624,7 +1636,7 @@
         <Path>..\src\Shortcut Menu\Public\Execute Dig.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5F432E6F6A5E06DDA017F9E65BD3BE9F</GUID>
+      <GUID>EE5118601B165E52849C5B852CFC0748</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1729,7 +1741,7 @@
         <Path>..\tests\Public\Smite Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>08F7168105F3457630B37C1138D060FC</GUID>
+      <GUID>DDC605B500D81BA7E6AA29DC8B81F101</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1778,7 +1790,7 @@
         <Path>..\src</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14D9D14F9A205B787A7940268594718A</GUID>
+      <GUID>9B60FA81BB9945099DA838B3A04435DE</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1813,7 +1825,7 @@
         <Path>..\builds\Shortcut Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED30E389988489F6C7EC72948F02D006</GUID>
+      <GUID>30769D4689009D4BF644161F0C7CD627</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1876,7 +1888,7 @@
         <Path>..\src\Shortcut Menu</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D47255B5E5A2DB7E88A33135B3B22E59</GUID>
+      <GUID>73E5EDA401CEAB955E018F9BB63B0DDF</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1911,7 +1923,7 @@
         <Path>..\builds\Shortcut Menu\Dig Grave.llb</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90B48FB948F3E005D51E46055A702F9B</GUID>
+      <GUID>280156734C5E16C4402A1FF81831069B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1943,7 +1955,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Shortcut Menu\Eulogy.llb\Position In Menu.ctl</Path>
+        <Path>..\builds\Shortcut Menu\Dig.llb\Position In Menu.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1957,10 +1969,10 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Shortcut Menu\Eulogy.llb\Shortcut Menu Item Definition.ctl</Path>
+        <Path>..\builds\Shortcut Menu\Dig.llb\Shortcut Menu Item Definition.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8A4E61859F97A76FFD43C6A76AF8970</GUID>
+      <GUID>0114D99A06936D44438833E8D709FC29</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1995,7 +2007,7 @@
         <Path>..\src\Eulogy\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CFDA17DDC939F8588557662A81ABEA6</GUID>
+      <GUID>9D1B6594CE0515B96EB8CC90DB40D8CB</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2030,7 +2042,7 @@
         <Path>..\src\Graveyard\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B40387110351C00F6DAB99791D3BCC4F</GUID>
+      <GUID>D316C594AF7967CF8C4B60133A8791E5</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2065,7 +2077,7 @@
         <Path>..\src\Shortcut Menu\Public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C4955B0ECC09A8FEF6257FAA32C9E923</GUID>
+      <GUID>7770F13B3C2E75B4F1BEFF266C0B0655</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2100,7 +2112,7 @@
         <Path>..\src\Eulogy\Public\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FA09F8C699969A32AB4FE5CB9AAF06B4</GUID>
+      <GUID>D85C96F9E91079AAB1AD172F10C80206</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2163,7 +2175,7 @@
         <Path>..\src\Eulogy\Public\Typedefs\Zombie States.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB67B7D9E35AF1EA1114E946699DB36E</GUID>
+      <GUID>3468A862297298177ACB2D6045B01E87</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2268,7 +2280,7 @@
         <Path>..\builds\Bookmark Manager\controls\VI Information.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD4BD04CE5919E22BA2C40DC11422B41</GUID>
+      <GUID>433FB61465794254CF0220DA2C3A345C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2303,7 +2315,7 @@
         <Path>..\src\Shortcut Menu\Public\Dig.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24DDF26A6B2ABB365D553BBD0645A1EF</GUID>
+      <GUID>E34F7C7655C1CB05FFD667BA4D07D943</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
