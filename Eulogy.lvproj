@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
+	<Property Name="CCSymbols" Type="Str">DEBUG,1;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
@@ -84,6 +85,72 @@
 			<Item Name="Transaction Control.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Transaction Control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Bookmark Manager" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{949A93AF-7DC0-4134-B7B8-C75622F8ED92}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Bookmark Manager</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/17.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/D/Users/cfield/Documents/LabVIEW Data/2017(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Bookmark Manager</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{414D0A9A-FD35-4A5C-AC4E-956CCF757DD1}</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../builds/Bookmark Manager/log.txt</Property>
+				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Bookmark Manager</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Bookmark Manager/support</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1B59370B-EC68-461A-B750-193D753A1FFA}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Graveyard.lvlib/Public/Main.vi</Property>
+				<Property Name="Source[3].newName" Type="Str">Graveyard.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Graveyard.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Graveyard.lvlib/Private</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Eulogy.lvlib</Property>
+				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Tests.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
+			</Item>
 			<Item Name="Quick Drop" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E64568E9-110E-4FBF-9D5D-F65D9FB9345D}</Property>
@@ -116,7 +183,7 @@
 				<Property Name="Destination[2].path" Type="Path">../builds/Quick Drop/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{580E875E-3BBC-4ED3-8C8F-B412CC6EBA35}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1B59370B-EC68-461A-B750-193D753A1FFA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib/Public/Dig.vi</Property>
@@ -175,7 +242,7 @@
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Shortcut Menu/Dig.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Shortcut Menu/NI_AB_PROJECTNAME.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B23CD3DA-6053-4B73-84D7-9BF70E398FD3}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Shortcut Menu/log.txt</Property>
@@ -183,14 +250,14 @@
 				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Shortcut Menu/Dig.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Shortcut Menu/NI_AB_PROJECTNAME.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Shortcut Menu/Dig.llb/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Shortcut Menu/Eulogy.llb/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{580E875E-3BBC-4ED3-8C8F-B412CC6EBA35}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1B59370B-EC68-461A-B750-193D753A1FFA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Dig.ctl</Property>
