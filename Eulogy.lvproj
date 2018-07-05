@@ -26,6 +26,7 @@
 			<Item Name="Eulogy.vipb" Type="Document" URL="../configs/Eulogy.vipb"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
+			<Item Name="CHANGELOG.md" Type="Document" URL="../docs/CHANGELOG.md"/>
 			<Item Name="LICENSE-APACHE.txt" Type="Document" URL="../docs/LICENSE-APACHE.txt"/>
 			<Item Name="LICENSE-MIT.txt" Type="Document" URL="../docs/LICENSE-MIT.txt"/>
 			<Item Name="LICENSE.txt" Type="Document" URL="../docs/LICENSE.txt"/>
