@@ -24,6 +24,7 @@
 			<Item Name="Grave States.ctl" Type="VI" URL="../Public/Typedefs/Grave States.ctl"/>
 			<Item Name="Zombie States.ctl" Type="VI" URL="../Public/Typedefs/Zombie States.ctl"/>
 		</Item>
+		<Item Name="Bury.vi" Type="VI" URL="../Public/Bury.vi"/>
 		<Item Name="Dig.vi" Type="VI" URL="../Public/Dig.vi"/>
 		<Item Name="Reanimate.vi" Type="VI" URL="../Public/Reanimate.vi"/>
 		<Item Name="Smite.vi" Type="VI" URL="../Public/Smite.vi"/>

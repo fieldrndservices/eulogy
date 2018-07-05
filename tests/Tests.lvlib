@@ -9,6 +9,8 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Bury Target.vi" Type="VI" URL="../Public/Bury Target.vi"/>
+		<Item Name="Bury Test.vi" Type="VI" URL="../Public/Bury Test.vi"/>
 		<Item Name="Dig Target.vi" Type="VI" URL="../Public/Dig Target.vi"/>
 		<Item Name="Dig Test.vi" Type="VI" URL="../Public/Dig Test.vi"/>
 		<Item Name="Reanimate Target.vi" Type="VI" URL="../Public/Reanimate Target.vi"/>
