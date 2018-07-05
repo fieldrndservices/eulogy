@@ -24,7 +24,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Configs" Type="Folder"/>
 		<Item Name="Examples" Type="Folder"/>
-		<Item Name="Bookmark Manager.lvlib" Type="Library" URL="../src/Graveyard/Bookmark Manager.lvlib"/>
+		<Item Name="Bookmark Manager.lvlib" Type="Library" URL="../src/Bookmark Manager/Bookmark Manager.lvlib"/>
 		<Item Name="Eulogy.lvlib" Type="Library" URL="../src/Eulogy/Eulogy.lvlib"/>
 		<Item Name="Quick Drop.lvlib" Type="Library" URL="../src/Quick Drop/Quick Drop.lvlib"/>
 		<Item Name="Shortcut Menu.lvlib" Type="Library" URL="../src/Shortcut Menu/Shortcut Menu.lvlib"/>
