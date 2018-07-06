@@ -9,17 +9,8 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Bury.ctl" Type="VI" URL="../Public/Bury.ctl"/>
-		<Item Name="Bury.vi" Type="VI" URL="../Public/Bury.vi"/>
-		<Item Name="Dig.ctl" Type="VI" URL="../Public/Dig.ctl"/>
-		<Item Name="Dig.vi" Type="VI" URL="../Public/Dig.vi"/>
-		<Item Name="Execute Bury.vi" Type="VI" URL="../Public/Execute Bury.vi"/>
-		<Item Name="Execute Dig.vi" Type="VI" URL="../Public/Execute Dig.vi"/>
-		<Item Name="Execute Reanimate.vi" Type="VI" URL="../Public/Execute Reanimate.vi"/>
-		<Item Name="Execute Smite.vi" Type="VI" URL="../Public/Execute Smite.vi"/>
-		<Item Name="Reanimate.ctl" Type="VI" URL="../Public/Reanimate.ctl"/>
-		<Item Name="Reanimate.vi" Type="VI" URL="../Public/Reanimate.vi"/>
-		<Item Name="Smite.ctl" Type="VI" URL="../Public/Smite.ctl"/>
-		<Item Name="Smite.vi" Type="VI" URL="../Public/Smite.vi"/>
+		<Item Name="Eulogy.ctl" Type="VI" URL="../Public/Eulogy.ctl"/>
+		<Item Name="Eulogy.vi" Type="VI" URL="../Public/Eulogy.vi"/>
+		<Item Name="Execute Eulogy.vi" Type="VI" URL="../Public/Execute Eulogy.vi"/>
 	</Item>
 </Library>
