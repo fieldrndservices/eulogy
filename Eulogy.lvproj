@@ -390,7 +390,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{1A6084DC-6EAC-42E4-A536-D607349E7CFE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Toolkit VIs/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Toolkit VIs</Property>
