@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-05 18:47:51" Creator="cfield" Comments="" ID="f6a822aa83850342c90c5f218f0e44f0">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-05 20:53:23" Creator="cfield" Comments="" ID="30c7992e0315d56457abb6c0e085924c">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
     <Library_Version>1.0.0.15</Library_Version>
@@ -191,6 +191,30 @@
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Shortcut Menu/Eulogy</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>1</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Shortcut Menu/Bury.llb</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>1</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Shortcut Menu/Reanimate.llb</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>1</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Shortcut Menu/Smite.llb</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>1</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -354,7 +378,7 @@
         <Path>..\builds\Toolkit VIs\Public\Bury.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>981FE11DC354B59C1F7DF112AB4642AA</GUID>
+      <GUID>AB89063AB9C7B4E10A381C4A57EACC02</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
