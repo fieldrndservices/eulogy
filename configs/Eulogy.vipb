@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-06 12:02:08" Creator="cfield" Comments="" ID="2f6d86c68477c8a07cc1aecc05c0f493">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-06 14:33:01" Creator="cfield" Comments="" ID="14aed6ae1177199d5646e233cb181ed5">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
-    <Library_Version>1.0.0.15</Library_Version>
+    <Library_Version>1.0.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -28,7 +28,7 @@
     <VI_Package_Configuration_File>Eulogy.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>A dead simple LabVIEW add-on and toolkit for refactoring legacy code</One_Line_Description_Summary>
-      <Description/>
+      <Description>A LabVIEW add-on and toolkit for refactoring legacy code. Provides quick drop plugins, a shortcut menu plugin, a tools menu, a custom Bookmark Manager, examples, and a VI library to create Diagram Disable Structures with bookmarked labels and subdiagram labels known as "graves". Each grave is an isolated environment to iteratively change old, legacy code with new, refactored code while being able to immediately change back to the legacy code. The custom Bookmark Manager, known as the "Graveyard", can be used to manage graves and monitor refactoring progress. This add-on and toolkit works with 32-bit and 64-bit environments as well as with Real-Time targets.</Description>
       <Copyright/>
       <Packager>Christopher R Field</Packager>
       <URL>http://www.fieldrndservices.com/eulogy</URL>
@@ -71,7 +71,7 @@
       <Tools_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;project&gt;\Field R&amp;D Services\Eulogy</Path>
       </Tools_Menu>
       <Help_Menu>
         <LLB>false</LLB>
@@ -191,6 +191,18 @@
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>1</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Tools Menu/support</Path>
+        <Destination>7</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Tools Menu/Graveyard.vi</Path>
+        <Destination>7</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -212,6 +224,9 @@
       </Exclusions>
       <Exclusions>
         <Path>Bookmark Manager/log.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Tools Menu/log.txt</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
@@ -368,7 +383,7 @@
         <Path>..\builds\Toolkit VIs\Public\Is Grave.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB6017B018DD6FFF996A7186F6BF8675</GUID>
+      <GUID>9619EE80F148841E614AB72B84684010</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
