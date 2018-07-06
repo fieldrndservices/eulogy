@@ -15,5 +15,8 @@
 		<Item Name="Dig.vi" Type="VI" URL="../Public/Dig.vi"/>
 		<Item Name="Execute Bury.vi" Type="VI" URL="../Public/Execute Bury.vi"/>
 		<Item Name="Execute Dig.vi" Type="VI" URL="../Public/Execute Dig.vi"/>
+		<Item Name="Execute Reanimate.vi" Type="VI" URL="../Public/Execute Reanimate.vi"/>
+		<Item Name="Reanimate.ctl" Type="VI" URL="../Public/Reanimate.ctl"/>
+		<Item Name="Reanimate.vi" Type="VI" URL="../Public/Reanimate.vi"/>
 	</Item>
 </Library>

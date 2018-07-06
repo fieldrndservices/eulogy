@@ -13,6 +13,7 @@
 		<Item Name="Apply Tombstone.vi" Type="VI" URL="../Private/Apply Tombstone.vi"/>
 		<Item Name="Duplicate Disabled Frame.vi" Type="VI" URL="../Private/Duplicate Disabled Frame.vi"/>
 		<Item Name="Enclose with Diagram Disable Structure.vi" Type="VI" URL="../Private/Enclose with Diagram Disable Structure.vi"/>
+		<Item Name="Is Grave.vi" Type="VI" URL="../Private/Is Grave.vi"/>
 		<Item Name="Remove Controls from Selection.vi" Type="VI" URL="../Private/Remove Controls from Selection.vi"/>
 		<Item Name="Write Subdiagram Labels.vi" Type="VI" URL="../Private/Write Subdiagram Labels.vi"/>
 	</Item>

@@ -282,7 +282,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{B23CD3DA-6053-4B73-84D7-9BF70E398FD3}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Shortcut Menu/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Shortcut Menu</Property>
@@ -301,10 +301,14 @@
 				<Property Name="Destination[4].destName" Type="Str">Eulogy</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/Shortcut Menu/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[4].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Destination[5].destName" Type="Str">Reanimate</Property>
+				<Property Name="Destination[5].path" Type="Path">../builds/Shortcut Menu/Reanimate.llb</Property>
+				<Property Name="Destination[5].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[5].type" Type="Str">LLB</Property>
+				<Property Name="DestinationCount" Type="Int">6</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D8A6E05C-FAC4-4636-AA4F-39F93E92B593}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{596EE096-FC80-4627-BF9A-9EF34D9E308F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Dig.vi</Property>
@@ -362,6 +366,21 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Toolkit VIs.lvlib/Public/Dig.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Execute Reanimate.vi</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[20].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Reanimate.ctl</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[21].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Public/Reanimate.vi</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].type" Type="Str">VI</Property>
+				<Property Name="Source[22].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Toolkit VIs.lvlib/Public/Reanimate.vi</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
@@ -396,7 +415,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Scripts</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">20</Property>
+				<Property Name="SourceCount" Type="Int">23</Property>
 			</Item>
 			<Item Name="Toolkit VIs" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
