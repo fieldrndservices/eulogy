@@ -16,7 +16,10 @@
 		<Item Name="Execute Bury.vi" Type="VI" URL="../Public/Execute Bury.vi"/>
 		<Item Name="Execute Dig.vi" Type="VI" URL="../Public/Execute Dig.vi"/>
 		<Item Name="Execute Reanimate.vi" Type="VI" URL="../Public/Execute Reanimate.vi"/>
+		<Item Name="Execute Smite.vi" Type="VI" URL="../Public/Execute Smite.vi"/>
 		<Item Name="Reanimate.ctl" Type="VI" URL="../Public/Reanimate.ctl"/>
 		<Item Name="Reanimate.vi" Type="VI" URL="../Public/Reanimate.vi"/>
+		<Item Name="Smite.ctl" Type="VI" URL="../Public/Smite.ctl"/>
+		<Item Name="Smite.vi" Type="VI" URL="../Public/Smite.vi"/>
 	</Item>
 </Library>
