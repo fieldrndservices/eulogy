@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- Automated build process
 - Help documentation
 - Descriptions to all controls and indicators for all public VIs
 - Quick Drop VIs
