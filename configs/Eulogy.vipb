@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-09 13:47:27" Creator="cfield" Comments="" ID="75f9d873ec3ae3345e54f38bd992ca36">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-09 14:33:59" Creator="cfield" Comments="" ID="f997cf0f479d8194e2b827342fb1df1b">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
     <Library_Version>1.0.0.21</Library_Version>
@@ -191,6 +191,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Dig a Grave - Simple.vi</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -215,6 +221,9 @@
       </Exclusions>
       <Exclusions>
         <Path>Tools Menu/log.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Examples/log.txt</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
@@ -371,7 +380,7 @@
         <Path>..\builds\Toolkit VIs\Smite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>749C17E7C54FEBA076413B8EA29E941D</GUID>
+      <GUID>631FF25297639171D3CCD0E1E5B6A3A6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
