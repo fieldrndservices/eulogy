@@ -33,7 +33,9 @@
 			<Item Name="LICENSE.txt" Type="Document" URL="../docs/LICENSE.txt"/>
 			<Item Name="README.md" Type="Document" URL="../README.md"/>
 		</Item>
-		<Item Name="Examples" Type="Folder"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Dig a Grave - Simple.vi" Type="VI" URL="../src/Examples/Dig a Grave - Simple.vi"/>
+		</Item>
 		<Item Name="Scripts" Type="Folder">
 			<Item Name="Support" Type="Folder">
 				<Item Name="LabVIEW Versions.ctl" Type="VI" URL="../src/Scripts/Support/LabVIEW Versions.ctl"/>
