@@ -42,6 +42,7 @@
 		<Item Name="Add VI Tree Item.vi" Type="VI" URL="../Support/Add VI Tree Item.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Application Information.ctl" Type="VI" URL="../Controls/Application Information.ctl"/>
 		<Item Name="Bookmarks Views.ctl" Type="VI" URL="../Controls/Bookmarks Views.ctl"/>
 		<Item Name="Message.ctl" Type="VI" URL="../Controls/Message.ctl"/>
