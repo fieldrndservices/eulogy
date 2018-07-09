@@ -30,7 +30,6 @@
 		<Item Name="Populate Scope.vi" Type="VI" URL="../Support/Populate Scope.vi"/>
 		<Item Name="Previous Scope Selection.vi" Type="VI" URL="../Support/Previous Scope Selection.vi"/>
 		<Item Name="Project Names.vi" Type="VI" URL="../Support/Project Names.vi"/>
-		<Item Name="Project Target Application.vi" Type="VI" URL="../Support/Project Target Application.vi"/>
 		<Item Name="Project VIs.vi" Type="VI" URL="../Support/Project VIs.vi"/>
 		<Item Name="Read Eulogy Bookmarks.vi" Type="VI" URL="../Support/Read Eulogy Bookmarks.vi"/>
 		<Item Name="Select Scope.vi" Type="VI" URL="../Support/Select Scope.vi"/>
@@ -39,6 +38,8 @@
 		<Item Name="Main Application Instance VIs.vi" Type="VI" URL="../Support/Main Application Instance VIs.vi"/>
 		<Item Name="Project Reference By Name.vi" Type="VI" URL="../Support/Project Reference By Name.vi"/>
 		<Item Name="Open VI Reference.vi" Type="VI" URL="../Support/Open VI Reference.vi"/>
+		<Item Name="Add Bookmark Tree Item.vi" Type="VI" URL="../Support/Add Bookmark Tree Item.vi"/>
+		<Item Name="Add VI Tree Item.vi" Type="VI" URL="../Support/Add VI Tree Item.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Application Information.ctl" Type="VI" URL="../Controls/Application Information.ctl"/>
