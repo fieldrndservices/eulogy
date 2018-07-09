@@ -35,6 +35,7 @@
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Dig a Grave - Simple.vi" Type="VI" URL="../src/Examples/Dig a Grave - Simple.vi"/>
+			<Item Name="Reanimate -Simple.vi" Type="VI" URL="../src/Examples/Reanimate -Simple.vi"/>
 		</Item>
 		<Item Name="Scripts" Type="Folder">
 			<Item Name="Support" Type="Folder">
@@ -764,7 +765,11 @@
 				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[6].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Examples/Reanimate -Simple.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 		</Item>
 	</Item>
