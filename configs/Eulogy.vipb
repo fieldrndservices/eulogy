@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-09 15:03:23" Creator="cfield" Comments="" ID="5ccdeeb0b504ffeffb87002b78193ebe">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-09 15:16:56" Creator="cfield" Comments="" ID="8a70433e00c1ebdd850e8ba07478e7be">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
     <Library_Version>1.0.0.21</Library_Version>
@@ -215,6 +215,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Graveyard - Simple.vi</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -398,7 +404,7 @@
         <Path>..\builds\Toolkit VIs\Smite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7DD670A780E58EE73D18217035174377</GUID>
+      <GUID>3DAA78C7B02ADC758D80F378F07579B2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
