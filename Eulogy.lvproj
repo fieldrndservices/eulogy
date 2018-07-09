@@ -35,7 +35,9 @@
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Dig a Grave - Simple.vi" Type="VI" URL="../src/Examples/Dig a Grave - Simple.vi"/>
-			<Item Name="Reanimate -Simple.vi" Type="VI" URL="../src/Examples/Reanimate -Simple.vi"/>
+			<Item Name="Reanimate - Simple.vi" Type="VI" URL="../src/Examples/Reanimate - Simple.vi"/>
+			<Item Name="Smite - Simple.vi" Type="VI" URL="../src/Examples/Smite - Simple.vi"/>
+			<Item Name="Bury - Simple.vi" Type="VI" URL="../src/Examples/Bury - Simple.vi"/>
 		</Item>
 		<Item Name="Scripts" Type="Folder">
 			<Item Name="Support" Type="Folder">
@@ -725,7 +727,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{D14B8EF2-A64D-4787-9300-06728101B34C}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Examples/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Examples</Property>
@@ -766,10 +768,18 @@
 				<Property Name="Source[6].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[6].type" Type="Str">Library</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Examples/Reanimate -Simple.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Examples/Reanimate - Simple.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Examples/Smite - Simple.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Examples/Bury - Simple.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 		</Item>
 	</Item>
