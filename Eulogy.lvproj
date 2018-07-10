@@ -42,23 +42,29 @@
 			<Item Name="Dig a Grave - Complex.vi" Type="VI" URL="../src/Examples/Dig a Grave - Complex.vi"/>
 		</Item>
 		<Item Name="Scripts" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Support" Type="Folder">
-				<Item Name="LabVIEW Versions.ctl" Type="VI" URL="../src/Scripts/Support/LabVIEW Versions.ctl"/>
-				<Item Name="Project Save for Previous.vi" Type="VI" URL="../src/Scripts/Support/Project Save for Previous.vi"/>
-				<Item Name="Previous to Target Version.vi" Type="VI" URL="../src/Scripts/Support/Previous to Target Version.vi"/>
-				<Item Name="Execute Build Target.vi" Type="VI" URL="../src/Scripts/Support/Execute Build Target.vi"/>
+				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Build Target.vi" Type="VI" URL="../src/Scripts/Support/Build Target.vi"/>
-				<Item Name="Project Root.vi" Type="VI" URL="../src/Scripts/Support/Project Root.vi"/>
-				<Item Name="Target Directory.vi" Type="VI" URL="../src/Scripts/Support/Target Directory.vi"/>
 				<Item Name="Builds Directory.vi" Type="VI" URL="../src/Scripts/Support/Builds Directory.vi"/>
+				<Item Name="Configuration Directory.vi" Type="VI" URL="../src/Scripts/Support/Configuration Directory.vi"/>
+				<Item Name="Documentation Directory.vi" Type="VI" URL="../src/Scripts/Support/Documentation Directory.vi"/>
+				<Item Name="Execute Build Target.vi" Type="VI" URL="../src/Scripts/Support/Execute Build Target.vi"/>
+				<Item Name="LabVIEW Versions.ctl" Type="VI" URL="../src/Scripts/Support/LabVIEW Versions.ctl"/>
+				<Item Name="Packages Directory.vi" Type="VI" URL="../src/Scripts/Support/Packages Directory.vi"/>
+				<Item Name="Previous to Target Version.vi" Type="VI" URL="../src/Scripts/Support/Previous to Target Version.vi"/>
 				<Item Name="Project File.vi" Type="VI" URL="../src/Scripts/Support/Project File.vi"/>
+				<Item Name="Project Root.vi" Type="VI" URL="../src/Scripts/Support/Project Root.vi"/>
+				<Item Name="Project Save for Previous.vi" Type="VI" URL="../src/Scripts/Support/Project Save for Previous.vi"/>
 				<Item Name="Show Packages Folder.vi" Type="VI" URL="../src/Scripts/Support/Show Packages Folder.vi"/>
+				<Item Name="Target Directory.vi" Type="VI" URL="../src/Scripts/Support/Target Directory.vi"/>
+				<Item Name="Tests Directory.vi" Type="VI" URL="../src/Scripts/Support/Tests Directory.vi"/>
 			</Item>
-			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../src/Scripts/Post-Install Custom Action.vi"/>
-			<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../src/Scripts/Post-Uninstall Custom Action.vi"/>
-			<Item Name="Package.vi" Type="VI" URL="../src/Scripts/Package.vi"/>
 			<Item Name="Build.vi" Type="VI" URL="../src/Scripts/Build.vi"/>
 			<Item Name="Clean.vi" Type="VI" URL="../src/Scripts/Clean.vi"/>
+			<Item Name="Package.vi" Type="VI" URL="../src/Scripts/Package.vi"/>
+			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../src/Scripts/Post-Install Custom Action.vi"/>
+			<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../src/Scripts/Post-Uninstall Custom Action.vi"/>
 		</Item>
 		<Item Name="Bookmark Manager.lvlib" Type="Library" URL="../src/Bookmark Manager/Bookmark Manager.lvlib"/>
 		<Item Name="Quick Drop.lvlib" Type="Library" URL="../src/Quick Drop/Quick Drop.lvlib"/>
@@ -66,6 +72,7 @@
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
 		<Item Name="Toolkit VIs.lvlib" Type="Library" URL="../src/Toolkit VIs/Toolkit VIs.lvlib"/>
 		<Item Name="Tools Menu.lvlib" Type="Library" URL="../src/Tools Menu/Tools Menu.lvlib"/>
+		<Item Name="Source Directory.vi" Type="VI" URL="../src/Scripts/Support/Source Directory.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AB_Generate_Error_Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Generate_Error_Cluster.vi"/>
