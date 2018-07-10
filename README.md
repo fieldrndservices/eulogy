@@ -21,7 +21,7 @@ A VI Package (VIP) is available on the [National Instruments (NI)](http://www.ni
 
 ### VIPM Pro
 
-If VIPM Pro is available, then open the `Eulogy.lvproj` file in any version of LabVIEW newer than 2015 and run the `Build.vi` located in the `Scripts` virtual folder of the Project Explorer window.
+If VIPM Pro is available, then open the `Eulogy.lvproj` file in any version of LabVIEW newer than 2015 and run the `Package.vi` located in the `Scripts` virtual folder of the Project Explorer window.
 
 ### VIPM Free
 
@@ -34,7 +34,7 @@ If VIPM Pro is available, then open the `Eulogy.lvproj` file in any version of L
 7. Close LabVIEW 2017 or newer and the Eulogy.lvproj file.
 8. Start LabVIEW 2015.
 9. Open the `<project root>\target\15.0\Eulogy.lvproj` file. Do NOT open the project in any other version of LabVIEW.
-10. Build each Source Distribution under the "Build Specifications" tree item from within the Project Explorer. The output of each build will be available in `<project root>\target\15.0\builds`.
+10. Run the `Build.vi` in the `Scripts` virtual folder to build each Source Distribution under the "Build Specifications" tree item. The output of each build will be available in `<project root>\target\15.0\builds`.
 11. Open the `<project root>\target\15.0\configs\Eulogy.vipb` file in VIPM.
 12. Build the VI package with VIPM. The output will be available at `<project root>\target\15.0\packages`. Do NOT modify anything in the package build specification, but ensure the "2015" version of LabVIEW is selected in the upper, right-hand corner of the VIPM application window.
 13. Close VIPM.

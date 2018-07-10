@@ -52,7 +52,7 @@
 			</Item>
 			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../src/Scripts/Post-Install Custom Action.vi"/>
 			<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../src/Scripts/Post-Uninstall Custom Action.vi"/>
-			<Item Name="Build.vi" Type="VI" URL="../src/Scripts/Build.vi"/>
+			<Item Name="Package.vi" Type="VI" URL="../src/Scripts/Package.vi"/>
 		</Item>
 		<Item Name="Bookmark Manager.lvlib" Type="Library" URL="../src/Bookmark Manager/Bookmark Manager.lvlib"/>
 		<Item Name="Quick Drop.lvlib" Type="Library" URL="../src/Quick Drop/Quick Drop.lvlib"/>
