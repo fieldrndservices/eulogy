@@ -40,6 +40,7 @@
 			<Item Name="Bury - Simple.vi" Type="VI" URL="../src/Examples/Bury - Simple.vi"/>
 			<Item Name="Graveyard - Simple.vi" Type="VI" URL="../src/Examples/Graveyard - Simple.vi"/>
 			<Item Name="Dig a Grave - Complex.vi" Type="VI" URL="../src/Examples/Dig a Grave - Complex.vi"/>
+			<Item Name="Graveyard - Complex.vi" Type="VI" URL="../src/Examples/Graveyard - Complex.vi"/>
 		</Item>
 		<Item Name="Scripts" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -47,6 +48,7 @@
 				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Build Target.vi" Type="VI" URL="../src/Scripts/Support/Build Target.vi"/>
 				<Item Name="Builds Directory.vi" Type="VI" URL="../src/Scripts/Support/Builds Directory.vi"/>
+				<Item Name="Clean.vi" Type="VI" URL="../src/Scripts/Clean.vi"/>
 				<Item Name="Configuration Directory.vi" Type="VI" URL="../src/Scripts/Support/Configuration Directory.vi"/>
 				<Item Name="Documentation Directory.vi" Type="VI" URL="../src/Scripts/Support/Documentation Directory.vi"/>
 				<Item Name="Execute Build Target.vi" Type="VI" URL="../src/Scripts/Support/Execute Build Target.vi"/>
@@ -57,11 +59,11 @@
 				<Item Name="Project Root.vi" Type="VI" URL="../src/Scripts/Support/Project Root.vi"/>
 				<Item Name="Project Save for Previous.vi" Type="VI" URL="../src/Scripts/Support/Project Save for Previous.vi"/>
 				<Item Name="Show Packages Folder.vi" Type="VI" URL="../src/Scripts/Support/Show Packages Folder.vi"/>
+				<Item Name="Source Directory.vi" Type="VI" URL="../src/Scripts/Support/Source Directory.vi"/>
 				<Item Name="Target Directory.vi" Type="VI" URL="../src/Scripts/Support/Target Directory.vi"/>
 				<Item Name="Tests Directory.vi" Type="VI" URL="../src/Scripts/Support/Tests Directory.vi"/>
 			</Item>
 			<Item Name="Build.vi" Type="VI" URL="../src/Scripts/Build.vi"/>
-			<Item Name="Clean.vi" Type="VI" URL="../src/Scripts/Clean.vi"/>
 			<Item Name="Package.vi" Type="VI" URL="../src/Scripts/Package.vi"/>
 			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../src/Scripts/Post-Install Custom Action.vi"/>
 			<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../src/Scripts/Post-Uninstall Custom Action.vi"/>
@@ -72,7 +74,6 @@
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
 		<Item Name="Toolkit VIs.lvlib" Type="Library" URL="../src/Toolkit VIs/Toolkit VIs.lvlib"/>
 		<Item Name="Tools Menu.lvlib" Type="Library" URL="../src/Tools Menu/Tools Menu.lvlib"/>
-		<Item Name="Source Directory.vi" Type="VI" URL="../src/Scripts/Support/Source Directory.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AB_Generate_Error_Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Generate_Error_Cluster.vi"/>
@@ -209,7 +210,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{414D0A9A-FD35-4A5C-AC4E-956CCF757DD1}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Bookmark Manager/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">67</Property>
+				<Property Name="Bld_version.build" Type="Int">68</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Bookmark Manager</Property>
@@ -324,7 +325,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{47C24FFC-0823-43C9-89F6-701762A394C6}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Quick Drop/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">47</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Quick Drop</Property>
@@ -436,7 +437,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{B23CD3DA-6053-4B73-84D7-9BF70E398FD3}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Shortcut Menu/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">59</Property>
+				<Property Name="Bld_version.build" Type="Int">60</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Shortcut Menu/NI_AB_PROJECTNAME.llb</Property>
@@ -565,7 +566,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{1A6084DC-6EAC-42E4-A536-D607349E7CFE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Toolkit VIs/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Toolkit VIs</Property>
@@ -648,7 +649,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{212714E8-8163-4D35-9DD6-DFD02D85034E}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Tools Menu/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Tools Menu</Property>
@@ -742,7 +743,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{D14B8EF2-A64D-4787-9300-06728101B34C}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Examples/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Examples</Property>
@@ -751,7 +752,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Examples/support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CE086510-E38F-4D7C-87A7-7F0DEE4B3B99}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{531351CE-A274-4ADC-A3C9-5F82CB826AA4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Dig a Grave - Simple.vi</Property>
@@ -765,6 +766,10 @@
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Examples/Dig a Grave - Complex.vi</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Examples/Graveyard - Complex.vi</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -802,7 +807,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Examples/Bury - Simple.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 			</Item>
 		</Item>
 	</Item>
