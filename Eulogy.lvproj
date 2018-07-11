@@ -62,6 +62,7 @@
 				<Item Name="Source Directory.vi" Type="VI" URL="../src/Scripts/Support/Source Directory.vi"/>
 				<Item Name="Target Directory.vi" Type="VI" URL="../src/Scripts/Support/Target Directory.vi"/>
 				<Item Name="Tests Directory.vi" Type="VI" URL="../src/Scripts/Support/Tests Directory.vi"/>
+				<Item Name="Update Build Version.vi" Type="VI" URL="../src/Scripts/Support/Update Build Version.vi"/>
 			</Item>
 			<Item Name="Build.vi" Type="VI" URL="../src/Scripts/Build.vi"/>
 			<Item Name="Package.vi" Type="VI" URL="../src/Scripts/Package.vi"/>
@@ -180,6 +181,7 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="String to 1D Array__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/String to 1D Array__ogtk4A668244C627608002181B7F01911EC7.vi"/>
 			</Item>
 			<Item Name="Checkmark Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Checkmark Status.ctl"/>
 			<Item Name="Enabled Menu Item Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Enabled Menu Item Status.ctl"/>

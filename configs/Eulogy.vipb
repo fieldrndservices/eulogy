@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-10 19:57:26" Creator="cfield" Comments="" ID="90556f38d7e2ac52dd6d61dc86410e17">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-11 10:50:44" Creator="cfield" Comments="" ID="a10d5d8d4c2c89549798bdc6e7443e99">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
-    <Library_Version>1.0.0.21</Library_Version>
+    <Library_Version>1.0.0.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -416,7 +416,7 @@
         <Path>..\builds\Toolkit VIs\Smite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DE1DF2F2D4B38FD4AD98A5EE55F76099</GUID>
+      <GUID>FF0A4B52A4B5DC19B76609E1D9618942</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
