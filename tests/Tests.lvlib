@@ -11,11 +11,13 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Bury Target.vi" Type="VI" URL="../Support/Bury Target.vi"/>
 		<Item Name="Dig Target.vi" Type="VI" URL="../Support/Dig Target.vi"/>
+		<Item Name="Find Graves Target.vi" Type="VI" URL="../Support/Find Graves Target.vi"/>
 		<Item Name="Reanimate Target.vi" Type="VI" URL="../Support/Reanimate Target.vi"/>
 		<Item Name="Smite Target.vi" Type="VI" URL="../Support/Smite Target.vi"/>
 	</Item>
 	<Item Name="Bury.vi" Type="VI" URL="../Bury.vi"/>
 	<Item Name="Dig.vi" Type="VI" URL="../Dig.vi"/>
+	<Item Name="Find Graves.vi" Type="VI" URL="../Find Graves.vi"/>
 	<Item Name="Reanimate.vi" Type="VI" URL="../Reanimate.vi"/>
 	<Item Name="Smite.vi" Type="VI" URL="../Smite.vi"/>
 </Library>
