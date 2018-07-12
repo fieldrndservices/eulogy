@@ -43,6 +43,7 @@
 			<Item Name="Graveyard - Simple.vi" Type="VI" URL="../src/Examples/Graveyard - Simple.vi"/>
 			<Item Name="Programmatically Dig a Grave.vi" Type="VI" URL="../src/Examples/Programmatically Dig a Grave.vi"/>
 			<Item Name="Programmatically Reanimate.vi" Type="VI" URL="../src/Examples/Programmatically Reanimate.vi"/>
+			<Item Name="Programmatically Smite.vi" Type="VI" URL="../src/Examples/Programmatically Smite.vi"/>
 			<Item Name="Reanimate - Simple.vi" Type="VI" URL="../src/Examples/Reanimate - Simple.vi"/>
 			<Item Name="Smite - Simple.vi" Type="VI" URL="../src/Examples/Smite - Simple.vi"/>
 		</Item>
@@ -371,6 +372,10 @@
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Examples/Programmatically Reanimate.vi</Property>
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Examples/Programmatically Smite.vi</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -408,7 +413,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Examples/Bury - Simple.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="SourceCount" Type="Int">17</Property>
 			</Item>
 			<Item Name="Quick Drop" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
