@@ -43,6 +43,7 @@
 			<Item Name="Graveyard - Simple.vi" Type="VI" URL="../src/Examples/Graveyard - Simple.vi"/>
 			<Item Name="Programmatically Bury.vi" Type="VI" URL="../src/Examples/Programmatically Bury.vi"/>
 			<Item Name="Programmatically Dig a Grave.vi" Type="VI" URL="../src/Examples/Programmatically Dig a Grave.vi"/>
+			<Item Name="Programmatically Find Graves.vi" Type="VI" URL="../src/Examples/Programmatically Find Graves.vi"/>
 			<Item Name="Programmatically Reanimate.vi" Type="VI" URL="../src/Examples/Programmatically Reanimate.vi"/>
 			<Item Name="Programmatically Smite.vi" Type="VI" URL="../src/Examples/Programmatically Smite.vi"/>
 			<Item Name="Reanimate - Simple.vi" Type="VI" URL="../src/Examples/Reanimate - Simple.vi"/>
@@ -333,7 +334,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{D14B8EF2-A64D-4787-9300-06728101B34C}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Examples/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Examples</Property>
@@ -342,7 +343,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Examples/support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E572432A-3866-4B24-95FE-D9794247DB3E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{22306C5B-BAA2-4132-B61E-E17A8CC5F8BF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Dig a Grave - Simple.vi</Property>
@@ -381,6 +382,10 @@
 				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Examples/Programmatically Bury.vi</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Examples/Programmatically Find Graves.vi</Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -418,7 +423,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Examples/Bury - Simple.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">18</Property>
+				<Property Name="SourceCount" Type="Int">19</Property>
 			</Item>
 			<Item Name="Quick Drop" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
