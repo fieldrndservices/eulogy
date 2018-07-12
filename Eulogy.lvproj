@@ -661,10 +661,10 @@
 				<Property Name="Source[9].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="SourceCount" Type="Int">21</Property>
 			</Item>
-			<Item Name="Toolkit VIs" Type="Source Distribution">
+			<Item Name="Toolkit" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B5F7B351-5A80-4CDF-853B-9CC7A4CB4AAE}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Toolkit VIs</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Toolkit</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
@@ -681,7 +681,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{1A6084DC-6EAC-42E4-A536-D607349E7CFE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Toolkit/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Toolkit</Property>
