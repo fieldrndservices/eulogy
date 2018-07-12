@@ -14,8 +14,8 @@
 		<Item Name="Reanimate Target.vi" Type="VI" URL="../Support/Reanimate Target.vi"/>
 		<Item Name="Smite Target.vi" Type="VI" URL="../Support/Smite Target.vi"/>
 	</Item>
-	<Item Name="Bury Test.vi" Type="VI" URL="../Bury Test.vi"/>
-	<Item Name="Dig Test.vi" Type="VI" URL="../Dig Test.vi"/>
-	<Item Name="Reanimate Test.vi" Type="VI" URL="../Reanimate Test.vi"/>
-	<Item Name="Smite Test.vi" Type="VI" URL="../Smite Test.vi"/>
+	<Item Name="Bury.vi" Type="VI" URL="../Bury.vi"/>
+	<Item Name="Dig.vi" Type="VI" URL="../Dig.vi"/>
+	<Item Name="Reanimate.vi" Type="VI" URL="../Reanimate.vi"/>
+	<Item Name="Smite.vi" Type="VI" URL="../Smite.vi"/>
 </Library>
