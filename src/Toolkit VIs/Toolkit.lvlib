@@ -26,14 +26,14 @@
 	<Item Name="Typdefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Bookmark Tags.ctl" Type="VI" URL="../Typedefs/Bookmark Tags.ctl"/>
-		<Item Name="Grave States.ctl" Type="VI" URL="../Typedefs/Grave States.ctl"/>
-		<Item Name="Zombie States.ctl" Type="VI" URL="../Typedefs/Zombie States.ctl"/>
+		<Item Name="Grave Frames.ctl" Type="VI" URL="../Typedefs/Grave Frames.ctl"/>
 	</Item>
 	<Item Name="Bury.vi" Type="VI" URL="../Bury.vi"/>
 	<Item Name="Dig.vi" Type="VI" URL="../Dig.vi"/>
-	<Item Name="Is Grave.vi" Type="VI" URL="../Is Grave.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-	</Item>
+	<Item Name="Find Graves.vi" Type="VI" URL="../Find Graves.vi"/>
+	<Item Name="Find Zombies.vi" Type="VI" URL="../Find Zombies.vi"/>
+	<Item Name="Is Grave.vi" Type="VI" URL="../Is Grave.vi"/>
+	<Item Name="Is Zombie.vi" Type="VI" URL="../Is Zombie.vi"/>
 	<Item Name="Reanimate.vi" Type="VI" URL="../Reanimate.vi"/>
 	<Item Name="Smite.vi" Type="VI" URL="../Smite.vi"/>
 </Library>

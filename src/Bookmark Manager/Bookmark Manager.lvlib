@@ -49,6 +49,8 @@
 		<Item Name="State.ctl" Type="VI" URL="../Controls/State.ctl"/>
 		<Item Name="VI Bookmark.ctl" Type="VI" URL="../Controls/VI Bookmark.ctl"/>
 		<Item Name="VI Information.ctl" Type="VI" URL="../Controls/VI Information.ctl"/>
+		<Item Name="Grave States.ctl" Type="VI" URL="../Controls/Grave States.ctl"/>
+		<Item Name="Zombie States.ctl" Type="VI" URL="../Controls/Zombie States.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 	<Item Name="Eulogy.txt" Type="Document" URL="../Eulogy.txt"/>
