@@ -36,6 +36,7 @@
 		<Item Name="Filter Only Eulogy.vi" Type="VI" URL="../Support/Filter Only Eulogy.vi"/>
 		<Item Name="Filter Only.vi" Type="VI" URL="../Support/Filter Only.vi"/>
 		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Support/Filter vi.lib VIs.vi"/>
+		<Item Name="Grave from Bookmark Label.vi" Type="VI" URL="../Support/Grave from Bookmark Label.vi"/>
 		<Item Name="Grave Left Cell String.vi" Type="VI" URL="../Support/Grave Left Cell String.vi"/>
 		<Item Name="Highlight Bookmark.vi" Type="VI" URL="../Support/Highlight Bookmark.vi"/>
 		<Item Name="Highlight Object.vi" Type="VI" URL="../Support/Highlight Object.vi"/>
