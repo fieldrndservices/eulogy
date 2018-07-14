@@ -32,6 +32,7 @@
 		<Item Name="Enqueue Message.vi" Type="VI" URL="../Support/Enqueue Message.vi"/>
 		<Item Name="Eulogy Date.vi" Type="VI" URL="../Support/Eulogy Date.vi"/>
 		<Item Name="Eulogy User.vi" Type="VI" URL="../Support/Eulogy User.vi"/>
+		<Item Name="Execute Shortcut Menu Selection.vi" Type="VI" URL="../Support/Execute Shortcut Menu Selection.vi"/>
 		<Item Name="Filter Only Eulogy.vi" Type="VI" URL="../Support/Filter Only Eulogy.vi"/>
 		<Item Name="Filter Only.vi" Type="VI" URL="../Support/Filter Only.vi"/>
 		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Support/Filter vi.lib VIs.vi"/>
@@ -49,6 +50,8 @@
 		<Item Name="Project VIs.vi" Type="VI" URL="../Support/Project VIs.vi"/>
 		<Item Name="Read Eulogy Bookmarks.vi" Type="VI" URL="../Support/Read Eulogy Bookmarks.vi"/>
 		<Item Name="Select Scope.vi" Type="VI" URL="../Support/Select Scope.vi"/>
+		<Item Name="Shortcut Menu Selection.vi" Type="VI" URL="../Support/Shortcut Menu Selection.vi"/>
+		<Item Name="Tree Bookmark ID.vi" Type="VI" URL="../Support/Tree Bookmark ID.vi"/>
 		<Item Name="Trim Project File Extension.vi" Type="VI" URL="../Support/Trim Project File Extension.vi"/>
 		<Item Name="VI Bookmarks.vi" Type="VI" URL="../Support/VI Bookmarks.vi"/>
 		<Item Name="Zombie Left Cell String.vi" Type="VI" URL="../Support/Zombie Left Cell String.vi"/>
