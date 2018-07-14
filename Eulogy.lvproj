@@ -272,7 +272,7 @@
 				<Property Name="Destination[2].path" Type="Path">../builds/Bookmark Manager/controls</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{23706365-D078-4904-A7A0-F256874E53C5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{405E18BC-3DA6-4DCD-9504-2024F55153B7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
@@ -307,6 +307,10 @@
 				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Smite.vi</Property>
 				<Property Name="Source[17].newName" Type="Str">Eulogy_BMark_Toolkit_Smite.vi</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib/Bookmarks View.rtm</Property>
+				<Property Name="Source[18].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -353,7 +357,7 @@
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].newName" Type="Str">Eulogy_BMark.lvlib</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">18</Property>
+				<Property Name="SourceCount" Type="Int">19</Property>
 			</Item>
 			<Item Name="Examples" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>

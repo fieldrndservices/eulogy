@@ -54,4 +54,5 @@
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 	<Item Name="Eulogy.txt" Type="Document" URL="../Eulogy.txt"/>
+	<Item Name="Bookmarks View.rtm" Type="Document" URL="../Bookmarks View.rtm"/>
 </Library>
