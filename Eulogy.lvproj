@@ -82,7 +82,7 @@
 		<Item Name="Quick Drop.lvlib" Type="Library" URL="../src/Quick Drop/Quick Drop.lvlib"/>
 		<Item Name="Shortcut Menu.lvlib" Type="Library" URL="../src/Shortcut Menu/Shortcut Menu.lvlib"/>
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
-		<Item Name="Toolkit.lvlib" Type="Library" URL="../src/Toolkit VIs/Toolkit.lvlib"/>
+		<Item Name="Toolkit.lvlib" Type="Library" URL="../src/Toolkit/Toolkit.lvlib"/>
 		<Item Name="Tools Menu.lvlib" Type="Library" URL="../src/Tools Menu/Tools Menu.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
