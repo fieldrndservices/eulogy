@@ -42,6 +42,7 @@
 		<Item Name="Highlight Object.vi" Type="VI" URL="../Support/Highlight Object.vi"/>
 		<Item Name="Is Bookmark.vi" Type="VI" URL="../Support/Is Bookmark.vi"/>
 		<Item Name="Main Application Instance VIs.vi" Type="VI" URL="../Support/Main Application Instance VIs.vi"/>
+		<Item Name="Open Help.vi" Type="VI" URL="../Support/Open Help.vi"/>
 		<Item Name="Open VI Reference.vi" Type="VI" URL="../Support/Open VI Reference.vi"/>
 		<Item Name="Populate Bookmarks View.vi" Type="VI" URL="../Support/Populate Bookmarks View.vi"/>
 		<Item Name="Populate Scope.vi" Type="VI" URL="../Support/Populate Scope.vi"/>
