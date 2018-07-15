@@ -66,6 +66,8 @@
 				<Item Name="Project File.vi" Type="VI" URL="../src/Scripts/Support/Project File.vi"/>
 				<Item Name="Project Root.vi" Type="VI" URL="../src/Scripts/Support/Project Root.vi"/>
 				<Item Name="Project Save for Previous.vi" Type="VI" URL="../src/Scripts/Support/Project Save for Previous.vi"/>
+				<Item Name="Run Integration Tests.vi" Type="VI" URL="../src/Scripts/Support/Run Integration Tests.vi"/>
+				<Item Name="Run Unit Tests.vi" Type="VI" URL="../src/Scripts/Support/Run Unit Tests.vi"/>
 				<Item Name="Show Packages Folder.vi" Type="VI" URL="../src/Scripts/Support/Show Packages Folder.vi"/>
 				<Item Name="Source Directory.vi" Type="VI" URL="../src/Scripts/Support/Source Directory.vi"/>
 				<Item Name="Target Directory.vi" Type="VI" URL="../src/Scripts/Support/Target Directory.vi"/>

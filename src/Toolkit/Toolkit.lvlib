@@ -37,4 +37,5 @@
 	<Item Name="Is Zombie.vi" Type="VI" URL="../Is Zombie.vi"/>
 	<Item Name="Reanimate.vi" Type="VI" URL="../Reanimate.vi"/>
 	<Item Name="Smite.vi" Type="VI" URL="../Smite.vi"/>
+	<Item Name="Tests.lvlib" Type="Library" URL="../Tests/Tests.lvlib"/>
 </Library>
