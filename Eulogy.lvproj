@@ -50,38 +50,9 @@
 			<Item Name="Reanimate - Simple.vi" Type="VI" URL="../src/Examples/Reanimate - Simple.vi"/>
 			<Item Name="Smite - Simple.vi" Type="VI" URL="../src/Examples/Smite - Simple.vi"/>
 		</Item>
-		<Item Name="Scripts" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Support" Type="Folder">
-				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="Build Target.vi" Type="VI" URL="../src/Scripts/Support/Build Target.vi"/>
-				<Item Name="Builds Directory.vi" Type="VI" URL="../src/Scripts/Support/Builds Directory.vi"/>
-				<Item Name="Clean.vi" Type="VI" URL="../src/Scripts/Clean.vi"/>
-				<Item Name="Configuration Directory.vi" Type="VI" URL="../src/Scripts/Support/Configuration Directory.vi"/>
-				<Item Name="Documentation Directory.vi" Type="VI" URL="../src/Scripts/Support/Documentation Directory.vi"/>
-				<Item Name="Execute Build Target.vi" Type="VI" URL="../src/Scripts/Support/Execute Build Target.vi"/>
-				<Item Name="LabVIEW Versions.ctl" Type="VI" URL="../src/Scripts/Support/LabVIEW Versions.ctl"/>
-				<Item Name="Packages Directory.vi" Type="VI" URL="../src/Scripts/Support/Packages Directory.vi"/>
-				<Item Name="Previous to Target Version.vi" Type="VI" URL="../src/Scripts/Support/Previous to Target Version.vi"/>
-				<Item Name="Project File.vi" Type="VI" URL="../src/Scripts/Support/Project File.vi"/>
-				<Item Name="Project Root.vi" Type="VI" URL="../src/Scripts/Support/Project Root.vi"/>
-				<Item Name="Project Save for Previous.vi" Type="VI" URL="../src/Scripts/Support/Project Save for Previous.vi"/>
-				<Item Name="Run Integration Tests.vi" Type="VI" URL="../src/Scripts/Support/Run Integration Tests.vi"/>
-				<Item Name="Run Unit Tests.vi" Type="VI" URL="../src/Scripts/Support/Run Unit Tests.vi"/>
-				<Item Name="Show Packages Folder.vi" Type="VI" URL="../src/Scripts/Support/Show Packages Folder.vi"/>
-				<Item Name="Source Directory.vi" Type="VI" URL="../src/Scripts/Support/Source Directory.vi"/>
-				<Item Name="Target Directory.vi" Type="VI" URL="../src/Scripts/Support/Target Directory.vi"/>
-				<Item Name="Tests Directory.vi" Type="VI" URL="../src/Scripts/Support/Tests Directory.vi"/>
-				<Item Name="Update Build Version.vi" Type="VI" URL="../src/Scripts/Support/Update Build Version.vi"/>
-			</Item>
-			<Item Name="Build.vi" Type="VI" URL="../src/Scripts/Build.vi"/>
-			<Item Name="Package.vi" Type="VI" URL="../src/Scripts/Package.vi"/>
-			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../src/Scripts/Post-Install Custom Action.vi"/>
-			<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../src/Scripts/Post-Uninstall Custom Action.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="../src/Scripts/Test.vi"/>
-		</Item>
 		<Item Name="Bookmark Manager.lvlib" Type="Library" URL="../src/Bookmark Manager/Bookmark Manager.lvlib"/>
 		<Item Name="Quick Drop.lvlib" Type="Library" URL="../src/Quick Drop/Quick Drop.lvlib"/>
+		<Item Name="Scripts.lvlib" Type="Library" URL="../src/Scripts/Scripts.lvlib"/>
 		<Item Name="Shortcut Menu.lvlib" Type="Library" URL="../src/Shortcut Menu/Shortcut Menu.lvlib"/>
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
 		<Item Name="Toolkit.lvlib" Type="Library" URL="../src/Toolkit/Toolkit.lvlib"/>
@@ -702,7 +673,7 @@
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Scripts</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
@@ -776,7 +747,7 @@
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Scripts</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
