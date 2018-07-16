@@ -33,7 +33,8 @@
 		<Item Name="Enqueue Message.vi" Type="VI" URL="../Support/Enqueue Message.vi"/>
 		<Item Name="Eulogy Date.vi" Type="VI" URL="../Support/Eulogy Date.vi"/>
 		<Item Name="Eulogy User.vi" Type="VI" URL="../Support/Eulogy User.vi"/>
-		<Item Name="Execute Shortcut Menu Selection.vi" Type="VI" URL="../Support/Execute Shortcut Menu Selection.vi"/>
+		<Item Name="Execute Bookmark Action.vi" Type="VI" URL="../Support/Execute Bookmark Action.vi"/>
+		<Item Name="Execute VI Action.vi" Type="VI" URL="../Support/Execute VI Action.vi"/>
 		<Item Name="Filter Only Eulogy.vi" Type="VI" URL="../Support/Filter Only Eulogy.vi"/>
 		<Item Name="Filter Only.vi" Type="VI" URL="../Support/Filter Only.vi"/>
 		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Support/Filter vi.lib VIs.vi"/>
