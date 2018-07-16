@@ -10,9 +10,13 @@
 </Property>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Bury All Target.vi" Type="VI" URL="../Support/Bury All Target.vi"/>
 		<Item Name="Reanimate All Target.vi" Type="VI" URL="../Support/Reanimate All Target.vi"/>
 		<Item Name="Setup.vi" Type="VI" URL="../Support/Setup.vi"/>
+		<Item Name="Smite All Target.vi" Type="VI" URL="../Support/Smite All Target.vi"/>
 		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
 	</Item>
+	<Item Name="Bury All.vi" Type="VI" URL="../Bury All.vi"/>
 	<Item Name="Reanimate All.vi" Type="VI" URL="../Reanimate All.vi"/>
+	<Item Name="Smite All.vi" Type="VI" URL="../Smite All.vi"/>
 </Library>
