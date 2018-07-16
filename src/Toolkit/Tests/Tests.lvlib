@@ -15,6 +15,7 @@
 		<Item Name="Apply Tombstone Target.vi" Type="VI" URL="../Support/Apply Tombstone Target.vi"/>
 		<Item Name="Duplicate Disabled Frame Target.vi" Type="VI" URL="../Support/Duplicate Disabled Frame Target.vi"/>
 		<Item Name="Enclose with Diagram Disable Structure Target.vi" Type="VI" URL="../Support/Enclose with Diagram Disable Structure Target.vi"/>
+		<Item Name="Remove Controls from Selection Target.vi" Type="VI" URL="../Support/Remove Controls from Selection Target.vi"/>
 		<Item Name="Setup.vi" Type="VI" URL="../Support/Setup.vi"/>
 		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
 		<Item Name="Write Subdiagram Label Target.vi" Type="VI" URL="../Support/Write Subdiagram Label Target.vi"/>
@@ -22,5 +23,6 @@
 	<Item Name="Apply Tombstone.vi" Type="VI" URL="../Apply Tombstone.vi"/>
 	<Item Name="Duplicate Disabled Frame.vi" Type="VI" URL="../Duplicate Disabled Frame.vi"/>
 	<Item Name="Enclose with Diagram Disable Structure.vi" Type="VI" URL="../Enclose with Diagram Disable Structure.vi"/>
+	<Item Name="Remove Controls from Selection.vi" Type="VI" URL="../Remove Controls from Selection.vi"/>
 	<Item Name="Write Subdiagram Label.vi" Type="VI" URL="../Write Subdiagram Label.vi"/>
 </Library>
