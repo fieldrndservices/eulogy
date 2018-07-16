@@ -62,4 +62,5 @@
 	</Item>
 	<Item Name="Eulogy.txt" Type="Document" URL="../Eulogy.txt"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+	<Item Name="Tests.lvlib" Type="Library" URL="../Tests/Tests.lvlib"/>
 </Library>
