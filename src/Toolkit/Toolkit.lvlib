@@ -14,6 +14,18 @@
 		<Item Name="Quick Drop.lvlib" Type="Friended Library" URL="../../Quick Drop/Quick Drop.lvlib"/>
 		<Item Name="Tools Menu.lvlib" Type="Friended Library" URL="../../Tools Menu/Tools Menu.lvlib"/>
 	</Item>
+	<Item Name="API" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Bury.vi" Type="VI" URL="../Bury.vi"/>
+		<Item Name="Dig.vi" Type="VI" URL="../Dig.vi"/>
+		<Item Name="Filter Graves.vi" Type="VI" URL="../Filter Graves.vi"/>
+		<Item Name="Find Graves.vi" Type="VI" URL="../Find Graves.vi"/>
+		<Item Name="Find Zombies.vi" Type="VI" URL="../Find Zombies.vi"/>
+		<Item Name="Is Grave.vi" Type="VI" URL="../Is Grave.vi"/>
+		<Item Name="Is Zombie.vi" Type="VI" URL="../Is Zombie.vi"/>
+		<Item Name="Reanimate.vi" Type="VI" URL="../Reanimate.vi"/>
+		<Item Name="Smite.vi" Type="VI" URL="../Smite.vi"/>
+	</Item>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Application User Name.vi" Type="VI" URL="../Support/Application User Name.vi"/>
@@ -28,14 +40,5 @@
 		<Item Name="Bookmark Tags.ctl" Type="VI" URL="../Typedefs/Bookmark Tags.ctl"/>
 		<Item Name="Grave Frames.ctl" Type="VI" URL="../Typedefs/Grave Frames.ctl"/>
 	</Item>
-	<Item Name="Bury.vi" Type="VI" URL="../Bury.vi"/>
-	<Item Name="Dig.vi" Type="VI" URL="../Dig.vi"/>
-	<Item Name="Filter Graves.vi" Type="VI" URL="../Filter Graves.vi"/>
-	<Item Name="Find Graves.vi" Type="VI" URL="../Find Graves.vi"/>
-	<Item Name="Find Zombies.vi" Type="VI" URL="../Find Zombies.vi"/>
-	<Item Name="Is Grave.vi" Type="VI" URL="../Is Grave.vi"/>
-	<Item Name="Is Zombie.vi" Type="VI" URL="../Is Zombie.vi"/>
-	<Item Name="Reanimate.vi" Type="VI" URL="../Reanimate.vi"/>
-	<Item Name="Smite.vi" Type="VI" URL="../Smite.vi"/>
 	<Item Name="Tests.lvlib" Type="Library" URL="../Tests/Tests.lvlib"/>
 </Library>
