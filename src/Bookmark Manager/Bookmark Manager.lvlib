@@ -24,6 +24,7 @@
 		<Item Name="Active Project Scope Index.vi" Type="VI" URL="../Support/Active Project Scope Index.vi"/>
 		<Item Name="Add Bookmark Tree Item.vi" Type="VI" URL="../Support/Add Bookmark Tree Item.vi"/>
 		<Item Name="Add VI Tree Item.vi" Type="VI" URL="../Support/Add VI Tree Item.vi"/>
+		<Item Name="Bookmarks View Shortcut Menu Activation.vi" Type="VI" URL="../Support/Bookmarks View Shortcut Menu Activation.vi"/>
 		<Item Name="Change Bookmark Filter.vi" Type="VI" URL="../Support/Change Bookmark Filter.vi"/>
 		<Item Name="Child Text.vi" Type="VI" URL="../Support/Child Text.vi"/>
 		<Item Name="Create Message Queue.vi" Type="VI" URL="../Support/Create Message Queue.vi"/>
@@ -58,7 +59,6 @@
 		<Item Name="VI Bookmarks.vi" Type="VI" URL="../Support/VI Bookmarks.vi"/>
 		<Item Name="Zombie Left Cell String.vi" Type="VI" URL="../Support/Zombie Left Cell String.vi"/>
 	</Item>
-	<Item Name="Bookmarks View.rtm" Type="Document" URL="../Bookmarks View.rtm"/>
 	<Item Name="Eulogy.txt" Type="Document" URL="../Eulogy.txt"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>
