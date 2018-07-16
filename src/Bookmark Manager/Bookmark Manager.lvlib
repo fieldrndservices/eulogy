@@ -10,7 +10,7 @@
 	<Item Name="Controls" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Application Information.ctl" Type="VI" URL="../Controls/Application Information.ctl"/>
-		<Item Name="Bookmarks Views.ctl" Type="VI" URL="../Controls/Bookmarks Views.ctl"/>
+		<Item Name="Bookmarks Groups.ctl" Type="VI" URL="../Controls/Bookmarks Groups.ctl"/>
 		<Item Name="Grave States.ctl" Type="VI" URL="../Controls/Grave States.ctl"/>
 		<Item Name="Message.ctl" Type="VI" URL="../Controls/Message.ctl"/>
 		<Item Name="State.ctl" Type="VI" URL="../Controls/State.ctl"/>
@@ -25,7 +25,7 @@
 		<Item Name="Add Bookmark Tree Item.vi" Type="VI" URL="../Support/Add Bookmark Tree Item.vi"/>
 		<Item Name="Add VI Tree Item.vi" Type="VI" URL="../Support/Add VI Tree Item.vi"/>
 		<Item Name="Bookmarks View Shortcut Menu Activation.vi" Type="VI" URL="../Support/Bookmarks View Shortcut Menu Activation.vi"/>
-		<Item Name="Change Bookmark Filter.vi" Type="VI" URL="../Support/Change Bookmark Filter.vi"/>
+		<Item Name="Change Bookmark Group.vi" Type="VI" URL="../Support/Change Bookmark Group.vi"/>
 		<Item Name="Child Text.vi" Type="VI" URL="../Support/Child Text.vi"/>
 		<Item Name="Create Message Queue.vi" Type="VI" URL="../Support/Create Message Queue.vi"/>
 		<Item Name="Create Tree.vi" Type="VI" URL="../Support/Create Tree.vi"/>
