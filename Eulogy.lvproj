@@ -233,7 +233,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{414D0A9A-FD35-4A5C-AC4E-956CCF757DD1}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Bookmark Manager/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">76</Property>
+				<Property Name="Bld_version.build" Type="Int">77</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Bookmark Manager</Property>
@@ -245,7 +245,7 @@
 				<Property Name="Destination[2].path" Type="Path">../builds/Bookmark Manager/controls</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{39351382-F23A-487A-8CF3-ECB33543E585}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{59A47B1D-31EE-411C-AFA8-F4C5DDE8AFD5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
@@ -255,8 +255,10 @@
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib/Eulogy.txt</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[11].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support</Property>
 				<Property Name="Source[11].newName" Type="Str">Eulogy_BMark_Toolkit_</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
@@ -301,6 +303,16 @@
 				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Is Zombie.vi</Property>
 				<Property Name="Source[22].newName" Type="Str">Eulogy_BMark_Toolkit_Is Zombie.vi</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[23].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[23].type" Type="Str">Library</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Scripts.lvlib</Property>
+				<Property Name="Source[24].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[24].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[24].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib/Main.vi</Property>
 				<Property Name="Source[3].newName" Type="Str">BMark_MainWindow.vi</Property>
@@ -320,7 +332,7 @@
 				<Property Name="Source[6].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typdefs</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typedefs</Property>
 				<Property Name="Source[6].newName" Type="Str">Eulogy_BMark_Toolkit_</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
@@ -342,7 +354,7 @@
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].newName" Type="Str">Eulogy_BMark.lvlib</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">23</Property>
+				<Property Name="SourceCount" Type="Int">25</Property>
 			</Item>
 			<Item Name="Examples" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -364,7 +376,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{D14B8EF2-A64D-4787-9300-06728101B34C}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Examples/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Examples</Property>
@@ -373,7 +385,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Examples/support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{22306C5B-BAA2-4132-B61E-E17A8CC5F8BF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{59A47B1D-31EE-411C-AFA8-F4C5DDE8AFD5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Dig a Grave - Simple.vi</Property>
@@ -425,6 +437,11 @@
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Scripts.lvlib</Property>
+				<Property Name="Source[20].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[20].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -457,7 +474,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Examples/Bury - Simple.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">20</Property>
+				<Property Name="SourceCount" Type="Int">21</Property>
 			</Item>
 			<Item Name="Quick Drop" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -479,7 +496,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{47C24FFC-0823-43C9-89F6-701762A394C6}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Quick Drop/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">53</Property>
+				<Property Name="Bld_version.build" Type="Int">54</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Quick Drop</Property>
@@ -488,7 +505,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Quick Drop/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{23706365-D078-4904-A7A0-F256874E53C5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{59A47B1D-31EE-411C-AFA8-F4C5DDE8AFD5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib/Dig.vi</Property>
@@ -503,9 +520,11 @@
 				<Property Name="Source[11].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
+				<Property Name="Source[12].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[12].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typdefs</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typedefs</Property>
 				<Property Name="Source[12].newName" Type="Str">Eulogy_QD_Toolkit_</Property>
 				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">1</Property>
@@ -528,10 +547,32 @@
 				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Smite.vi</Property>
 				<Property Name="Source[17].newName" Type="Str">Eulogy_QD_Toolkit_Smite.vi</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Filter Graves.vi</Property>
+				<Property Name="Source[18].newName" Type="Str">Eulogy_QD_Toolkit_Filter Graves.vi</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Find Graves.vi</Property>
+				<Property Name="Source[19].newName" Type="Str">Eulogy_QD_Toolkit_Find Graves.vi</Property>
+				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Quick Drop.lvlib/Reanimate.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Find Zombies.vi</Property>
+				<Property Name="Source[20].newName" Type="Str">Eulogy_QD_Toolkit_Find Zombies.vi</Property>
+				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Is Zombie.vi</Property>
+				<Property Name="Source[21].newName" Type="Str">Eulogy_QD_Toolkit_Is Zombie.vi</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[22].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[22].type" Type="Str">Library</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Scripts.lvlib</Property>
+				<Property Name="Source[23].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[23].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -568,7 +609,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support</Property>
 				<Property Name="Source[9].newName" Type="Str">Eulogy_QD_Toolkit_</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">18</Property>
+				<Property Name="SourceCount" Type="Int">24</Property>
 			</Item>
 			<Item Name="Shortcut Menu" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -591,7 +632,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{B23CD3DA-6053-4B73-84D7-9BF70E398FD3}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Shortcut Menu/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">66</Property>
+				<Property Name="Bld_version.build" Type="Int">67</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Shortcut Menu/NI_AB_PROJECTNAME.llb</Property>
@@ -602,7 +643,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{23706365-D078-4904-A7A0-F256874E53C5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{59A47B1D-31EE-411C-AFA8-F4C5DDE8AFD5}</Property>
 				<Property Name="Source[0].newName" Type="Str">Eulogy_ShortcutMenu_Dep_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -611,54 +652,71 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Eulogy.vi</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Execute Eulogy.vi</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[10].VI.LLBtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Execute Eulogy.vi</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[11].VI.LLBtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[12].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support</Property>
-				<Property Name="Source[12].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_</Property>
-				<Property Name="Source[12].type" Type="Str">Container</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
+				<Property Name="Source[11].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support</Property>
+				<Property Name="Source[11].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_</Property>
+				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
+				<Property Name="Source[12].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[12].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit.lvlib</Property>
+				<Property Name="Source[12].type" Type="Str">Library</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Tools Menu.lvlib</Property>
 				<Property Name="Source[13].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[13].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit.lvlib</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[13].type" Type="Str">Library</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Tools Menu.lvlib</Property>
-				<Property Name="Source[14].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Exclude</Property>
-				<Property Name="Source[14].type" Type="Str">Library</Property>
-				<Property Name="Source[15].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typdefs</Property>
-				<Property Name="Source[15].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_</Property>
-				<Property Name="Source[15].type" Type="Str">Container</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Bury.vi</Property>
-				<Property Name="Source[16].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Bury.vi</Property>
+				<Property Name="Source[14].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typedefs</Property>
+				<Property Name="Source[14].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_</Property>
+				<Property Name="Source[14].type" Type="Str">Container</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Bury.vi</Property>
+				<Property Name="Source[15].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Bury.vi</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Dig.vi</Property>
+				<Property Name="Source[16].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Dig.vi</Property>
 				<Property Name="Source[16].type" Type="Str">VI</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Dig.vi</Property>
-				<Property Name="Source[17].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Dig.vi</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Is Grave.vi</Property>
+				<Property Name="Source[17].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Is Grave.vi</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Is Grave.vi</Property>
-				<Property Name="Source[18].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Is Grave.vi</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Reanimate.vi</Property>
+				<Property Name="Source[18].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Reanimate.vi</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Reanimate.vi</Property>
-				<Property Name="Source[19].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Reanimate.vi</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Smite.vi</Property>
+				<Property Name="Source[19].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Smite.vi</Property>
 				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tests.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Smite.vi</Property>
-				<Property Name="Source[20].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Smite.vi</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Filter Graves.vi</Property>
+				<Property Name="Source[20].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Filter Graves.vi</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Find Graves.vi</Property>
+				<Property Name="Source[21].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Find Graves.vi</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Find Zombies.vi</Property>
+				<Property Name="Source[22].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Find Zombies.vi</Property>
+				<Property Name="Source[22].type" Type="Str">VI</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Is Zombie.vi</Property>
+				<Property Name="Source[23].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Is Zombie.vi</Property>
+				<Property Name="Source[23].type" Type="Str">VI</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[24].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[24].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[24].type" Type="Str">Library</Property>
+				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Scripts.lvlib</Property>
+				<Property Name="Source[25].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[25].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[25].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -673,32 +731,31 @@
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref"></Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Examples</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Examples</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Documentation</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Documentation</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Exclude</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].newName" Type="Str">Eulogy_ShortcutMenu.lvlib</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib</Property>
-				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[8].newName" Type="Str">Eulogy_ShortcutMenu.lvlib</Property>
-				<Property Name="Source[8].type" Type="Str">Library</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Eulogy.ctl</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[8].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Eulogy.ctl</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib/Eulogy.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="Source[9].VI.LLBtopLevel" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">21</Property>
+				<Property Name="SourceCount" Type="Int">26</Property>
 			</Item>
 			<Item Name="Toolkit" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -720,7 +777,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{1A6084DC-6EAC-42E4-A536-D607349E7CFE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Toolkit/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">47</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Toolkit</Property>
@@ -730,7 +787,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Toolkit/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{22306C5B-BAA2-4132-B61E-E17A8CC5F8BF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{59A47B1D-31EE-411C-AFA8-F4C5DDE8AFD5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -738,50 +795,54 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Configs</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Scripts.lvlib</Property>
+				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Examples</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
 				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[4].newName" Type="Str">Eulogy.lvlib</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[5].newName" Type="Str">Eulogy.lvlib</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib</Property>
 				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[6].type" Type="Str">Library</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Tests.lvlib</Property>
 				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Tests.lvlib</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Tools Menu.lvlib</Property>
 				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Tools Menu.lvlib</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
 			</Item>
 			<Item Name="Tools Menu" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -803,7 +864,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{212714E8-8163-4D35-9DD6-DFD02D85034E}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Tools Menu/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">44</Property>
+				<Property Name="Bld_version.build" Type="Int">45</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Tools Menu</Property>
@@ -812,7 +873,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Tools Menu/support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{23706365-D078-4904-A7A0-F256874E53C5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{59A47B1D-31EE-411C-AFA8-F4C5DDE8AFD5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tools Menu.lvlib/Graveyard.vi</Property>
@@ -833,11 +894,33 @@
 				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Smite.vi</Property>
 				<Property Name="Source[14].newName" Type="Str">Eulogy_ToolsMenu_Toolkit_Smite.vi</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Filter Graves.vi</Property>
+				<Property Name="Source[15].newName" Type="Str">Eulogy_ToolsMenu_Toolkit_Filter Graves.vi</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Find Graves.vi</Property>
+				<Property Name="Source[16].newName" Type="Str">Eulogy_ToolsMenu_Toolkit_Find Graves.vi</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Find Zombies.vi</Property>
+				<Property Name="Source[17].newName" Type="Str">Eulogy_ToolsMenu_Toolkit_Find Zombies.vi</Property>
+				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Is Zombie.vi</Property>
+				<Property Name="Source[18].newName" Type="Str">Eulogy_ToolsMenu_Toolkit_Is Zombie.vi</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[19].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[19].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tools Menu.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].newName" Type="Str">Eulogy_ToolsMenu.lvlib</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Scripts.lvlib</Property>
+				<Property Name="Source[20].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[20].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -870,12 +953,14 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support</Property>
 				<Property Name="Source[8].newName" Type="Str">Eulogy_ToolsMenu_Toolkit_</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typdefs</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typedefs</Property>
 				<Property Name="Source[9].newName" Type="Str">Eulogy_ToolsMenu_Toolkit_</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">15</Property>
+				<Property Name="SourceCount" Type="Int">21</Property>
 			</Item>
 		</Item>
 	</Item>

@@ -23,7 +23,7 @@
 		<Item Name="Remove Controls from Selection.vi" Type="VI" URL="../Support/Remove Controls from Selection.vi"/>
 		<Item Name="Write Subdiagram Labels.vi" Type="VI" URL="../Support/Write Subdiagram Labels.vi"/>
 	</Item>
-	<Item Name="Typdefs" Type="Folder">
+	<Item Name="Typedefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Bookmark Tags.ctl" Type="VI" URL="../Typedefs/Bookmark Tags.ctl"/>
 		<Item Name="Grave Frames.ctl" Type="VI" URL="../Typedefs/Grave Frames.ctl"/>
