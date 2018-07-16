@@ -24,7 +24,6 @@
 		<Item Name="Is Grave.vi" Type="VI" URL="../Is Grave.vi"/>
 		<Item Name="Is Zombie.vi" Type="VI" URL="../Is Zombie.vi"/>
 		<Item Name="Reanimate.vi" Type="VI" URL="../Reanimate.vi"/>
-		<Item Name="Smite Event.vi" Type="VI" URL="../Smite Event.vi"/>
 		<Item Name="Smite.vi" Type="VI" URL="../Smite.vi"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
