@@ -68,5 +68,9 @@
             </OBJECT>
         </UL>
     </UL>
+    <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Legal">
+        <param name="Local" value="pages\Legal.html">
+    </OBJECT>
 </UL>
 </BODY></HTML>

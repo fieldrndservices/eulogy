@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-12 15:44:12" Creator="cfield" Comments="" ID="e3f6199c0b6504ab6eb84df121772356">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-17 13:49:28" Creator="cfield" Comments="" ID="671a176c208f3efaba7d7dbf4a4dbfdd">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
     <Library_Version>1.0.0.24</Library_Version>
@@ -76,7 +76,7 @@
       <Help_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;help&gt;\Field R&amp;D Services</Path>
       </Help_Menu>
       <Project_Templates>
         <LLB>false</LLB>
@@ -257,6 +257,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Help/Eulogy.chm</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -284,6 +290,9 @@
       </Exclusions>
       <Exclusions>
         <Path>Toolkit/log.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Eulogy.log</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
@@ -524,7 +533,7 @@
         <Path>..\builds\Toolkit\Filter Graves.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9C2EF12869AAA94C9895A103DA99C823</GUID>
+      <GUID>17620ED0B8B17C5326A9AED4695819A2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

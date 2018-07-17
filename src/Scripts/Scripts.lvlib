@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Build Help.vi" Type="VI" URL="../Support/Build Help.vi"/>
 		<Item Name="Build Target.vi" Type="VI" URL="../Support/Build Target.vi"/>
 		<Item Name="Builds Directory.vi" Type="VI" URL="../Support/Builds Directory.vi"/>
 		<Item Name="Clean.vi" Type="VI" URL="../Clean.vi"/>
