@@ -8,5 +8,65 @@
 	<param name="ImageType" value="Folder">
 </OBJECT>
 <UL>
+    <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Eulogy">
+        <param name="Local" value="pages\Readme.html">
+        </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Toolkit API">
+        <param name="Local" value="pages\Toolkit\Eulogy.html">
+        </OBJECT>
+    <UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Bury">
+            <param name="Local" value="pages\Toolkit\Bury.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Dig">
+            <param name="Local" value="pages\Toolkit\Dig.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Filter Graves">
+            <param name="Local" value="pages\Toolkit\Filter_Graves.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Find Graves">
+            <param name="Local" value="pages\Toolkit\Find_Graves.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Find Zombies">
+            <param name="Local" value="pages\Toolkit\Find_Zombies.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Is Grave">
+            <param name="Local" value="pages\Toolkit\Is_Grave.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Is Zombie">
+            <param name="Local" value="pages\Toolkit\Is_Zombie.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Reanimate">
+            <param name="Local" value="pages\Toolkit\Reanimate.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Reanimate">
+            <param name="Local" value="pages\Toolkit\Smite.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Controls">
+            <param name="Local" value="pages\Toolkit\Typedefs\Typedefs.html">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Bookmark Tags">
+                <param name="Local" value="pages\Toolkit\Typedefs\Bookmark_Tagsctl.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Grave Frames">
+                <param name="Local" value="pages\Toolkit\Typedefs\Grave_Framesctl.html">
+            </OBJECT>
+        </UL>
+    </UL>
 </UL>
 </BODY></HTML>
