@@ -13,6 +13,28 @@
         <param name="Local" value="pages\Readme.html">
         </OBJECT>
     <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Add-on">
+        <param name="Local" value="pages\Add-on\Eulogy.html">
+        </OBJECT>
+    <UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Bookmark Manager">
+            <param name="Local" value="pages\Add-on\Bookmark_Manager.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Quick-Drop Plugins">
+            <param name="Local" value="pages\Add-on\Quick_Drop_Plugins.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Shortcut Menu Plugin">
+            <param name="Local" value="pages\Add-on\Shortcut_Menu_Plugin.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Tools Menu">
+            <param name="Local" value="pages\Add-on\Tools_Menu.html">
+        </OBJECT>
+    </UL>
+    <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Toolkit API">
         <param name="Local" value="pages\Toolkit\Eulogy.html">
         </OBJECT>
