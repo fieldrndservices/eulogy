@@ -13,6 +13,10 @@
         <param name="Local" value="pages\Readme.html">
         </OBJECT>
     <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Getting Started">
+        <param name="Local" value="pages\Getting_Started.html">
+    </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Add-on">
         <param name="Local" value="pages\Add-on\Eulogy.html">
         </OBJECT>
