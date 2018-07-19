@@ -18,7 +18,7 @@
     </OBJECT>
     <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Add-on">
-        <param name="Local" value="pages\Add-on\Eulogy.html">
+        <param name="Local" value="pages\Add-on\Add-on.html">
         </OBJECT>
     <UL>
         <LI> <OBJECT type="text/sitemap">
@@ -40,7 +40,7 @@
     </UL>
     <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Toolkit API">
-        <param name="Local" value="pages\Toolkit\Eulogy.html">
+        <param name="Local" value="pages\Toolkit\Toolkit.html">
         </OBJECT>
     <UL>
         <LI> <OBJECT type="text/sitemap">
