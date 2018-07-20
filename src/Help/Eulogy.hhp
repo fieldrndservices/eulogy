@@ -2,9 +2,9 @@
 Compatibility=1.1 or later
 Compiled file=..\..\builds\Help\Eulogy.chm
 Contents file=Table of Contents.hhc
-Default topic=pages\Readme.html
+Default topic=pages\Preface.html
 Display compile progress=No
-Error log file=d:\Users\cfield\Code\Field R&D Services\Eulogy\trunk\builds\Help\Eulogy.log
+Error log file=..\..\builds\Help\Eulogy.log
 Index file=Index.hhk
 Language=0x409 English (United States)
 Title=Eulogy

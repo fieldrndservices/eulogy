@@ -9,13 +9,27 @@
 </OBJECT>
 <UL>
     <LI> <OBJECT type="text/sitemap">
-        <param name="Name" value="Eulogy">
-        <param name="Local" value="pages\Readme.html">
+        <param name="Name" value="Preface">
+        <param name="Local" value="pages\Preface.html">
         </OBJECT>
     <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Getting Started">
-        <param name="Local" value="pages\Getting_Started.html">
+        <param name="Local" value="pages\Getting_Started\Getting_Started.html">
     </OBJECT>
+    <UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Motivation">
+            <param name="Local" value="pages\Getting_Started\Motivation.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Concepts">
+            <param name="Local" value="pages\Getting_Started\Concepts.html">
+        </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Examples">
+            <param name="Local" value="pages\Getting_Started\Examples.html">
+        </OBJECT>
+    </UL>
     <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Add-on">
         <param name="Local" value="pages\Add-on\Add-on.html">

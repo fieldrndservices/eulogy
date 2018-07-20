@@ -1,7 +1,7 @@
 <!doctype html public "-//w3c//dtd html 4.01 transitional//en">
 <html>
 <head>
-<title>Getting Started with Eulogy</title>
+<title>Eulogy Concepts</title>
 <meta name="author" content="Field R&D Services, LLC">
 <meta name="generator" content="G Development Environment">
 <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
@@ -13,14 +13,9 @@
 </head>
 <body bgcolor="#ffffff">
 
-<a name="getting-started"></a><h1>Getting Started</h1>
+<a name="concepts"></a><h1>Concepts</h1>
 
-<p class="Body">Eulogy is an add-on and toolkit for refactoring legacy code. It takes advantage of two features within the G programming language and the LabVIEW development environment: (i) <a href="http://www.ni.com/white-paper/3684/en/">Diagram Disable Structures</a> and (ii) <a href="https://forums.ni.com/t5/LabVIEW-News/5-Things-You-Need-to-Know-About-LabVIEW-Bookmarks/ba-p/3486903">Bookmarks</a>. Diagram Disable Structures have been available in the G programming language since LabVIEW 8, and are akin to comment blocks in text-based code languages. Bookmarks have been available since LabVIEW 2013. In essence, Eulogy is a framework and/or set of conventions for using these two features to refactor legacy code.</p>
-
-<p class="Body">The Eulogy project is loosely divided into the <a href="\pages\Add-on\Add-on.html">add-on</a> and the <a href="\pages\Toolkit\Toolkit.html">toolkit</a>. The add-on consists of a series of components that extend the functionality of the LabVIEW development environment for working within the Eulogy framework and/or following the Eulogy set of conventions. The toolkit is an <abbr title="Application Programming Interface">API</abbr> for programmatically adding Eulogy actions to a LabVIEW-centric project. For example, the toolkit API can be used to incorporate Eulogy functionality into an automated build system. Both the add-on and toolkit API use the same concepts and follow the same set of conventions.</p>
-
-<a name="concepts"></a><h2>Concepts</h2>
-
+<p class="Body">Eulogy takes advantage of two features within the G programming language and the LabVIEW development environment: (i) <a href="http://www.ni.com/white-paper/3684/en/">Diagram Disable Structures</a> and (ii) <a href="https://forums.ni.com/t5/LabVIEW-News/5-Things-You-Need-to-Know-About-LabVIEW-Bookmarks/ba-p/3486903">Bookmarks</a>. Diagram Disable Structures have been available in the G programming language since LabVIEW 8, and are akin to comment blocks in text-based code languages. Bookmarks have been available since LabVIEW 2013. In essence, Eulogy is a framework and/or set of conventions for using these two features to refactor legacy code.</p>
 <p class="Body">The Eulogy framework is based on the concept of a "grave" and the desire to bury, or remove, dead, legacy code from a codebase. A grave is simply a Diagram Disable Structure with a specific format for its label and two frames with formatted subdiagram labels and names. The Diagram Disable Structure label of a grave includes the <code>#RIP</code> bookmark tag, an <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601 timestamp</a> string of when the grave was created, and a user surrounded by parentheses. Within Eulogy, the label for a Diagram Disable Structure that matches this format is known as a &quot;tombstone&quot;, while the timestamp is known as the Time of Death (ToD) and the user is known as the &quot;grave digger&quot;. Next, a grave contains an initially disabled frame that includes the legacy code to eventually be removed, and an initially enabled framed that includes the refactored code to remain after the legacy code is removed. The legacy code frame is known as the &quot;Corpse&quot; and the refactored code frame is known as the &quot;Spirit&quot;. The names of each frame are used for the subdiagram labels of the Diagram Disable Structure. The following image shows the Corpse and Spirit frames of the same example grave:</p>
 
 <p style="text-align:center"><img src="/images/Getting_Started/Example_Grave.png" alt="Example Grave" border="0"></p>
@@ -46,20 +41,6 @@
     <li><a href="\pages\Add-on\Tools_Menu.html">Tools Menu</a></li>
     <li><a href="\pages\Toolkit\Toolkit.html">Toolkit API</a></li>
 </ul>
-
-<p class="Body">The best way to learn Eulogy and become proficient with refactoring legacy code is with usage, practice, and experience. Thus, Eulogy add-on comes with a variety of examples (<strong>Help>>Find Examples...</strong>) that either demonstrate a specific Eulogy concept, or provide practice refactoring code. The following is the recommended order for working through the examples that are shipped and installed with the Eulogy add-on.</p>
-
-<ol>
-    <li><strong>Dig a Grave - Simple.vi</strong>: Demonstrates how to dig a grave around a selection of objects, or nodes, in a block diagram. A grave is the most basic concept, or building block, for Eulogy and refactoring legacy code.</li>
-    <li><strong>Reanimate - Simple.vi</strong>: Demonstrates reanimating a corpse into a zombie when the legacy code needs to be executed or used as opposed to the refactored code.</li>
-    <li><strong>Smite - Simple.vi</strong>: Demonstrates how to smite a zombie, which enables the refactored code instead of the legacy code.</li>
-    <li><strong>Bury - Simple.vi</strong>: Demonstrates removing a grave from a block diagram.</li>
-    <li><strong>Graveyard - Simple.vi</strong>: Demonstrates using the custom Bookmark Manager (Graveyard) to manage and monitor graves and zombies.</li>
-    <li><strong>Dig a Grave - Complex.vi</strong>: A slightly more complex refactoring task that is good practice for creating and nesting multiple graves in a block diagram.</li>
-    <li><strong>Graveyard - Complex.vi</strong>: An example of a refactoring-in-progress that can be used as practice for using all of the actions and concepts of Eulogy.</li>
-</ol>
-
-<p class="Body">Note, there are also a series of examples for using the Toolkit API and programmatically completing Eulogy-focused actions. These are considered optional and advanced usage. Since the documentation for the Toolkit API for more information about extending and incorporating Eulogy.</p>
 
 </body>
 </html>
