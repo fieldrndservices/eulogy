@@ -15,5 +15,32 @@
 
 <a name="motivation"></a><h1>Motivation</h1>
 
+<p class="Body">Refactoring is the process of changing portions of an existing codebase without changing its behavior. It occurs either implicitly or explicitly during software development. Refactoring occurs implicitly as a single developer iterates on the design of some portion of code until it is subjectively deemed better by the developer. Refactoring occurs explicitly when an individual or team decide to set aside time to review a codebase and look for implementation patterns or inefficiencies that can be replaced to improve readability, performance, scalability, and/or maintainability.</p>
+
+<p class="Body">Refactoring is also useful when inheriting a codebase from another developer, team, client, or your past self. It is a useful way to explore and learn a codebase while also making immediate, meaningful progress. Sometimes new features become available that greatly improve the performance or readability of a codebase. Other times, a developer was grown more knowledgable with experience and knows alternative implementations that improve the design of code.</p>
+
+<p class="Body">However, refactoring is destructive and can be time consuming. The old, legacy code is ultimately removed. With that removal comes a loss in testing, usability, and familiarity. Working legacy code is the most used, is the most tested, and is the most stable code in codebase. Changing or removing this code should not be done lightly or blindly. Version control helps manage these changes on a more project-wide, macro, or global scale, but VI-specific, micro, or local revision control is useful for refactoring LabVIEW projects.</p>
+
+<blockquote cite="https://industriallogic.com/xp/refactoring/">&quot;By continuously improving the design of code, we make it easier and easier to work with. This is in sharp contrast to what typically happens: little refactoring and a great deal of attention paid to expediently adding new features. If you get into the hygienic habit of refactoring continuously, you'll find that it is easier to extend and maintain code.&quot;</blockquote>
+<cite>- Joshua Kerievsky, Refactoring to Patterns</cite>
+
+<a name="inspiration"></a><h2>Inspiration</h2>
+
+<p class="Body">Eulogy is inspired by a talk given by David Schnepper from Box at Ignite Velocity 2014 in Santa Clara. The talk focused on discovering and safely removing unused code from a large, dynamic PHP codebase using &quot;tombstones&quot;, which were just comment lines with a specific format, or convention. The idea was intriguing but did not seem immediately applicable to LabVIEW since there are already built-in tools and features for finding VIs that are not used within a project. The specific concept of adding tombstones to find unused (dead) code was abandoned for LabVIEW. However, there were several takeaways, extrapolations, and thoughts that came from watching the talk:</p>
+
+<ul>
+    <li>Code should never blindly be removed from a codebase. There should be some <em>data</em> to justify removal.</li>
+    <li>Adding timestamps and user names to comments is an excellent convention that enables discoverability and documentation.</li>
+    <li>Automating the creation of conventions is important for adoption.</li>
+</ul>
+
+<p class="Body">Just to be clear, Eulogy is inspired by, and arguably an extension of, the concepts presented in David Schnepper's talk and not a direct implementation, fork, or port.</p>
+
+<a name="genesis"></a><h2>Genesis</h2>
+
+<p class="Body">Eulogy came about by combining the idea of PHP tombstones with the need for a tool to localize refactoring of VIs in a LabVIEW project. While PHP tombstones are used for finding unused code in a project, LabVIEW incorporates the concept to create &quot;graves&quot;, which are Diagram Disable Structures with a tombstone for a label to manage refactoring legacy code within a VI. Graves provide a more local, isolated mechanism for modifying and managing changes in LabVIEW projects. Once the concept of graves was refined, various automations were created to quickly and easily create, remove, and modify graves. Finally, these automations were packaged into Eulogy.</p>
+
+<p class="Body">The name comes from the speech given at a funeral by a loved one or friend of the deceased. The original concept of tombstones was to find and manage dead, or unused, code. Ultimately, the dead code is to be &quot;laid to rest&quot;, i.e. removed from the codebase, as part of a funeral. Creating meaningful, descriptive, and concise names for VIs, variables, libraries, etc. is always challenging. While legacy code is not always dead or unused, the death theme provided a rich set of names, abstractions, and metaphors from which to build the add-on and toolkit.</p> 
+
 </body>
 </html>
