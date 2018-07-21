@@ -40,8 +40,8 @@
             <param name="Local" value="pages\Add-on\Bookmark_Manager.html">
         </OBJECT>
         <LI> <OBJECT type="text/sitemap">
-            <param name="Name" value="Quick-Drop Plugins">
-            <param name="Local" value="pages\Add-on\Quick_Drop_Plugins.html">
+            <param name="Name" value="Quick Drop Keyboard Shortcuts">
+            <param name="Local" value="pages\Add-on\Quick_Drop_Keyboard_Shortcuts.html">
         </OBJECT>
         <LI> <OBJECT type="text/sitemap">
             <param name="Name" value="Shortcut Menu Plugin">
