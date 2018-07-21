@@ -12,6 +12,7 @@
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Build Help.vi" Type="VI" URL="../Support/Build Help.vi"/>
+		<Item Name="Build Specifications.vi" Type="VI" URL="../Support/Build Specifications.vi"/>
 		<Item Name="Build Target.vi" Type="VI" URL="../Support/Build Target.vi"/>
 		<Item Name="Builds Directory.vi" Type="VI" URL="../Support/Builds Directory.vi"/>
 		<Item Name="Clean.vi" Type="VI" URL="../Clean.vi"/>
@@ -33,6 +34,7 @@
 		<Item Name="Target Directory.vi" Type="VI" URL="../Support/Target Directory.vi"/>
 		<Item Name="Tests Directory.vi" Type="VI" URL="../Support/Tests Directory.vi"/>
 		<Item Name="Update Build Version.vi" Type="VI" URL="../Support/Update Build Version.vi"/>
+		<Item Name="Write Version Number from Package.vi" Type="VI" URL="../Support/Write Version Number from Package.vi"/>
 	</Item>
 	<Item Name="Build.vi" Type="VI" URL="../Build.vi"/>
 	<Item Name="Package.vi" Type="VI" URL="../Package.vi"/>
