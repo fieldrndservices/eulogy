@@ -1,24 +1,27 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>Eulogy Quick-Drop Plugins</title>
+<title>Quick Drop Keyboard Shortcuts</title>
 <meta name="author" content="Field R&D Services, LLC">
 <meta name="generator" content="G Development Environment">
 <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
 <meta http-equiv="Content-Style-Type" content="text/css">
 <link rel="stylesheet" type="text/css" href="/styles/minimal.css">
-<script src="/styles/jquery-1.7.2.min.js" type="text/javascript"></script>
-<script src="/styles/cssframes.js" type="text/javascript"></script>
+<script src="/scripts/polyviselect.js" type="text/javascript"></script>
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
 <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
 </head>
 <body bgcolor="#ffffff">
 
-<h1>Quick Drop Keyboard Shortcuts</h1><a name="quick-drop-keyboard-shortcuts"></a>
+<div id="styleDivTitle">
+
+<h1>Quick Drop Keyboard Shortcuts</h1>
 
 <p><strong>Owning Palette:</strong> <a href="/pages/Add-on/Add-on.html">Eulogy Add-on</a></p>
 <p><strong>Requires:</strong> Eulogy, Base Development Environment</p>
 
-<p>Eulogy comes with a series of the <a href="https://forums.ni.com/t5/Quick-Drop-Enthusiasts/gp-p/grp-1251">Quick-Drop (QD) Keyboard Shortcuts</a> to easily dig, bury, reanimate, and smite graves and zombies, respectively.</p>
+<p>Eulogy comes with a series of the <a href="https://forums.ni.com/t5/Quick-Drop-Enthusiasts/gp-p/grp-1251">Quick Drop Keyboard Shortcuts (QDKS)</a> to easily dig, bury, reanimate, and smite graves and zombies, respectively.</p>
 
 <ul>
     <li><strong>Bury</strong> - Buries the corpse at the grave. This enables the Spirit frame (refactored code) of the grave and removes the grave. The Corpse frame (legacy code) is removed in the process. Default Shortcut - [F].</li>
@@ -27,15 +30,79 @@
     <li><strong>Smite</strong> - Strikes a might blow to the head of the zombie at the grave. The Spirit frame (refactored code) is enabled and the Corpse frame (legacy code) is disabled. The zombie bookmark for the Corpse frame is not modified. Default Shortcut - [S]</li>
 </ul>
 
-<h2>Bury</h2><a name="bury"></a>
+<p>Use the pull-down menu to select a <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr>.</p>
 
-<p>This QD shortcut uses the <a href="/pages/Toolkit/Bury.html">Bury VI</a> from the toolkit <abbr title="Application Programming Interface">API</abbr> to enable the Spirit frame (refactored code) and remove the grave along with the legacy code. All graves that are selected can be buried with a single execution of this QD shortcut.</p>
+<table class="Borderless">
+<tr>
+<td>
+    <select name="site" size="1" onchange="polyVISelectHandler(this)">
+        <option value="">Select a QDKS</option>
+        <option value="#bury">Bury</option>
+        <option value="#dig">Dig</option>
+        <option value="#reanimate">Reanimate</option>
+        <option value="#smite">Smite</option>
+    </select>
+</td>
+</tr>
+</table>
 
-<p>To execute the QD shortcut:</p>
+</div>
+
+<div id="styleDivScrolling">
+
+<h2><a name="bury">Bury</a></h2>
+
+<p>This <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr> uses the <a href="/pages/Toolkit/Bury.html">Bury VI</a> from the toolkit <abbr title="Application Programming Interface">API</abbr> to enable the Spirit frame (refactored code) and remove the grave along with the legacy code. Multiple graves can be selected and buried with a single execution of this <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr>, and non-grave nodes in a selection will be ignored.</p>
+
+<p>To execute the <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr>:</p>
 
 <ol>
     <li>Open the block diagram of a VI that contains a grave.</li>
-    <li>Select the grave to be removed.</li>
+    <li>Select one or more graves to be removed.</li>
+    <li>Open the <abbr title="Quick Drop">QD</abbr> dialog, <strong>Ctrl+Space</strong>.</li>
+    <li>Enter <strong>Ctrl+F</strong>.</li>
+</ol>
+
+<h2><a name="dig">Dig</a></h2>
+
+<p>This <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr> uses the <a href="/pages/Toolkit/Dig.html">Dig VI</a> from the toolkit <abbr title="Application Programming Interface">API</abbr> to wrap a selection of nodes on the block diagram of a VI in a grave. Controls and indicators are excluded from the grave, even if selected.</p>
+
+<p>To execute the <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr>:</p>
+
+<ol>
+    <li>Open the block diagram of a VI.</li>
+    <li>Select one or more nodes/elements in the block diagram.</li>
+    <li>Open the <abbr title="Quick Drop">QD</abbr> dialog, <strong>Ctrl+Space</strong>.</li>
+    <li>Enter <strong>Ctrl+G</strong>.</li>
+</ol>
+
+<h2><a name="reanimate">Reanimate</a></h2>
+
+<p>This <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr> uses the <a href="/pages/Toolkit/Reanimate.html">Reanimate VI</a> from the toolkit <abbr title="Application Programming Interface">API</abbr> to enable the Corpse frame (legacy code) and disable the Spirit frame (refactored code). A zombie bookmark is created for for each Corpse frame that is enabled. Corpses at multiple graves can be selected and reanimated with a single execution of this <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr>, and non-grave nodes, including Diagram Disable Structures that are <em>not</em> graves, are ignored.</p>
+
+<p>To execute the <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr>:</p>
+
+<ol>
+    <li>Open the block diagram of a VI.</li>
+    <li>Select one or more graves to be reanimated.</li>
+    <li>Open the <abbr title="Quick Drop">QD</abbr> dialog, <strong>Ctrl+Space</strong>.</li>
+    <li>Enter <strong>Ctrl+Z</strong>.</li>
+</ol>
+
+<h2><a name="smite">Smite</a></h2>
+
+<p>This <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr> uses the <a href="/pages/Toolkit/Smite.html">Smite VI</a> from the toolkit <abbr title="Application Programming Interface">API</abbr> to enable the Spirit frame (refactored code) and disable the Corpse frame (legacy code) containing a zombie. The zombie bookmark is not modified. Zombies at multiple graves can be selected and smited with a single execution of this <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr>. Non-grave nodes are ignored and graves that do <em>not</em> contain a zombie are unaffected.</p>
+
+<p>To execute the <abbr title="Quick Drop Keyboard Shortcut">QDKS</abbr>:</p>
+
+<ol>
+    <li>Open the block diagram of a VI.</li>
+    <li>Select one or more graves to with zombies to smite.</li>
+    <li>Open the <abbr title="Quick Drop">QD</abbr> dialog, <strong>Ctrl+Space</strong>.</li>
+    <li>Enter <strong>Ctrl+S</strong>.</li>
+</ol>
+
+</div>
 
 </body>
 </html>
