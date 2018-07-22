@@ -58,6 +58,16 @@
         <param name="Local" value="pages\Getting_Started\Concepts.html#example-grave">
         </OBJECT>
     <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Graveyard">
+        <param name="Local" value="pages\Add-on\Bookmark_Manager.html">
+        </OBJECT>
+    <UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Tools Menu">
+            <param name="Local" value="pages\Add-on\Tools_Menu.html">
+            </OBJECT>
+    </UL>
+    <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Is Grave">
         <param name="Local" value="pages\Toolkit\Is_Grave.html">
         </OBJECT>
