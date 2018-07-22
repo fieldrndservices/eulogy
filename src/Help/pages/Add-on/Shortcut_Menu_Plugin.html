@@ -7,18 +7,106 @@
 <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
 <meta http-equiv="Content-Style-Type" content="text/css">
 <link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/polyviselect.js" type="text/javascript"></script>
 <script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
 <script src="/scripts/cssframes.js" type="text/javascript"></script>
 <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
 </head>
 <body bgcolor="#ffffff">
 
+<div id="styleDivTitle">
+
 <h1>Shortcut Menu Plugin</h1>
 
 <p><strong>Owning Palette:</strong> <a href="/pages/Add-on/Add-on.html">Eulogy Add-on</a></p>
 <p><strong>Requires:</strong> Eulogy, Base Development Environment</p>
 
-<p>Eulogy comes with a Shortcut Menu plugin with menu items for working with graves.</p> 
+<p>Eulogy comes with a <a href="http://zone.ni.com/reference/en-XX/help/371361M-01/lvhowto/shortcutmenuplugins_intro/" target="_blank">Shortcut Menu Plugin (SMP)</a> with menu items that correspond to various actions for working with graves.</p> 
+
+<ul>
+    <li><strong>Dig a Grave</strong> - Digs a grave around the currently selected nodes in the block diagram of a <abbr title="Virtual Instrument">VI</abbr>. The selected nodes are placed in the Corpse frame (legacy code) and a copy of the selected nodes are placed in the Spirit frame (refactored code). Controls and Indicators are automatically excluded from the grave. This appears in the run-time shortcut menu when nodes are selected in a block diagram.</li>
+    <li><strong>Grave</strong> - Sub-menu that contains menu items for working with graves. This sub-menu only appears when a grave is selected.
+        <ul>
+            <li><strong>Reanimate</strong> - Reanimates a corpse at a grave. The Spirit frame (refactored code) is disabled, the Corpse frame (legacy code) is enabled for the grave, and a zombie bookmark is created for the Corpse frame's subdiagram label. This appears in the <strong>Grave</strong> sub-menu when a grave is selected.</li>
+            <li><strong>Smite</strong> - Strikes a mighty blow to the head of the zombie at the grave. The Spirit frame (refactored code) is enabled and the Corpse frame (legacy code) is disabled. The zombie bookmark for the Corpse frame is not modified. This appears in the <strong>Grave</strong> sub-menu when a grave is selected.</li>
+            <li><strong>Bury</strong> - Buries the corpse at the grave. This enables the Spirit frame (refactored code) of the grave and removes the grave. The Corpse frame (legacy code) is removed in the process. This appears in the <strong>Grave</strong> sub-menu when a grave is selected.</li>
+        </ul>
+    </li>
+</ul>
+
+<p>Use the pull-down menu to select a <abbr title="Shortcut Menu Plugin">SMP</abbr> action.</p>
+
+<table class="Borderless">
+<tr>
+<td>
+    <select name="site" size="1" onchange="polyVISelectHandler(this)">
+        <option value="">Select a SMP action</option>
+        <option value="#dig-a-grave">Dig a Grave</option>
+        <option value="#grave-reanimate">Grave&gt;&gt;Reanimate</option>
+        <option value="#grave-smite">Grave&gt;&gt;Smite</option>
+        <option value="#grave-bury">Grave&gt;&gt;Bury</option>
+    </select>
+</td>
+</tr>
+</table>
+
+</div>
+
+<div id="styleDivScrolling">
+
+<h2><a name="dig-a-grave">Dig a Grave</a></h2>
+
+<p>This <abbr title="Shortcut Menu Plugin">SMP</abbr> action uses the <a href="/pages/Toolkit/Dig.html">Dig <abbr title="Virtual Instrument">VI</abbr></a> from the toolkit <abbr title="Application Programming Interface">API</abbr> to wrap a selection of nodes on the block diagram of a <abbr title="Virtual Instrument">VI</abbr> in a grave. Controls and indicators are excluded from the grave, even if selected. This menu item only appears for run-time shortcut menus on the block diagram, <em>not</em> the front panel.</p>
+
+<p>To execute this <abbr title="Shortcut Menu Plugin">SMP</abbr> action:</p>
+
+<ol>
+    <li>Open the block diagram of a <abbr title="Virtual Instrument">VI</abbr>.</li>
+    <li>Select one or more nodes/elements in the block diagram.</li>
+    <li><strong>Right-click</strong> on any one of the selected nodes from the previous step.</li>
+    <li>Select <strong>Dig a Grave</strong> from the menu that appears.</li>
+</ol>
+
+<h2><a name="grave-reanimate">Grave&gt;&gt;Reanimate</a></h2>
+
+<p>This <abbr title="Shortcut Menu Plugin">SMP</abbr> action uses the <a href="/pages/Toolkit/Reanimate.html">Reanimate <abbr title="Virtual Instrument">VI</abbr></a> from the toolkit <abbr title="Application Programming Interface">API</abbr> to enable the Corpse frame (legacy code) and disable the Spirit frame (refactored code). A zombie bookmark is created for for each Corpse frame that is enabled. Corpses at multiple graves can be selected and reanimated with a single execution of this <abbr title="Shortcut Menu Plugin">SMP</abbr> action, and non-grave nodes, including Diagram Disable Structures that are <em>not</em> graves, are ignored.</p>
+
+<p>To execute this <abbr title="Shortcut Menu Plugin">SMP</abbr> action:</p>
+
+<ol>
+    <li>Open the block diagram of a <abbr title="Virtual Instrument">VI</abbr>.</li>
+    <li>Select one or more graves in the block diagram of the <abbr title="Virtual Instrument">VI</abbr>.</li>
+    <li><strong>Right-click</strong> on any one of the selected graves from the previous step.</li>
+    <li>Select <strong>Grave&gt;&gt;Reanimate</strong> from the menu that appears.</li>
+</ol>
+
+<h2><a name="grave-smite">Grave&gt;&gt;Smite</a></h2>
+
+<p>This <abbr title="Shortcut Menu Plugin">SMP</abbr> action uses the <a href="/pages/Toolkit/Smite.html">Smite <abbr title="Virtual Instrument">VI</abbr></a> from the toolkit <abbr title="Application Programming Interface">API</abbr> to enable the Spirit frame (refactored code) and disable the Corpse frame (legacy code) containing a zombie. The zombie bookmark is not modified. Zombies at multiple graves can be selected and smited with a single execution of this <abbr title="Shortcut Menu Plugin">SMP</abbr> action. Non-grave nodes are ignored and graves that do <em>not</em> contain a zombie are unaffected.</p>
+
+<p>To execute this <abbr title="Shortcut Menu Plugin">SMP</abbr> action:</p>
+
+<ol>
+    <li>Open the block diagram of a <abbr title="Virtual Instrument">VI</abbr>.</li>
+    <li>Select one or more graves in the block diagram of the <abbr title="Virtual Instrument">VI</abbr>.</li>
+    <li><strong>Right-click</strong> on any one of the selected graves from the previous step.</li>
+    <li>Select <strong>Grave&gt;&gt;Smite</strong> from the menu that appears.</li>
+</ol>
+
+<h2><a name="grave-bury">Grave&gt;&gt;Bury</a></h2>
+
+<p>This <abbr title="Shortcut Menu Plugin">SMP</abbr> action uses the <a href="/pages/Toolkit/Bury.html">Bury <abbr title="Virtual Instrument">VI</abbr></a> from the toolkit <abbr title="Application Programming Interface">API</abbr> to enable the Spirit frame (refactored code) and remove the grave along with the legacy code. Multiple graves can be selected and buried with a single execution of this <abbr title="Shortcut Menu Plugin">SMP</abbr> action, and non-grave nodes in a selection will be ignored.</p>
+
+<p>To execute this <abbr title="Shortcut Menu Plugin">SMP</abbr> action:</p>
+
+<ol>
+    <li>Open the block diagram of a <abbr title="Virtual Instrument">VI</abbr>.</li>
+    <li>Select one or more graves in the block diagram of the <abbr title="Virtual Instrument">VI</abbr>.</li>
+    <li><strong>Right-click</strong> on any one of the selected graves from the previous step.</li>
+    <li>Select <strong>Grave&gt;&gt;Bury</strong> from the menu that appears.</li>
+</ol>
+
+</div>
 
 </body>
 </html>
