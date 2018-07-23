@@ -1,5 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
+	<Property Name="NI.Lib.Description" Type="Str">The implementation for the custom Bookmark Manager, a.k.a. The Graveyard. Note, the source distribution build specification renames the Main.vi to Bmark_MainWindow.vi, which is required for the bookmark manager to function properly. This library is slightly different from the other libraries because it is essentially an implementation of an application as opposed to a library or group of scripts.
+
+The `Controls` virtual folder is for all controls and typedefs used by the Main.vi and support VIs. The `Support` virtual folder contains all private sub-VIs used by Main.vi.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*#!!!*Q(C=\:3^&lt;2N"%)7@$!&gt;/W9("&amp;FY"4NA#9W54/&amp;$+5!L:QO3/;-!.M!,$UQ*&lt;9!55[/`W2H_!@Q#$"B2I^_&lt;)?T-\]^XOXEKD@:$?[XS22D:OZ^FGZ;6`OD3O8`PH]2K"=_3,C09_R-R2P[EP096@ZN8_U.\]&lt;`\8\@`\^L[\T)@S\UW[5H_]B357G/?0O&gt;!,P&gt;!,P&gt;!,0&gt;%40&gt;%40&gt;%40&gt;!$0&gt;!$0&gt;!$X?B'.\L2D?Y_;91O&gt;+(,UQ'EIHB2K%B;*#C#16&amp;R+XA+HI+HY/&amp;2"5`"5`!50!50)3JY#J[#J_!J?"CGAK@A+8A+HI+(6)/E2E?(J_!BP2+?B#@B38A3(EIKY5E!EG**YC1*'%K=S:_%*_&amp;*?0CLB#@B38A3HI1(NR+?B#@B38A3(I;-7=F"-X6U?%CDA#@A#8A#HI#(V!JY!J[!*_!*?#CHA#@A#3##AE&amp;S%"1-#A+#BY!HY/&amp;(!5`!%`!%0!%0LL&amp;#-7:GIJE[/DS'R`!9(M.D?%ABQW.Y$)`B-4SEF?%R0)&lt;(]"A?3MHQ'"\$9U"-5=L,*$-$4:!2$!`8W#U?KZ3$R+0XJTFP605'6']M^9:2&lt;Q4V!KM84LUA[IF74["[9N1PL(Y2.;#[M$KB/F"(\A&gt;MD_WQ,&lt;&lt;"VNA+7W+,;?C&amp;!Y`(IQ[(A`&lt;\P8;\H&lt;&lt;&lt;L4;&lt;D&gt;&lt;LN6;LF:&lt;,J2;,R?.J^:%_N[PHZ^,JZHR\`_6]?`L]`@L_W^&gt;0JZM@VQ__/W,`B]XHUGMY'`6/ZW@(0(0U%_P4U&amp;E!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>

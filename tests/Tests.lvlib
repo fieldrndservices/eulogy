@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
+	<Property Name="NI.Lib.Description" Type="Str">Integration tests for all public APIs of the toolkit. This is not included in the package distribution.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Q!!!*Q(C=\&gt;;RD&gt;N!%)8B&gt;Y9$J[L!BO!/8ANK13V-ZO!CJ2?KB7F"I1&amp;($.T!N+!7Z",IH]O"!"O#"2MS=-'27JXU&gt;DH\C6Q3*YXNA`2?]Y-W[NU:=/04\`V;[P4L2L`'XK^&lt;`8XA8=P@&lt;0LD^N&lt;`VP_[__]P\Z@(X3T`NEF0[NO`;%E,GN&gt;&lt;OMC,P-C,P-C,0-G40-G40-G40-C$0-C$0-C$X/1G.\H*47[NTR32CVTE]P)954&amp;Z-6&amp;2N#B1$);CYKXQ&amp;*\#5XDYKM*4?!J0Y3E]$&amp;(B+4S&amp;J`!5(AZ4Y3E]B;@Q&amp;"Z+$5G.H2R0Y;']%E`C34S**`%QJ2*0!EAG3QIH27!I[5Q_**\%EXDYK-34?"*0YEE]&gt;#PR**\%EXA3$Y?-MZ*$M_TE?#CDQ".Y!E`A#4S56O!*0)%H]!1?JF0A#4Q")JAQ+!Z"Q5("A/",Y!E]`&amp;(A#4S"*`!%(LL'&amp;9JR:B&lt;.MJ0D-2\D-2\D-2Z+S(C-RXC-RXAI+_-R(O-R(O.B+BG0]2C0A:B*G6[GG$H1$$+"]@!;K]8D+O71?/R^;[Y,6&lt;U!V1N,P7$5#U&amp;^A&gt;584HV"V#&gt;;@1,6*U&lt;^A^5`2!V54[QOK"[I#_^HWE1\U9[U!WV0W^'WN-VS[)-(8CY8H=^H4&gt;/EU_GEY`'IQ_'A`8[PX7[H\8;LT7:T@6J^9F_XJV_?3R^JXX`-]`2ZHL^^G??PT^?O&amp;]&lt;_D\9_FV\$MV(P_H_;[TH[#9T$YX!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>

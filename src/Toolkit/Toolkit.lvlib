@@ -1,6 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
+	<Property Name="NI.Lib.Description" Type="Str">Provides a public Application Programming Interface (API) for programmatically executing Eulogy-specific tasks. These VIs are ideal for incorporating Eulogy tasks in automated build processes.
+
+The `Support` virtual folder contains the private sub-VIs used internally by the public API VIs. The `API` virtual folder contains the public VIs that make up the API. This virtual folder was added to make file management and renaming in build specifications easier. The `Typedefs` virtual folder contains all of the strict typedefs used in the public and private VIs.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">b0d896fa-0417-44c5-9b84-3bd1f4bf9ed6</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!*Q(C=\&gt;3^&lt;2N"%-8R*U/"5Y&lt;+$,&lt;Q7G!,D"VZ7G"E7#&amp;&lt;G"&lt;9!A-V-+F#NM!+2.$`WRM)J!X:#C2!A?[YP/0&lt;W^E@\UM;SV@J6O=X7;AW&lt;V`K`W0\^`CJ&lt;[RD&gt;^[`(K_L^&lt;L5R;D??X'KLP@K0[Z`,J`^H`U@O```N`@^;R_&amp;^VKE']V0_,FI31O;ZS?ZS)O]S)O]S)M]S:-]S:-]S:-]S)-]S)-]S)0=Z#9XO=F.\H\4C&amp;TE)J@(7[39P*CI+&amp;I5+!['IO+L]"3?QF.Y_+H#5XA+4_%J0"SCQF.Y#E`B+4Q-5_%J0)7H]"1?3AV*D:5=4_'BP"*0YEE]C3@R-+534Q*)*EM+*U6A+/F-&gt;B*0YEE]\#LR**\%EXA3$^V+0)EH]33?R-/1=6:S;+;6(!^F&amp;(A#4_!*0)'(UAI]A3@Q"*\!QX1+0)%H1!14"M5B+"A5("$]#$S"BYU#4_!*0)%H].!VLF#--T.JJJ5=D`%9D`%9D`&amp;11M:D0-:D0-:$72G0]2C0]2A05]FYD-&gt;Y$-2-SP1SR=R!=Z!*D)@0O&amp;M]LF)/C=@;D_:]I[JP107.J&lt;ZBV$?#_A+L,ZT[AKB0N0I%KE_-_A_L`YA;K*Z986"^I)Z](WB\WI[WJ7VI;^K+NK1NJK&amp;P@/$R?.4B=."_P^&gt;ON^.WO^6GM^&amp;[P&gt;:KN&gt;*SO&gt;2CM8B_7XVDH:?&lt;S`@3U]`T_82C_XDX`@3Y@HD[=@&gt;!]GPKO_@9^WDT?_EDP"PV2??,VTTH[$&gt;.=^0N!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>

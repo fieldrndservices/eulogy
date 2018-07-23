@@ -263,7 +263,9 @@
 
 Thus, building the package is a two step process: (1) build the source distribution then (2) build the package. This is done because not all of the source is included in the package and the deployment organization and naming does not match the development organization and naming. 
 
-The VIs are renamed with the `Eulogy_BMark_` prefix to avoid naming conflictings in deployment environments. This also allows the package to be installed in the development environment but avoid conflicts with the Eulogy project's source code during development and debugging.</Property>
+The VIs are renamed with the `Eulogy_BMark_` prefix to avoid naming conflictings in deployment environments. This also allows the package to be installed in the development environment but avoid conflicts with the Eulogy project's source code during development and debugging.
+
+The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for the Bookmark Manager feature of the LabVIEW development environment to properly recognize and load the custom bookmark manager.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Bookmark Manager</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>

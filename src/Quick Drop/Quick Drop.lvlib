@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
+	<Property Name="NI.Lib.Description" Type="Str">Contains a VI for each Toolkit API VI to enable as a Quick Drop Keyboard Shortcut (QDKS). QDKS have a specific connector pane and description format that must be followed in order to load and execute properly. Each VI in this library follows the requirements for a QDKS.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)D!!!*Q(C=\&gt;3R&lt;3*"&amp;-&lt;RTS=(F^,"C2;_&amp;GC"&amp;FY,J!\*C&amp;],./#!&amp;FY,N%"WFHT*XH^HHSR@=&amp;B#7(,A84]-X]T/`.A&gt;2BL(4_F2UTU0;;\`DDGX,C_XNGO[VDY[8*H`JE.8D_`W\`;PX@\R]H[[[_`FBE.['&amp;+KK+3#]PBW5Z%8?:%8?:%8?:)H?:)H?:)H?:!(?:!(?:!(O=F.&lt;H+4G^T3MGG1CVTE]NB%CMG,C9J"CQ'+TF"5P"3?QF.Y#A]@68A+4_%J0)7(,CI]B;@Q&amp;*\#QW5K0)7H]"3?QM.11V,D*-&gt;4?"B?C3@R**\%EXC95IEH!334*1-HA]"1UJC]34S**`(Q6IEH]33?R*.Y;&amp;&lt;C34S**`%E(CY:&gt;S7(:D\*]4#-!E`A#4S"*`!QN!*0Y!E]A3@Q-*U#4_!*%-'%Q?!1&amp;&amp;Q5&gt;!A_"*\!QT]&amp;HM!4?!*0Y+&amp;J0+%9&gt;W&lt;7T#=Z(O-R(O-R(O.B#"G0]2C0]2A0Q]JYD-&gt;YD-&gt;YG%L'9TT'9S"G5K;8'=R=;$K:Q(DY'[P&amp;YSHFE(C=`&gt;.=&amp;KJ[!;I8FHL"K"?#_A'L(ZT[A;BPN0I'KG_-_AOLPYA;K*Z90;#[IS[]HKE4&gt;;4WV)\;5BNK4;XG3_`=]8+Z[(Q_[X1[[8A];L`@;\@&lt;;&lt;P&gt;;L0:;,V?;\6;P?V7PTC8Y_'@@?HV-%UPTUP^JPY=XJK?[0M:N?R,8W&amp;PV!^.\\:Z\N&amp;@HR`KEA!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
