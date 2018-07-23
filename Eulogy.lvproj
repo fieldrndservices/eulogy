@@ -259,6 +259,11 @@
 			<Item Name="Bookmark Manager" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{949A93AF-7DC0-4134-B7B8-C75622F8ED92}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Creates a source distribution for the custom Bookmark Manager, a.k.a. Graveyard. The output is placed in the `builds` folder relative to the project file's location. The source distribution should be built BEFORE opening the VIP Build (Eulogy.vipb) file because the VIPB is configured to use the `builds` folder for the package source. If this source distribution is not present when the VIPB is opened in the VIPM, then the VPIB will be broken. 
+
+Thus, building the package is a two step process: (1) build the source distribution then (2) build the package. This is done because not all of the source is included in the package and the deployment organization and naming does not match the development organization and naming. 
+
+The VIs are renamed with the `Eulogy_BMark_` prefix to avoid naming conflictings in deployment environments. This also allows the package to be installed in the development environment but avoid conflicts with the Eulogy project's source code during development and debugging.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Bookmark Manager</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
@@ -288,7 +293,7 @@
 				<Property Name="Destination[2].path" Type="Path">../builds/Bookmark Manager/controls</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6B746686-88E0-4B57-9194-11FBC5E61B0F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A61284AE-3801-496C-A24C-73F1312A81D0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
@@ -383,6 +388,9 @@
 			<Item Name="Examples" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3D033D85-722A-46FF-BA6E-3017BA62939C}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Creates a source distribution for the examples. The output is placed in the `builds` folder relative to the project file's location. The source distribution should be built BEFORE opening the VIP Build (Eulogy.vipb) file because the VIPB is configured to use the `builds` folder for the package source. If this source distribution is not present when the VIPB is opened in the VIPM, then the VPIB will be broken. 
+
+Thus, building the package is a two step process: (1) build the source distribution then (2) build the package. This is done because not all of the source is included in the package and the deployment organization and naming does not match the development organization and naming.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Examples</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
@@ -409,7 +417,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Examples/support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{59A47B1D-31EE-411C-AFA8-F4C5DDE8AFD5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A61284AE-3801-496C-A24C-73F1312A81D0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Dig a Grave - Simple.vi</Property>
@@ -503,6 +511,11 @@
 			<Item Name="Quick Drop" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E64568E9-110E-4FBF-9D5D-F65D9FB9345D}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Creates a source distribution for the Quick Drop Keyboard Shortcuts. The output is placed in the `builds` folder relative to the project file's location. The source distribution should be built BEFORE opening the VIP Build (Eulogy.vipb) file because the VIPB is configured to use the `builds` folder for the package source. If this source distribution is not present when the VIPB is opened in the VIPM, then the VPIB will be broken. T
+
+hus, building the package is a two step process: (1) build the source distribution then (2) build the package. This is done because not all of the source is included in the package and the deployment organization and naming does not match the development organization and naming. 
+
+The VIs are renamed with the `Eulogy_QD_` prefix to avoid naming conflictings in deployment environments. This also allows the package to be installed in the development environment but avoid conflicts with the Eulogy project's source code during development and debugging.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Quick Drop</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
@@ -529,7 +542,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Quick Drop/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08CF3781-EAD3-4AA5-9E66-15BB9551FAAD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A61284AE-3801-496C-A24C-73F1312A81D0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib/Dig.vi</Property>
@@ -631,7 +644,11 @@
 			<Item Name="Shortcut Menu" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B18AFA13-07B3-4115-997A-AF08D97096C6}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Builds a LLB for each shortcut menu item.</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Creates a LLB distribution for the Shortcut Menu Plugin. The output is placed in the `builds` folder relative to the project file's location. The source distribution should be built BEFORE opening the VIP Build (Eulogy.vipb) file because the VIPB is configured to use the `builds` folder for the package source. If this source distribution is not present when the VIPB is opened in the VIPM, then the VPIB will be broken. 
+
+Thus, building the package is a two step process: (1) build the source distribution then (2) build the package. This is done because not all of the source is included in the package and the deployment organization and naming does not match the development organization and naming. The VIs are renamed with the `Eulogy_ShortcutMenu_` prefix to avoid naming conflictings in deployment environments.
+
+ This also allows the package to be installed in the development environment but avoid conflicts with the Eulogy project's source code during development and debugging.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Shortcut Menu</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
@@ -660,7 +677,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08CF3781-EAD3-4AA5-9E66-15BB9551FAAD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A61284AE-3801-496C-A24C-73F1312A81D0}</Property>
 				<Property Name="Source[0].newName" Type="Str">Eulogy_ShortcutMenu_Dep_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -758,6 +775,9 @@
 			<Item Name="Toolkit" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B5F7B351-5A80-4CDF-853B-9CC7A4CB4AAE}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Creates a source distribution for the Toolkit API. The output is placed in the `builds` folder relative to the project file's location. The source distribution should be built BEFORE opening the VIP Build (Eulogy.vipb) file because the VIPB is configured to use the `builds` folder for the package source. If this source distribution is not present when the VIPB is opened in the VIPM, then the VPIB will be broken. 
+
+Thus, building the package is a two step process: (1) build the source distribution then (2) build the package. This is done because not all of the source is included in the package and the deployment organization and naming does not match the development organization and naming.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Toolkit</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
@@ -785,7 +805,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Toolkit/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08CF3781-EAD3-4AA5-9E66-15BB9551FAAD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A61284AE-3801-496C-A24C-73F1312A81D0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -845,6 +865,11 @@
 			<Item Name="Tools Menu" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{BE6AE547-F938-4225-B3C6-F6351199A990}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Creates a source distribution for the Tools Menu. The output is placed in the `builds` folder relative to the project file's location. The source distribution should be built BEFORE opening the VIP Build (Eulogy.vipb) file because the VIPB is configured to use the `builds` folder for the package source. If this source distribution is not present when the VIPB is opened in the VIPM, then the VPIB will be broken. 
+
+Thus, building the package is a two step process: (1) build the source distribution then (2) build the package. This is done because not all of the source is included in the package and the deployment organization and naming does not match the development organization and naming. The VIs are renamed with the `Eulogy_ToolsMenu_` prefix to avoid naming conflictings in deployment environments.
+
+ This also allows the package to be installed in the development environment but avoid conflicts with the Eulogy project's source code during development and debugging.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Tools Menu</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
@@ -871,7 +896,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Tools Menu/support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08CF3781-EAD3-4AA5-9E66-15BB9551FAAD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A61284AE-3801-496C-A24C-73F1312A81D0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tools Menu.lvlib/Graveyard.vi</Property>
