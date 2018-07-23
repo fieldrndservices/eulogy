@@ -6,19 +6,22 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
-- Examples for digging a grave, reanimating, smiting, and using the Graveyard
+- Examples for digging a grave, reanimating, smiting, burying, and using the Graveyard
 - Automated build process
 - Help documentation
 - Descriptions to all controls and indicators for all public VIs
-- Quick Drop VIs
-- Shortcut menus
+- Quick Drop Keyboard Shortcuts
+- Shortcut Menu Plugin
 - Custom Bookmark Manager (Graveyard)
-- Project structure and on-disk organization
+- Initial project structure and on-disk organization
 - Apache-2.0 and MIT license documentation
-- Build specifications for Bookmark Manager, Quick Drop Plugins, Toolkit VIs, and Shortcut Menus
-- Meaningful VI icons to public Toolkit VIs
-- Color coding bookmarks in Graveyard
+- Build specifications for Bookmark Manager, Examples, Quick Drop Keyboard Shortcuts, Shortcut Menu Plugin, Toolkit API, Tools Menu
+- Meaningful VI icons to public Toolkit API VIs
+- Color coded bookmarks to Graveyard
 - Filtering bookmarks by graves or zombies
 - Reanimating corpse frames in graves (Diagram Disable Structures)
 - Smiting zombie frames in graves (Diagram Disable Structures)
+- Burying corpses, i.e. removing graves
+- Double-click object highlighting from within the custom Bookmark Manager
+- Run-time shortcut menus to the tree view of the custom Bookmark Manager
 

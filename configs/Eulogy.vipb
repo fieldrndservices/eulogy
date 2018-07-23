@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-17 13:49:28" Creator="cfield" Comments="" ID="671a176c208f3efaba7d7dbf4a4dbfdd">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-23 17:32:51" Creator="cfield" Comments="" ID="f21122115aaefe6c9b7e83c6ed930733">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
     <Library_Version>1.0.0.24</Library_Version>
@@ -28,11 +28,36 @@
     <VI_Package_Configuration_File>Eulogy.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>A dead simple LabVIEW add-on and toolkit for refactoring legacy code</One_Line_Description_Summary>
-      <Description>A LabVIEW add-on and toolkit for refactoring legacy code. Provides quick drop plugins, a shortcut menu plugin, a tools menu, a custom Bookmark Manager, examples, and a VI library to create Diagram Disable Structures with bookmarked labels and subdiagram labels known as "graves". Each grave is an isolated environment to iteratively change old, legacy code with new, refactored code while being able to immediately change back to the legacy code. The custom Bookmark Manager, known as the "Graveyard", can be used to manage graves and monitor refactoring progress. This add-on and toolkit works with 32-bit and 64-bit environments as well as with Real-Time targets.</Description>
+      <Description>You just inherited a large project that has been under continuous development for years, and now you are tasked with improving performance and adding functionality while maintaining compatibility. The Eulogy LabVIEW add-on and toolkit makes navigating, learning, debugging, and refactoring a large project fun and easy. Use the Quick Drop Keyboard Shortcuts, the Shortcut Menu Plugin, and the custom Bookmark Manager to make grave digging, necromancy, and fighting zombie hordes a part of your workflow with large, inherited codebases.
+
+Eulogy introduces the concept of "graves" for tagging, modifying, and removing legacy code. Each grave is a Diagram Disable Structure with a tombstone (bookmark), a disabled Corpse frame (legacy code), and an enabled Spirit frame (refactored code). A grave provides a container for changing sections of code without changing its behavior, i.e. refactoring. This simple concept combines native LabVIEW features with a set of conventions to allow modification without loss in functionality. 
+
+A LabVIEW API is also provided to programmatically use and extend the add-on. The toolkit is ideal for incorporating Eulogy-related tasks into automated build systems.</Description>
       <Copyright/>
       <Packager>Christopher R Field</Packager>
       <URL>http://www.fieldrndservices.com/eulogy</URL>
-      <Release_Notes/>
+      <Release_Notes>## 1.0.0
+
+### Added
+
+- Examples for digging a grave, reanimating, smiting, burying, and using the Graveyard
+- Automated build process
+- Help documentation
+- Descriptions to all controls and indicators for all public VIs
+- Quick Drop Keyboard Shortcuts
+- Shortcut Menu Plugin
+- Custom Bookmark Manager (Graveyard)
+- Initial project structure and on-disk organization
+- Apache-2.0 and MIT license documentation
+- Build specifications for Bookmark Manager, Examples, Quick Drop Keyboard Shortcuts, Shortcut Menu Plugin, Toolkit API, Tools Menu
+- Meaningful VI icons to public Toolkit API VIs
+- Color coded bookmarks to Graveyard
+- Filtering bookmarks by graves or zombies
+- Reanimating corpse frames in graves (Diagram Disable Structures)
+- Smiting zombie frames in graves (Diagram Disable Structures)
+- Burying corpses, i.e. removing graves
+- Double-click object highlighting from within the custom Bookmark Manager
+- Run-time shortcut menus to the tree view of the custom Bookmark Manager</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -259,6 +284,12 @@
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>Help/Eulogy.chm</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Help/Eulogy.chw</Path>
         <Destination>4</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -533,7 +564,7 @@
         <Path>..\builds\Toolkit\Filter Graves.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17620ED0B8B17C5326A9AED4695819A2</GUID>
+      <GUID>AD8CC20709AB4D59F7C4154D3032CBC0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
