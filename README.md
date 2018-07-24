@@ -29,6 +29,8 @@ The VI Package Build (.vipb) specification, located in the `configs` folder rela
 
 If VIPM Pro is available, then open the `Eulogy.lvproj` file in any version of LabVIEW newer than 2015 and run the `Package.vi` located in the `Scripts` project library of the Project Explorer window. Ensure all dependencies are installed before running the `Package.vi` script.
 
+Note, the version number for the package is set in the `configs\Eulogy.vipb` file. The version number in the VIP build specification file should be modified and saved _before_ running the `Package.vi` script.
+
 ### Packaging using VIPM Free
 
 If VIPM Pro is _not_ available, then the following steps can be executed to do essentially the same thing as the `Package.vi` script. Ensure all dependencies, except VIPM Pro and the VIPM API, are installed before completing these steps.

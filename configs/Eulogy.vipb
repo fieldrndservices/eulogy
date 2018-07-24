@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-23 17:32:51" Creator="cfield" Comments="" ID="f21122115aaefe6c9b7e83c6ed930733">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-24 09:02:05" Creator="cfield" Comments="" ID="fdc9d1f924ad3ec373dbc3bb16aec8bb">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
-    <Library_Version>1.0.0.24</Library_Version>
+    <Library_Version>1.0.0.25</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -28,36 +28,16 @@
     <VI_Package_Configuration_File>Eulogy.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>A dead simple LabVIEW add-on and toolkit for refactoring legacy code</One_Line_Description_Summary>
-      <Description>You just inherited a large project that has been under continuous development for years, and now you are tasked with improving performance and adding functionality while maintaining compatibility. The Eulogy LabVIEW add-on and toolkit makes navigating, learning, debugging, and refactoring a large project fun and easy. Use the Quick Drop Keyboard Shortcuts, the Shortcut Menu Plugin, and the custom Bookmark Manager to make grave digging, necromancy, and fighting zombie hordes a part of your workflow with large, inherited codebases.
+      <Description>You just inherited a large project that has been under continuous development for years, and now you are tasked with improving performance and adding functionality while maintaining compatibility. The Eulogy LabVIEW add-on and toolkit makes navigating, learning, debugging, and refactoring a large project fun and easy. Use the Quick Drop Keyboard Shortcuts, the Shortcut Menu Plugin, and the custom Bookmark Manager to make excavation, necromancy, and fighting zombie hordes a part of your large, inherited codebase workflow.
 
 Eulogy introduces the concept of "graves" for tagging, modifying, and removing legacy code. Each grave is a Diagram Disable Structure with a tombstone (bookmark), a disabled Corpse frame (legacy code), and an enabled Spirit frame (refactored code). A grave provides a container for changing sections of code without changing its behavior, i.e. refactoring. This simple concept combines native LabVIEW features with a set of conventions to allow modification without loss in functionality. 
 
-A LabVIEW API is also provided to programmatically use and extend the add-on. The toolkit is ideal for incorporating Eulogy-related tasks into automated build systems.</Description>
+A LabVIEW API is also provided to programmatically use and extend the add-on. The toolkit is ideal for incorporating Eulogy-related tasks into automated build systems.
+</Description>
       <Copyright/>
       <Packager>Christopher R Field</Packager>
       <URL>http://www.fieldrndservices.com/eulogy</URL>
-      <Release_Notes>## 1.0.0
-
-### Added
-
-- Examples for digging a grave, reanimating, smiting, burying, and using the Graveyard
-- Automated build process
-- Help documentation
-- Descriptions to all controls and indicators for all public VIs
-- Quick Drop Keyboard Shortcuts
-- Shortcut Menu Plugin
-- Custom Bookmark Manager (Graveyard)
-- Initial project structure and on-disk organization
-- Apache-2.0 and MIT license documentation
-- Build specifications for Bookmark Manager, Examples, Quick Drop Keyboard Shortcuts, Shortcut Menu Plugin, Toolkit API, Tools Menu
-- Meaningful VI icons to public Toolkit API VIs
-- Color coded bookmarks to Graveyard
-- Filtering bookmarks by graves or zombies
-- Reanimating corpse frames in graves (Diagram Disable Structures)
-- Smiting zombie frames in graves (Diagram Disable Structures)
-- Burying corpses, i.e. removing graves
-- Double-click object highlighting from within the custom Bookmark Manager
-- Run-time shortcut menus to the tree view of the custom Bookmark Manager</Release_Notes>
+      <Release_Notes/>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -564,7 +544,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Path>..\builds\Toolkit\Filter Graves.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AD8CC20709AB4D59F7C4154D3032CBC0</GUID>
+      <GUID>B76A5793CCF8239F01367FC1ADA4DF6F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
