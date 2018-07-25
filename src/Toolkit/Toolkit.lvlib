@@ -13,10 +13,6 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="Shortcut Menu.lvlib" Type="Friended Library" URL="../../Shortcut Menu/Shortcut Menu.lvlib"/>
-		<Item Name="Bookmark Manager.lvlib" Type="Friended Library" URL="../../Bookmark Manager/Bookmark Manager.lvlib"/>
-		<Item Name="Quick Drop.lvlib" Type="Friended Library" URL="../../Quick Drop/Quick Drop.lvlib"/>
-		<Item Name="Tools Menu.lvlib" Type="Friended Library" URL="../../Tools Menu/Tools Menu.lvlib"/>
 		<Item Name="Tests.lvlib:Toolkit.lvlib" Type="Friended Library" URL="../../../tests/Toolkit/Toolkit.lvlib"/>
 	</Item>
 	<Item Name="API" Type="Folder">

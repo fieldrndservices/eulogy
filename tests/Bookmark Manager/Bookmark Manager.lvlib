@@ -13,6 +13,7 @@
 </Property>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Bury All Target.vi" Type="VI" URL="../Support/Bury All Target.vi"/>
 		<Item Name="Reanimate All Target.vi" Type="VI" URL="../Support/Reanimate All Target.vi"/>
 		<Item Name="Setup.vi" Type="VI" URL="../Support/Setup.vi"/>
