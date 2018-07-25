@@ -259,7 +259,7 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Bld_previewCacheID" Type="Str">{414D0A9A-FD35-4A5C-AC4E-956CCF757DD1}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Bookmark Manager/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">100</Property>
+				<Property Name="Bld_version.build" Type="Int">102</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Bookmark Manager</Property>
@@ -271,7 +271,7 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Destination[2].path" Type="Path">../builds/Bookmark Manager/controls</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E6268567-3C22-4312-92C9-AB29FF094842}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B0DC0D1A-EA1C-4781-84AF-ECAFD94F3674}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
@@ -294,7 +294,7 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[12].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Tests.lvlib/Toolkit.lvlib</Property>
 				<Property Name="Source[13].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[13].type" Type="Str">Library</Property>
@@ -311,7 +311,7 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[15].newName" Type="Str">Eulogy_BMark_Toolkit_</Property>
 				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Tests.lvlib/Bookmark Manager.lvlib</Property>
 				<Property Name="Source[16].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[16].type" Type="Str">Library</Property>
@@ -576,7 +576,7 @@ The VIs are renamed with the `Eulogy_QD_` prefix to avoid naming conflictings in
 				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Toolkit.lvlib/API/Smite.vi</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Tests.lvlib/Toolkit.lvlib</Property>
 				<Property Name="Source[18].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[18].type" Type="Str">Library</Property>
@@ -709,7 +709,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[15].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_Find Graves.vi</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Tests.lvlib/Toolkit.lvlib</Property>
 				<Property Name="Source[16].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[16].type" Type="Str">Library</Property>
@@ -852,7 +852,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[8].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Tests.lvlib/Toolkit.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
@@ -899,7 +899,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Tests.lvlib/Toolkit.lvlib</Property>
 				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>

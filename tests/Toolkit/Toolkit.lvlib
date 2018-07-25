@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">Toolkit.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Toolkit.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLib" Type="Str">Tests.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Tests.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Unit tests for all public and private VIs in the toolkit. Placing this library as a child library to the Toolkit project library allows test VIs to access private, support VIs that the integration tests cannot access due to scope.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">9da707fb-b610-424d-ba78-3fc2c6979d17</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
@@ -15,16 +15,29 @@
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Apply Tombstone Target.vi" Type="VI" URL="../Support/Apply Tombstone Target.vi"/>
+		<Item Name="Bury Target.vi" Type="VI" URL="../../Support/Bury Target.vi"/>
+		<Item Name="Dig Target.vi" Type="VI" URL="../../Support/Dig Target.vi"/>
 		<Item Name="Duplicate Disabled Frame Target.vi" Type="VI" URL="../Support/Duplicate Disabled Frame Target.vi"/>
 		<Item Name="Enclose with Diagram Disable Structure Target.vi" Type="VI" URL="../Support/Enclose with Diagram Disable Structure Target.vi"/>
+		<Item Name="Find Target.vi" Type="VI" URL="../../Support/Find Target.vi"/>
+		<Item Name="Is Target.vi" Type="VI" URL="../../Support/Is Target.vi"/>
+		<Item Name="Reanimate Target.vi" Type="VI" URL="../../Support/Reanimate Target.vi"/>
 		<Item Name="Remove Controls from Selection Target.vi" Type="VI" URL="../Support/Remove Controls from Selection Target.vi"/>
-		<Item Name="Setup.vi" Type="VI" URL="../Support/Setup.vi"/>
-		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
+		<Item Name="Smite Target.vi" Type="VI" URL="../../Support/Smite Target.vi"/>
 		<Item Name="Write Subdiagram Label Target.vi" Type="VI" URL="../Support/Write Subdiagram Label Target.vi"/>
 	</Item>
 	<Item Name="Apply Tombstone.vi" Type="VI" URL="../Apply Tombstone.vi"/>
+	<Item Name="Bury.vi" Type="VI" URL="../../Bury.vi"/>
+	<Item Name="Dig.vi" Type="VI" URL="../../Dig.vi"/>
 	<Item Name="Duplicate Disabled Frame.vi" Type="VI" URL="../Duplicate Disabled Frame.vi"/>
 	<Item Name="Enclose with Diagram Disable Structure.vi" Type="VI" URL="../Enclose with Diagram Disable Structure.vi"/>
+	<Item Name="Filter Graves.vi" Type="VI" URL="../../Filter Graves.vi"/>
+	<Item Name="Find Graves.vi" Type="VI" URL="../../Find Graves.vi"/>
+	<Item Name="Find Zombies.vi" Type="VI" URL="../../Find Zombies.vi"/>
+	<Item Name="Is Grave.vi" Type="VI" URL="../../Is Grave.vi"/>
+	<Item Name="Is Zombie.vi" Type="VI" URL="../../Is Zombie.vi"/>
+	<Item Name="Reanimate.vi" Type="VI" URL="../../Reanimate.vi"/>
 	<Item Name="Remove Controls from Selection.vi" Type="VI" URL="../Remove Controls from Selection.vi"/>
+	<Item Name="Smite.vi" Type="VI" URL="../../Smite.vi"/>
 	<Item Name="Write Subdiagram Label.vi" Type="VI" URL="../Write Subdiagram Label.vi"/>
 </Library>

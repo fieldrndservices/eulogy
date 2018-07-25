@@ -17,6 +17,7 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 		<Item Name="Bookmark Manager.lvlib" Type="Friended Library" URL="../../Bookmark Manager/Bookmark Manager.lvlib"/>
 		<Item Name="Quick Drop.lvlib" Type="Friended Library" URL="../../Quick Drop/Quick Drop.lvlib"/>
 		<Item Name="Tools Menu.lvlib" Type="Friended Library" URL="../../Tools Menu/Tools Menu.lvlib"/>
+		<Item Name="Tests.lvlib:Toolkit.lvlib" Type="Friended Library" URL="../../../tests/Toolkit/Toolkit.lvlib"/>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -31,7 +32,7 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 		<Item Name="Smite.vi" Type="VI" URL="../Smite.vi"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Application User Name.vi" Type="VI" URL="../Support/Application User Name.vi"/>
 		<Item Name="Apply Tombstone.vi" Type="VI" URL="../Support/Apply Tombstone.vi"/>
 		<Item Name="Duplicate Disabled Frame.vi" Type="VI" URL="../Support/Duplicate Disabled Frame.vi"/>
@@ -44,5 +45,4 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 		<Item Name="Bookmark Tags.ctl" Type="VI" URL="../Typedefs/Bookmark Tags.ctl"/>
 		<Item Name="Grave Frames.ctl" Type="VI" URL="../Typedefs/Grave Frames.ctl"/>
 	</Item>
-	<Item Name="Tests.lvlib" Type="Library" URL="../Tests/Tests.lvlib"/>
 </Library>
