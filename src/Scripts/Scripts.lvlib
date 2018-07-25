@@ -19,6 +19,7 @@ The `Support` virtual folder contains all of the private sub-VIs used by the par
 		<Item Name="Builds Directory.vi" Type="VI" URL="../Support/Builds Directory.vi"/>
 		<Item Name="Clean.vi" Type="VI" URL="../Clean.vi"/>
 		<Item Name="Configuration Directory.vi" Type="VI" URL="../Support/Configuration Directory.vi"/>
+		<Item Name="Copy Help.vi" Type="VI" URL="../Support/Copy Help.vi"/>
 		<Item Name="Documentation Directory.vi" Type="VI" URL="../Support/Documentation Directory.vi"/>
 		<Item Name="Execute Build Target.vi" Type="VI" URL="../Support/Execute Build Target.vi"/>
 		<Item Name="LabVIEW Versions.ctl" Type="VI" URL="../Support/LabVIEW Versions.ctl"/>

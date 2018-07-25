@@ -8,12 +8,17 @@
 
 ## Dependencies
 
-- LabVIEW 2015 or newer (for installation and usage)
-- LabVIEW 2017 or newer (for development)
-- [Caraya](https://github.com/JKISoftware/Caraya) (for development)
+- [Caraya](http://sine.ni.com/nips/cds/view/p/lang/en/nid/215909) (for development)
 - [HTML Help Workshop](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/htmlhelp/microsoft-html-help-downloads) (for compiling the help documentation)
+- [JKI State Machine](http://sine.ni.com/nips/cds/view/p/lang/en/nid/209025)
+- LabVIEW 2015 or newer (for building)
+- LabVIEW 2017 or newer (for development)
+- [OpenG Array Library](http://sine.ni.com/nips/cds/view/p/lang/en/nid/209027)
+- [OpenG File Library](http://sine.ni.com/nips/cds/view/p/lang/en/nid/209027)
 - [VIPM Pro](https://vipm.jki.net/get) (only for automated builds)
 - [VIPM API](https://support.jki.net/hc/en-us/articles/214136183-VIPM-API) (only for automated builds)
+
+The Caraya, JKI State Machine, OpenG Array Library, OpenG File Library, and VIPM API must be installed for all versions of LabVIEW (2015 and 2017) to avoid errors during automated builds.
 
 ## Installation
 
@@ -36,19 +41,21 @@ Note, the version number for the package is set in the `configs\Eulogy.vipb` fil
 If VIPM Pro is _not_ available, then the following steps can be executed to do essentially the same thing as the `Package.vi` script. Ensure all dependencies, except VIPM Pro and the VIPM API, are installed before completing these steps.
 
 1. Start LabVIEW 2017 or newer and open the `Eulogy.lvproj` file.
-2. From the Project Explorer window, "File->Save for Previous Version...", a new dialog will appear.
-3. Select "15.0" from the drop down menu.
-4. Click "Save...". A new dialog will open.
+2. From the Project Explorer window, **File>>Save for Previous Version...**, a new dialog will appear.
+3. Select **15.0** from the drop down menu.
+4. Click **Save...**. A new dialog will open.
 5. Create the `target\15.0` folder hierarchy in the project root, i.e. the same folder as the `Eulogy.lvproj` file, if it does not already exists.
-6. Click "Save".
+6. Click **Save**.
 7. Close LabVIEW 2017 or newer and the `Eulogy.lvproj` file.
-8. Start LabVIEW 2015.
-9. Open the `<project root>\target\15.0\Eulogy.lvproj` file. Do NOT open the project in any other version of LabVIEW.
-10. Run the `Build.vi` in the `Scripts` project library to build each Source Distribution under the "Build Specifications" tree item and the compiled help documentation file (`Eulogy.chm`). The output of each build will be available in `<project root>\target\15.0\builds`.
-11. Open the `<project root>\target\15.0\configs\Eulogy.vipb` file in VIPM.
-12. Build the VI package with VIPM. The output will be available at `<project root>\target\15.0\packages`. Do NOT modify anything in the package build specification, but ensure the "2015" version of LabVIEW is selected in the upper, right-hand corner of the VIPM application window.
-13. Close VIPM.
-14. Close LabVIEW 2015 and the `<project root>\target\15.0\Eulogy.lvproj` file.
+8. Navigate to `<project root>\src`.
+9. Copy the `Help` folder to `<project root>\target\15.0\src`.
+10. Start LabVIEW 2015.
+11. Open the `<project root>\target\15.0\Eulogy.lvproj` file. Do NOT open the project in any other version of LabVIEW.
+12. Run the `Build.vi` in the `Scripts` project library to build each Source Distribution under the "Build Specifications" tree item and the compiled help documentation file (`Eulogy.chm`). The output of each build will be available in `<project root>\target\15.0\builds`.
+13. Open the `<project root>\target\15.0\configs\Eulogy.vipb` file in VIPM.
+14. Build the VI package with VIPM. The output will be available at `<project root>\target\15.0\packages`. Do NOT modify anything in the package build specification, but ensure the "2015" version of LabVIEW is selected in the upper, right-hand corner of the VIPM application window.
+15. Close VIPM.
+16. Close LabVIEW 2015 and the `<project root>\target\15.0\Eulogy.lvproj` file.
 
 ## Documentation
 
