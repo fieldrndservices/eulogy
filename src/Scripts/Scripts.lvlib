@@ -31,6 +31,7 @@ The `Support` virtual folder contains all of the private sub-VIs used by the par
 		<Item Name="Run Integration Tests.vi" Type="VI" URL="../Support/Run Integration Tests.vi"/>
 		<Item Name="Run Toolkit Unit Tests.vi" Type="VI" URL="../Support/Run Toolkit Unit Tests.vi"/>
 		<Item Name="Run Unit Tests.vi" Type="VI" URL="../Support/Run Unit Tests.vi"/>
+		<Item Name="Save Project.vi" Type="VI" URL="../Support/Save Project.vi"/>
 		<Item Name="Show Packages Folder.vi" Type="VI" URL="../Support/Show Packages Folder.vi"/>
 		<Item Name="Source Directory.vi" Type="VI" URL="../Support/Source Directory.vi"/>
 		<Item Name="Target Directory.vi" Type="VI" URL="../Support/Target Directory.vi"/>
@@ -41,6 +42,5 @@ The `Support` virtual folder contains all of the private sub-VIs used by the par
 	<Item Name="Build.vi" Type="VI" URL="../Build.vi"/>
 	<Item Name="Clean.vi" Type="VI" URL="../Clean.vi"/>
 	<Item Name="Package.vi" Type="VI" URL="../Package.vi"/>
-	<Item Name="Save Project.vi" Type="VI" URL="../Support/Save Project.vi"/>
 	<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 </Library>
