@@ -26,6 +26,8 @@
 		<Item Name="Configs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Eulogy.vipb" Type="Document" URL="../configs/Eulogy.vipb"/>
+			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../configs/Post-Install Custom Action.vi"/>
+			<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../configs/Post-Uninstall Custom Action.vi"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>

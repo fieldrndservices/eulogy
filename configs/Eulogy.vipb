@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-29 12:02:40" Creator="cfield" Comments="" ID="a165a0c9de4c72302a467f04aceaa54d">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-07-29 12:13:03" Creator="cfield" Comments="" ID="64a3759ebd4d2ac8a52a02cfa2e3811f">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
     <Library_Version>1.0.0.29</Library_Version>
@@ -21,9 +21,9 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI>..\src\Scripts\Post-Install Custom Action.vi</Post-Install_VI>
+      <Post-Install_VI>Post-Install Custom Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
-      <Post-Uninstall_VI>..\src\Scripts\Post-Uninstall Custom Action.vi</Post-Uninstall_VI>
+      <Post-Uninstall_VI>Post-Uninstall Custom Action.vi</Post-Uninstall_VI>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>Eulogy.vipc</VI_Package_Configuration_File>
     <Description>
@@ -36,7 +36,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
 </Description>
       <Copyright/>
       <Packager>Christopher R Field</Packager>
-      <URL>http://www.fieldrndservices.com/eulogy</URL>
+      <URL>http://www.fieldrndservices.com/</URL>
       <Release_Notes>## [1.0.0] - 2018-08-01
 
 ### Added
@@ -559,7 +559,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Path>..\builds\Toolkit\Filter Graves.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E363330EC14883869A9FC8E51033EEE</GUID>
+      <GUID>CBC05778CF20604BA997957EE45EEE57</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -17,7 +17,6 @@ The `Support` virtual folder contains all of the private sub-VIs used by the par
 		<Item Name="Build Specifications.vi" Type="VI" URL="../Support/Build Specifications.vi"/>
 		<Item Name="Build Target.vi" Type="VI" URL="../Support/Build Target.vi"/>
 		<Item Name="Builds Directory.vi" Type="VI" URL="../Support/Builds Directory.vi"/>
-		<Item Name="Clean.vi" Type="VI" URL="../Clean.vi"/>
 		<Item Name="Configuration Directory.vi" Type="VI" URL="../Support/Configuration Directory.vi"/>
 		<Item Name="Copy Help.vi" Type="VI" URL="../Support/Copy Help.vi"/>
 		<Item Name="Documentation Directory.vi" Type="VI" URL="../Support/Documentation Directory.vi"/>
@@ -40,8 +39,8 @@ The `Support` virtual folder contains all of the private sub-VIs used by the par
 		<Item Name="Write Version Number from Package.vi" Type="VI" URL="../Support/Write Version Number from Package.vi"/>
 	</Item>
 	<Item Name="Build.vi" Type="VI" URL="../Build.vi"/>
+	<Item Name="Clean.vi" Type="VI" URL="../Clean.vi"/>
 	<Item Name="Package.vi" Type="VI" URL="../Package.vi"/>
-	<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Post-Install Custom Action.vi"/>
-	<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../Post-Uninstall Custom Action.vi"/>
+	<Item Name="Save Project.vi" Type="VI" URL="../Support/Save Project.vi"/>
 	<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 </Library>
