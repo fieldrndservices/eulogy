@@ -63,11 +63,9 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Read Eulogy Bookmarks.vi" Type="VI" URL="../Support/Read Eulogy Bookmarks.vi"/>
 		<Item Name="Select Scope.vi" Type="VI" URL="../Support/Select Scope.vi"/>
 		<Item Name="Shortcut Menu Selection.vi" Type="VI" URL="../Support/Shortcut Menu Selection.vi"/>
-		<Item Name="Tree Bookmark ID.vi" Type="VI" URL="../Support/Tree Bookmark ID.vi"/>
 		<Item Name="Trim Project File Extension.vi" Type="VI" URL="../Support/Trim Project File Extension.vi"/>
 		<Item Name="Trim VI File Extension.vi" Type="VI" URL="../Support/Trim VI File Extension.vi"/>
 		<Item Name="VI Bookmarks.vi" Type="VI" URL="../Support/VI Bookmarks.vi"/>
-		<Item Name="VI Tree Tag.vi" Type="VI" URL="../Support/VI Tree Tag.vi"/>
 		<Item Name="Zombie Left Cell String.vi" Type="VI" URL="../Support/Zombie Left Cell String.vi"/>
 	</Item>
 	<Item Name="Eulogy.txt" Type="Document" URL="../Eulogy.txt"/>
