@@ -20,6 +20,8 @@
 		<Item Name="Smite All Target.vi" Type="VI" URL="../Support/Smite All Target.vi"/>
 	</Item>
 	<Item Name="Bury All.vi" Type="VI" URL="../Bury All.vi"/>
+	<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Filter vi.lib VIs.vi"/>
+	<Item Name="Main Application Instance VIs.vi" Type="VI" URL="../Main Application Instance VIs.vi"/>
 	<Item Name="Reanimate All.vi" Type="VI" URL="../Reanimate All.vi"/>
 	<Item Name="Smite All.vi" Type="VI" URL="../Smite All.vi"/>
 </Library>
