@@ -32,6 +32,7 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Active Project Scope Index.vi" Type="VI" URL="../Support/Active Project Scope Index.vi"/>
 		<Item Name="Add Bookmark Tree Item.vi" Type="VI" URL="../Support/Add Bookmark Tree Item.vi"/>
 		<Item Name="Add VI Tree Item.vi" Type="VI" URL="../Support/Add VI Tree Item.vi"/>
+		<Item Name="Application By Target.vi" Type="VI" URL="../Support/Application By Target.vi"/>
 		<Item Name="Bookmarks View Shortcut Menu Activation.vi" Type="VI" URL="../Support/Bookmarks View Shortcut Menu Activation.vi"/>
 		<Item Name="Change Bookmark Group.vi" Type="VI" URL="../Support/Change Bookmark Group.vi"/>
 		<Item Name="Child Text.vi" Type="VI" URL="../Support/Child Text.vi"/>
