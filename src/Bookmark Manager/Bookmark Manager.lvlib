@@ -47,7 +47,7 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Filter Only.vi" Type="VI" URL="../Support/Filter Only.vi"/>
 		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Support/Filter vi.lib VIs.vi"/>
 		<Item Name="Grave from Bookmark Label.vi" Type="VI" URL="../Support/Grave from Bookmark Label.vi"/>
-		<Item Name="Grave Left Cell String.vi" Type="VI" URL="../Support/Grave Left Cell String.vi"/>
+		<Item Name="Grave Left Cell.vi" Type="VI" URL="../Support/Grave Left Cell.vi"/>
 		<Item Name="Highlight Bookmark.vi" Type="VI" URL="../Support/Highlight Bookmark.vi"/>
 		<Item Name="Highlight Object.vi" Type="VI" URL="../Support/Highlight Object.vi"/>
 		<Item Name="Is Bookmark.vi" Type="VI" URL="../Support/Is Bookmark.vi"/>
@@ -66,7 +66,7 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Trim Project File Extension.vi" Type="VI" URL="../Support/Trim Project File Extension.vi"/>
 		<Item Name="Trim VI File Extension.vi" Type="VI" URL="../Support/Trim VI File Extension.vi"/>
 		<Item Name="VI Bookmarks.vi" Type="VI" URL="../Support/VI Bookmarks.vi"/>
-		<Item Name="Zombie Left Cell String.vi" Type="VI" URL="../Support/Zombie Left Cell String.vi"/>
+		<Item Name="Zombie Left Cell.vi" Type="VI" URL="../Support/Zombie Left Cell.vi"/>
 	</Item>
 	<Item Name="Eulogy.txt" Type="Document" URL="../Eulogy.txt"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
