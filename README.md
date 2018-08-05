@@ -32,6 +32,8 @@ The VI Package Build (.vipb) specification, located in the `configs` folder rela
 
 ### Packaging using VIPM Pro (recommended)
 
+__Important__, if creating a package for LabVIEW 2015 from LabVIEW 2017, the [VI Server TCP/IP ports](http://zone.ni.com/reference/en-XX/help/371361P-01/lvhowto/configuring_the_vi_server/) must be different for each version of LabVIEW and verified with the [VIPM](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z000000P9YmSAK) application _before_ proceeding. An error will occur when the VIPM is started if both LabVIEW 2015 and 2017 are running at the same time. Basically, VIPM will not know which VI server to use if both versions of LabVIEW are using the same TCP/IP port.
+
 If VIPM Pro is available, then open the `Eulogy.lvproj` file in any version of LabVIEW newer than 2015 and run the `Package.vi` located in the `Scripts` project library of the Project Explorer window. Ensure all dependencies are installed before running the `Package.vi` script.
 
 Note, the version number for the package is set in the `configs\Eulogy.vipb` file. The version number in the VIP build specification file should be modified and saved _before_ running the `Package.vi` script.
