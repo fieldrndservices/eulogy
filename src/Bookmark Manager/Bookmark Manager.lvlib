@@ -46,6 +46,7 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Execute VI Action.vi" Type="VI" URL="../Support/Execute VI Action.vi"/>
 		<Item Name="Filter Only Eulogy.vi" Type="VI" URL="../Support/Filter Only Eulogy.vi"/>
 		<Item Name="Filter Only.vi" Type="VI" URL="../Support/Filter Only.vi"/>
+		<Item Name="Filter Resource VIs.vi" Type="VI" URL="../Support/Filter Resource VIs.vi"/>
 		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Support/Filter vi.lib VIs.vi"/>
 		<Item Name="Grave from Bookmark Label.vi" Type="VI" URL="../Support/Grave from Bookmark Label.vi"/>
 		<Item Name="Grave Left Cell.vi" Type="VI" URL="../Support/Grave Left Cell.vi"/>
