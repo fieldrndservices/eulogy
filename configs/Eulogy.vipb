@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-08-11 11:55:04" Creator="cfield" Comments="" ID="a31c87cac911a97ee514ad9834d405b0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-08-16 17:53:01" Creator="cfield" Comments="" ID="01b548ef1ecefcfd80c56aa212376775">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
     <Library_Version>1.0.0.36</Library_Version>
@@ -349,8 +349,8 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Syncing_MNU_file/>
       </Controls_Palette_Information>
       <Functions_Palette_Information>
-        <Virtual_Palette_Base_Path>Functions</Virtual_Palette_Base_Path>
-        <Palette_Disk_Base_Path>&lt;menus&gt;\Categories</Palette_Disk_Base_Path>
+        <Virtual_Palette_Base_Path>Functions\Addons</Virtual_Palette_Base_Path>
+        <Palette_Disk_Base_Path>&lt;vi.lib&gt;\addons</Palette_Disk_Base_Path>
         <Syncing_MNU_file/>
       </Functions_Palette_Information>
       <Apply_Short_Names_to_VI_Titles>false</Apply_Short_Names_to_VI_Titles>
@@ -559,7 +559,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Path>..\builds\Toolkit\Filter Graves.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FA27DF157A342D02CFF5AD3D34008B1B</GUID>
+      <GUID>9709839986FFE96023EE3E751DA4B34E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
