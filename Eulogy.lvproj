@@ -540,7 +540,7 @@ The VIs are renamed with the `Eulogy_QD_` prefix to avoid naming conflictings in
 				<Property Name="Destination[1].path" Type="Path">../builds/Quick Drop/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F1E4320A-9528-485B-AAB7-4280B26CDA4B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F7BFE642-A970-4A11-A071-1257F55EE16D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib/Dig.vi</Property>
@@ -675,7 +675,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A61284AE-3801-496C-A24C-73F1312A81D0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F7BFE642-A970-4A11-A071-1257F55EE16D}</Property>
 				<Property Name="Source[0].newName" Type="Str">Eulogy_ShortcutMenu_Dep_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
