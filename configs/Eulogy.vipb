@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-08-20 09:03:51" Creator="cfield" Comments="" ID="345f29b16f424603486420b80b20d351">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-08-22 11:32:37" Creator="cfield" Comments="" ID="6571ce1eeb40255b5bcaaf17de3768d1">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
     <Library_Version>1.0.0.38</Library_Version>
@@ -289,6 +289,90 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Programmatically Find Graves.vi</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Programmatically Find Zombies.vi</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Typedefs</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Bury.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Dig.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Eulogy.lvlib</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Filter Graves.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Find Graves.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Find Zombies.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Is Grave.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Is Zombie.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Reanimate.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Smite.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -559,7 +643,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Path>..\builds\Toolkit\Filter Graves.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DBD382B79C7EA8CDA791B28B3D889E9A</GUID>
+      <GUID>E864241013714C8ED520C358273244F2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
