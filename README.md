@@ -4,7 +4,7 @@
 
 ## What is Eulogy?
 
-[Eulogy]() is a [LabVIEW&trade;](http://www.ni.com/labview) add-on and toolkit for refactoring legacy code in LabVIEW projects.
+[Eulogy](http://sine.ni.com/nips/cds/view/p/lang/en/nid/217170) is a [LabVIEW&trade;](http://www.ni.com/labview) add-on and toolkit for refactoring legacy code in LabVIEW projects.
 
 ## Dependencies
 
