@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+### Changed
+
+- Automated build process to use Labricator instead of custom process.
+
 ### Fixed
 
 - Install location of Toolkit VIs.
