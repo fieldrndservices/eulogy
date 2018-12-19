@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-10-04 14:36:39" Creator="cfield" Comments="" ID="2fdc4699150b9dd6079155c91fedbe22">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2018-12-19 15:18:22" Creator="cfield" Comments="" ID="e750fd23902bd80ef7e84888991e7660">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
-    <Library_Version>1.0.0.39</Library_Version>
+    <Library_Version>1.0.0.40</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -595,7 +595,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Path>..\builds\Toolkit\API\Filter Graves.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DBB4A41708433843A10A119645A58B0B</GUID>
+      <GUID>5A4104301B4D37CD5BE803818C59CD1E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
