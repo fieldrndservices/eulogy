@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Fixed
 
+- Underscores used for emphasis instead of HTML tags for help documentation.
 - Install location of Toolkit VIs.
 - Install location of `Programmatically Find Graves.vi` example.
 - Install location of `Programmatically find Zombies.vi` example.
