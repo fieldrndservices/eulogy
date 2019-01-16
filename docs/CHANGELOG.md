@@ -4,12 +4,17 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+### Added
+
+- Smite example screenshot to help documentation.
+
 ### Changed
 
 - Automated build process to use Labricator instead of custom process.
 
 ### Fixed
 
+- Wording and organization in the Concepts help documentation.
 - Underscores used for emphasis instead of HTML tags for help documentation.
 - Install location of Toolkit VIs.
 - Install location of `Programmatically Find Graves.vi` example.
