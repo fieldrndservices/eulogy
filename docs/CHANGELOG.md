@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file, which is wr
 ### Added
 
 - Smite example screenshot to help documentation.
-- Credits section to the help documentation.
+- Acknowledgements section to the help documentation.
 
 ### Changed
 
