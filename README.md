@@ -13,6 +13,7 @@
 - [JKI State Machine](http://sine.ni.com/nips/cds/view/p/lang/en/nid/209025)
 - LabVIEW 2015 or newer (for building)
 - LabVIEW 2017 or newer (for development)
+- Labricator (only for automated builds, private package available upon request)
 - [OpenG Array Library](http://sine.ni.com/nips/cds/view/p/lang/en/nid/209027)
 - [OpenG File Library](http://sine.ni.com/nips/cds/view/p/lang/en/nid/209027)
 - [VIPM Pro](https://vipm.jki.net/get) (only for automated builds)
