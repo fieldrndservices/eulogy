@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- Prefix renaming to toolkit library to avoid name collisions.
 - Smite example screenshot to help documentation.
 - Acknowledgements section to the help documentation.
 
@@ -15,6 +16,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Fixed
 
+- Build to not package duplicate VIs for toolkit
 - Wording and organization in the Concepts help documentation.
 - Underscores used for emphasis instead of HTML tags for help documentation.
 - Install location of Toolkit VIs.
