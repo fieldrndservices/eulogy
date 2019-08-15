@@ -1,8 +1,8 @@
 Eulogy: A dead simple LabVIEW add-on and toolkit for refactoring legacy code
 
-Eulogy is dual licensed under the MIT and Apache-2.0 licenses.
+Eulogy is dual licensed under the BSD-3-Clause and Apache-2.0 licenses.
 
-                              The MIT License
+                              The BSD-3-Clause License
 
 Copyright (c) 2018 Field R&D Services, LLC. All rights reserved.
 
