@@ -75,7 +75,7 @@ If VIPM Pro is _not_ available, then the following steps can be executed to do e
 15. Close VIPM.
 16. Close LabVIEW 2015 and the `<project root>\target\15.0\Eulogy.lvproj` file.
 
-## Documentation
+## [Documentation](https://help.fieldrndservices.com/eulogy)
 
 See the in-app LabVIEW Help system for more information and documentation about using the library after it has been installed, or visit the [web-based documentation](https://help.fieldrndservices.com/eulogy). Examples are also available within the LabVIEW development environment using the "Help->Find Examples..." menu item.
 
