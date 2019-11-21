@@ -36,7 +36,10 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Application By Target.vi" Type="VI" URL="../Support/Application By Target.vi"/>
 		<Item Name="Bookmarks View Shortcut Menu Activation.vi" Type="VI" URL="../Support/Bookmarks View Shortcut Menu Activation.vi"/>
 		<Item Name="Bookmarks.vi" Type="VI" URL="../Support/Bookmarks.vi"/>
+		<Item Name="Change Bookmarks Grouping.vi" Type="VI" URL="../Support/Change Bookmarks Grouping.vi"/>
+		<Item Name="Change Scope.vi" Type="VI" URL="../Support/Change Scope.vi"/>
 		<Item Name="Child Text.vi" Type="VI" URL="../Support/Child Text.vi"/>
+		<Item Name="Clear Bookmarks View.vi" Type="VI" URL="../Support/Clear Bookmarks View.vi"/>
 		<Item Name="Create Message Queue.vi" Type="VI" URL="../Support/Create Message Queue.vi"/>
 		<Item Name="Create Tree.vi" Type="VI" URL="../Support/Create Tree.vi"/>
 		<Item Name="Dequeue Message.vi" Type="VI" URL="../Support/Dequeue Message.vi"/>
@@ -44,27 +47,36 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Eulogy Date.vi" Type="VI" URL="../Support/Eulogy Date.vi"/>
 		<Item Name="Eulogy User.vi" Type="VI" URL="../Support/Eulogy User.vi"/>
 		<Item Name="Execute Bookmark Action.vi" Type="VI" URL="../Support/Execute Bookmark Action.vi"/>
+		<Item Name="Execute Highlight Bookmark.vi" Type="VI" URL="../Support/Execute Highlight Bookmark.vi"/>
 		<Item Name="Execute VI Action.vi" Type="VI" URL="../Support/Execute VI Action.vi"/>
+		<Item Name="Exit.vi" Type="VI" URL="../Support/Exit.vi"/>
 		<Item Name="Filter Only Eulogy.vi" Type="VI" URL="../Support/Filter Only Eulogy.vi"/>
 		<Item Name="Filter Only.vi" Type="VI" URL="../Support/Filter Only.vi"/>
 		<Item Name="Filter Resource VIs.vi" Type="VI" URL="../Support/Filter Resource VIs.vi"/>
 		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Support/Filter vi.lib VIs.vi"/>
+		<Item Name="Finish UI Update.vi" Type="VI" URL="../Support/Finish UI Update.vi"/>
 		<Item Name="Grave from Bookmark Label.vi" Type="VI" URL="../Support/Grave from Bookmark Label.vi"/>
 		<Item Name="Grave Left Cell.vi" Type="VI" URL="../Support/Grave Left Cell.vi"/>
 		<Item Name="Highlight Bookmark.vi" Type="VI" URL="../Support/Highlight Bookmark.vi"/>
 		<Item Name="Highlight Object.vi" Type="VI" URL="../Support/Highlight Object.vi"/>
+		<Item Name="Initialize Data.vi" Type="VI" URL="../Support/Initialize Data.vi"/>
+		<Item Name="Initialize Panel.vi" Type="VI" URL="../Support/Initialize Panel.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Support/Initialize.vi"/>
 		<Item Name="Is Bookmark.vi" Type="VI" URL="../Support/Is Bookmark.vi"/>
-		<Item Name="Main Application Instance VIs.vi" Type="VI" URL="../Support/Main Application Instance VIs.vi"/>
 		<Item Name="Open Help.vi" Type="VI" URL="../Support/Open Help.vi"/>
 		<Item Name="Open VI Reference.vi" Type="VI" URL="../Support/Open VI Reference.vi"/>
 		<Item Name="Open Window.vi" Type="VI" URL="../Support/Open Window.vi"/>
-		<Item Name="Populate Project Ring.vi" Type="VI" URL="../Support/Populate Project Ring.vi"/>
 		<Item Name="Project Reference By Name.vi" Type="VI" URL="../Support/Project Reference By Name.vi"/>
 		<Item Name="Project VIs.vi" Type="VI" URL="../Support/Project VIs.vi"/>
+		<Item Name="Resize Columns.vi" Type="VI" URL="../Support/Resize Columns.vi"/>
 		<Item Name="Save Preferences.vi" Type="VI" URL="../Support/Save Preferences.vi"/>
 		<Item Name="Shortcut Menu Selection.vi" Type="VI" URL="../Support/Shortcut Menu Selection.vi"/>
+		<Item Name="Start UI Update.vi" Type="VI" URL="../Support/Start UI Update.vi"/>
+		<Item Name="Store Tree Appearance.vi" Type="VI" URL="../Support/Store Tree Appearance.vi"/>
 		<Item Name="Trim Project File Extension.vi" Type="VI" URL="../Support/Trim Project File Extension.vi"/>
 		<Item Name="Trim VI File Extension.vi" Type="VI" URL="../Support/Trim VI File Extension.vi"/>
+		<Item Name="Update Bookmarks View.vi" Type="VI" URL="../Support/Update Bookmarks View.vi"/>
+		<Item Name="Update Scopes View.vi" Type="VI" URL="../Support/Update Scopes View.vi"/>
 		<Item Name="User Visible Strings.vi" Type="VI" URL="../Support/User Visible Strings.vi"/>
 		<Item Name="VI Bookmarks.vi" Type="VI" URL="../Support/VI Bookmarks.vi"/>
 		<Item Name="Zombie Left Cell.vi" Type="VI" URL="../Support/Zombie Left Cell.vi"/>
