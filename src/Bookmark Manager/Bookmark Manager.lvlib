@@ -18,16 +18,12 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 	<Item Name="Controls" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Application Information.ctl" Type="VI" URL="../Controls/Application Information.ctl"/>
-		<Item Name="BMark_Array of Bookmarks.ctl" Type="VI" URL="../Controls/BMark_Array of Bookmarks.ctl"/>
-		<Item Name="BMark_Bookmark Cluster.ctl" Type="VI" URL="../Controls/BMark_Bookmark Cluster.ctl"/>
-		<Item Name="BMark_Bookmark Data.ctl" Type="VI" URL="../Controls/BMark_Bookmark Data.ctl"/>
-		<Item Name="BMark_UI Data.ctl" Type="VI" URL="../Controls/BMark_UI Data.ctl"/>
-		<Item Name="BMark_VI_Identifier.ctl" Type="VI" URL="../Controls/BMark_VI_Identifier.ctl"/>
+		<Item Name="Bookmark.ctl" Type="VI" URL="../Controls/Bookmark.ctl"/>
 		<Item Name="Bookmarks Groups.ctl" Type="VI" URL="../Controls/Bookmarks Groups.ctl"/>
 		<Item Name="Grave States.ctl" Type="VI" URL="../Controls/Grave States.ctl"/>
 		<Item Name="Message.ctl" Type="VI" URL="../Controls/Message.ctl"/>
 		<Item Name="State.ctl" Type="VI" URL="../Controls/State.ctl"/>
-		<Item Name="VI Bookmark.ctl" Type="VI" URL="../Controls/VI Bookmark.ctl"/>
+		<Item Name="VI Identifier.ctl" Type="VI" URL="../Controls/VI Identifier.ctl"/>
 		<Item Name="VI Information.ctl" Type="VI" URL="../Controls/VI Information.ctl"/>
 		<Item Name="Zombie States.ctl" Type="VI" URL="../Controls/Zombie States.ctl"/>
 	</Item>
