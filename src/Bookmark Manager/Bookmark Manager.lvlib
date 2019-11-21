@@ -34,9 +34,6 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Active Project Scope Index.vi" Type="VI" URL="../Support/Active Project Scope Index.vi"/>
-		<Item Name="Add Bookmark Tree Item.vi" Type="VI" URL="../Support/Add Bookmark Tree Item.vi"/>
-		<Item Name="Add VI Tree Item.vi" Type="VI" URL="../Support/Add VI Tree Item.vi"/>
 		<Item Name="Application By Target.vi" Type="VI" URL="../Support/Application By Target.vi"/>
 		<Item Name="BMark_Create Tree.vi" Type="VI" URL="../Support/BMark_Create Tree.vi"/>
 		<Item Name="BMark_Get App From Ring Selection.vi" Type="VI" URL="../Support/BMark_Get App From Ring Selection.vi"/>
@@ -54,10 +51,8 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="BMark_Save Tokens.vi" Type="VI" URL="../Support/BMark_Save Tokens.vi"/>
 		<Item Name="BMark_User Visible Strings.vi" Type="VI" URL="../Support/BMark_User Visible Strings.vi"/>
 		<Item Name="Bookmarks View Shortcut Menu Activation.vi" Type="VI" URL="../Support/Bookmarks View Shortcut Menu Activation.vi"/>
-		<Item Name="Change Bookmark Group.vi" Type="VI" URL="../Support/Change Bookmark Group.vi"/>
 		<Item Name="Child Text.vi" Type="VI" URL="../Support/Child Text.vi"/>
 		<Item Name="Create Message Queue.vi" Type="VI" URL="../Support/Create Message Queue.vi"/>
-		<Item Name="Create Tree.vi" Type="VI" URL="../Support/Create Tree.vi"/>
 		<Item Name="Dequeue Message.vi" Type="VI" URL="../Support/Dequeue Message.vi"/>
 		<Item Name="Enqueue Message.vi" Type="VI" URL="../Support/Enqueue Message.vi"/>
 		<Item Name="Eulogy Date.vi" Type="VI" URL="../Support/Eulogy Date.vi"/>
@@ -70,24 +65,14 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Support/Filter vi.lib VIs.vi"/>
 		<Item Name="Grave from Bookmark Label.vi" Type="VI" URL="../Support/Grave from Bookmark Label.vi"/>
 		<Item Name="Grave Left Cell.vi" Type="VI" URL="../Support/Grave Left Cell.vi"/>
-		<Item Name="Highlight Bookmark.vi" Type="VI" URL="../Support/Highlight Bookmark.vi"/>
-		<Item Name="Highlight Object.vi" Type="VI" URL="../Support/Highlight Object.vi"/>
 		<Item Name="Is Bookmark.vi" Type="VI" URL="../Support/Is Bookmark.vi"/>
 		<Item Name="Main Application Instance VIs.vi" Type="VI" URL="../Support/Main Application Instance VIs.vi"/>
 		<Item Name="Open Help.vi" Type="VI" URL="../Support/Open Help.vi"/>
 		<Item Name="Open VI Reference.vi" Type="VI" URL="../Support/Open VI Reference.vi"/>
-		<Item Name="Populate Bookmarks View.vi" Type="VI" URL="../Support/Populate Bookmarks View.vi"/>
-		<Item Name="Populate Scope.vi" Type="VI" URL="../Support/Populate Scope.vi"/>
-		<Item Name="Previous Scope Selection.vi" Type="VI" URL="../Support/Previous Scope Selection.vi"/>
-		<Item Name="Project Names.vi" Type="VI" URL="../Support/Project Names.vi"/>
 		<Item Name="Project Reference By Name.vi" Type="VI" URL="../Support/Project Reference By Name.vi"/>
-		<Item Name="Project VIs.vi" Type="VI" URL="../Support/Project VIs.vi"/>
-		<Item Name="Read Eulogy Bookmarks.vi" Type="VI" URL="../Support/Read Eulogy Bookmarks.vi"/>
-		<Item Name="Select Scope.vi" Type="VI" URL="../Support/Select Scope.vi"/>
 		<Item Name="Shortcut Menu Selection.vi" Type="VI" URL="../Support/Shortcut Menu Selection.vi"/>
 		<Item Name="Trim Project File Extension.vi" Type="VI" URL="../Support/Trim Project File Extension.vi"/>
 		<Item Name="Trim VI File Extension.vi" Type="VI" URL="../Support/Trim VI File Extension.vi"/>
-		<Item Name="VI Bookmarks.vi" Type="VI" URL="../Support/VI Bookmarks.vi"/>
 		<Item Name="Zombie Left Cell.vi" Type="VI" URL="../Support/Zombie Left Cell.vi"/>
 	</Item>
 	<Item Name="Eulogy.txt" Type="Document" URL="../Eulogy.txt"/>
