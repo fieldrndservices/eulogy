@@ -47,11 +47,9 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Eulogy Date.vi" Type="VI" URL="../Support/Eulogy Date.vi"/>
 		<Item Name="Eulogy User.vi" Type="VI" URL="../Support/Eulogy User.vi"/>
 		<Item Name="Execute Bookmark Action.vi" Type="VI" URL="../Support/Execute Bookmark Action.vi"/>
-		<Item Name="Execute Highlight Bookmark.vi" Type="VI" URL="../Support/Execute Highlight Bookmark.vi"/>
 		<Item Name="Execute VI Action.vi" Type="VI" URL="../Support/Execute VI Action.vi"/>
 		<Item Name="Exit.vi" Type="VI" URL="../Support/Exit.vi"/>
 		<Item Name="Filter Only Eulogy.vi" Type="VI" URL="../Support/Filter Only Eulogy.vi"/>
-		<Item Name="Filter Only.vi" Type="VI" URL="../Support/Filter Only.vi"/>
 		<Item Name="Filter Resource VIs.vi" Type="VI" URL="../Support/Filter Resource VIs.vi"/>
 		<Item Name="Filter vi.lib VIs.vi" Type="VI" URL="../Support/Filter vi.lib VIs.vi"/>
 		<Item Name="Finish UI Update.vi" Type="VI" URL="../Support/Finish UI Update.vi"/>
@@ -71,6 +69,7 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Resize Columns.vi" Type="VI" URL="../Support/Resize Columns.vi"/>
 		<Item Name="Save Preferences.vi" Type="VI" URL="../Support/Save Preferences.vi"/>
 		<Item Name="Shortcut Menu Selection.vi" Type="VI" URL="../Support/Shortcut Menu Selection.vi"/>
+		<Item Name="Show Bookmark.vi" Type="VI" URL="../Support/Show Bookmark.vi"/>
 		<Item Name="Start UI Update.vi" Type="VI" URL="../Support/Start UI Update.vi"/>
 		<Item Name="Store Tree Appearance.vi" Type="VI" URL="../Support/Store Tree Appearance.vi"/>
 		<Item Name="Trim Project File Extension.vi" Type="VI" URL="../Support/Trim Project File Extension.vi"/>
