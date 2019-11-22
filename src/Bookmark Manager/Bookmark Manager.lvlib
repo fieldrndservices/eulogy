@@ -20,6 +20,7 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Application Information.ctl" Type="VI" URL="../Controls/Application Information.ctl"/>
 		<Item Name="Bookmark.ctl" Type="VI" URL="../Controls/Bookmark.ctl"/>
 		<Item Name="Bookmarks Groups.ctl" Type="VI" URL="../Controls/Bookmarks Groups.ctl"/>
+		<Item Name="Column Resizing Options.ctl" Type="VI" URL="../Controls/Column Resizing Options.ctl"/>
 		<Item Name="Grave States.ctl" Type="VI" URL="../Controls/Grave States.ctl"/>
 		<Item Name="Message.ctl" Type="VI" URL="../Controls/Message.ctl"/>
 		<Item Name="State.ctl" Type="VI" URL="../Controls/State.ctl"/>
@@ -64,7 +65,7 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="Open Help.vi" Type="VI" URL="../Support/Open Help.vi"/>
 		<Item Name="Open VI Reference.vi" Type="VI" URL="../Support/Open VI Reference.vi"/>
 		<Item Name="Open Window.vi" Type="VI" URL="../Support/Open Window.vi"/>
-		<Item Name="Parameter Keys.vi" Type="VI" URL="../Support/Parameter Keys.vi"/>
+		<Item Name="Preferences Keys.vi" Type="VI" URL="../Support/Preferences Keys.vi"/>
 		<Item Name="Project Reference By Name.vi" Type="VI" URL="../Support/Project Reference By Name.vi"/>
 		<Item Name="Project VIs.vi" Type="VI" URL="../Support/Project VIs.vi"/>
 		<Item Name="Resize Columns.vi" Type="VI" URL="../Support/Resize Columns.vi"/>
