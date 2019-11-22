@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- More theme appropriate status messages to the Bookmark Manager (Graveyard).
+- Saving Bookmark Manager (Graveyard) position, scope, and grouping between usage.
+- Preferences for customizing Bookmark Manager (Graveyard) behavior.
+- Resizable Bookmark Manager (Graveyard) window.
 - Prefix renaming to toolkit library to avoid name collisions.
 - Smite example screenshot to help documentation.
 - Acknowledgements section to the help documentation.
@@ -16,6 +20,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Fixed
 
+- Populating Bookmark Manager (Graveyard) with graves and zombies performance. (Issue #1)
+- Searching for bookmarks occurring in infinite loop. (Issue #1)
 - Build to not package duplicate VIs for toolkit
 - Wording and organization in the Concepts help documentation.
 - Underscores used for emphasis instead of HTML tags for help documentation.
