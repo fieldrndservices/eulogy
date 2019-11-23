@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-11-23 15:55:12" Creator="cfield" Comments="" ID="b1bab0a6739519f8e309f9f398d95eb1">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-11-23 16:46:25" Creator="cfield" Comments="" ID="65b54d83e9c0d09c776040103b6ed3c6">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
-    <Library_Version>1.1.0.42</Library_Version>
+    <Library_Version>1.1.0.43</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -625,7 +625,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Path>..\builds\Toolkit\API\Dig.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA51156FE69FD6780CBD03CEDA8B8D2B</GUID>
+      <GUID>1A6D15EFA7F2B7D8E02F6D5641A15D04</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
