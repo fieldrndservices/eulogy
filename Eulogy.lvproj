@@ -32,8 +32,8 @@
 		<Item Name="Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="CHANGELOG.md" Type="Document" URL="../docs/CHANGELOG.md"/>
-			<Item Name="LICENSE-APACHE.txt" Type="Document" URL="../docs/LICENSE-APACHE.txt"/>
-			<Item Name="LICENSE-MIT.txt" Type="Document" URL="../docs/LICENSE-MIT.txt"/>
+			<Item Name="LICENSE-Apache-2.0.txt" Type="Document" URL="../docs/LICENSE-Apache-2.0.txt"/>
+			<Item Name="LICENSE-BSD-3-Clause.txt" Type="Document" URL="../docs/LICENSE-BSD-3-Clause.txt"/>
 			<Item Name="LICENSE.txt" Type="Document" URL="../docs/LICENSE.txt"/>
 			<Item Name="README.md" Type="Document" URL="../README.md"/>
 		</Item>
@@ -396,10 +396,6 @@
 				<Item Name="4822C501820BB5A8313EAE4F8D4B529FGet Physical Units from TD__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/4822C501820BB5A8313EAE4F8D4B529FGet Physical Units from TD__ogtk.vi"/>
 				<Item Name="4822C501820BB5A8313EAE4F8D4B529FGet TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/4822C501820BB5A8313EAE4F8D4B529FGet TDEnum from TD__ogtk.vi"/>
 				<Item Name="4822C501820BB5A8313EAE4F8D4B529FGet Element TD from Array TD__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/4822C501820BB5A8313EAE4F8D4B529FGet Element TD from Array TD__ogtk.vi"/>
-				<Item Name="Build.vi" Type="VI" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/API/Build.vi"/>
-				<Item Name="Clean.vi" Type="VI" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/Toolkit/API/Clean.vi"/>
-				<Item Name="LabVIEW Versions.ctl" Type="VI" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/Toolkit/Controls/LabVIEW Versions.ctl"/>
-				<Item Name="Package.vi" Type="VI" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/Toolkit/API/Package.vi"/>
 				<Item Name="VIAnCtl Analysis App Info.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerctrls.llb/VIAnCtl Analysis App Info.ctl"/>
 				<Item Name="LVBookmarkInfoTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBookmarkInfoTypeDef.ctl"/>
 				<Item Name="VIAnUtil Clear Specific Error.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Clear Specific Error.vi"/>
@@ -407,6 +403,75 @@
 				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="Labricator.lvlib" Type="Library" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/Toolkit/Labricator.lvlib"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
+				<Item Name="IB_Relative_Path_Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_Relative_Path_Type.ctl"/>
+				<Item Name="IB_RW_Convert_Path_to_Relative.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Convert_Path_to_Relative.vi"/>
+				<Item Name="IB_RW_Project_PropBag_Action.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_PropBag_Action.ctl"/>
+				<Item Name="IB_RW_Project_Installer_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Installer_Data.ctl"/>
+				<Item Name="IB_RW_Project_Installer.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Installer.vi"/>
+				<Item Name="AB_Relative_Path_Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Relative_Path_Type.ctl"/>
+				<Item Name="AB_RW_Convert_Path_to_Relative.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Convert_Path_to_Relative.vi"/>
+				<Item Name="Is Name Multiplatform.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Is Name Multiplatform.vi"/>
+				<Item Name="AB_RW_Project_PropBag_Action.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_PropBag_Action.ctl"/>
+				<Item Name="AB_RW_Convert_Path_Tags.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Convert_Path_Tags.vi"/>
+				<Item Name="AB_RW_Convert_Path_to_Absolute.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Convert_Path_to_Absolute.vi"/>
+				<Item Name="AB_RW_Project_Build_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Build_Data.ctl"/>
+				<Item Name="AB_RW_Project_Build_Info.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Build_Info.vi"/>
+				<Item Name="AB_Generate_Error_Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Generate_Error_Cluster.vi"/>
+				<Item Name="GetTargetBuildSpecs (project reference).vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs (project reference).vi"/>
+				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
+				<Item Name="VIPM API_vipm_api.lvlib" Type="Library" URL="/&lt;vilib&gt;/JKI/VIPM API/VIPM API_vipm_api.lvlib"/>
+				<Item Name="String to 1D Array__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/String to 1D Array__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Parse State Queue__jki_lib_state_machine4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Add State(s) to Queue__jki_lib_state_machine4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="1D Array to String__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/1D Array to String__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="Build Error Cluster__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Build Error Cluster__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Last PString__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Last PString__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get PString__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get PString__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Type Descriptor Enumeration__ogtk4A668244C627608002181B7F01911EC7.ctl" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Type Descriptor Enumeration__ogtk4A668244C627608002181B7F01911EC7.ctl"/>
+				<Item Name="Type Descriptor Header__ogtk4A668244C627608002181B7F01911EC7.ctl" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Type Descriptor Header__ogtk4A668244C627608002181B7F01911EC7.ctl"/>
+				<Item Name="Type Descriptor__ogtk4A668244C627608002181B7F01911EC7.ctl" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Type Descriptor__ogtk4A668244C627608002181B7F01911EC7.ctl"/>
+				<Item Name="Get Header from TD__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Header from TD__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Variant to Header Info__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Variant to Header Info__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Variant Attributes__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Variant Attributes__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Set Data Name__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Set Data Name__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Array of VData to VCluster__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Array of VData to VCluster__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Parse String with TDs__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Parse String with TDs__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Split Cluster TD__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Split Cluster TD__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Cluster to Array of VData__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Cluster to Array of VData__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Data Name from TD__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Data Name from TD__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Data Name__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Data Name__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Element TD from Array TD__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Element TD from Array TD__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Array Element TD__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Array Element TD__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Reshape 1D Array__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Reshape 1D Array__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get TDEnum from Data__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get TDEnum from Data__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Array of VData to VArray__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Array of VData to VArray__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Waveform Subtype Enum__ogtk4A668244C627608002181B7F01911EC7.ctl" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Waveform Subtype Enum__ogtk4A668244C627608002181B7F01911EC7.ctl"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Waveform Type Enum from TD__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Default Data from TD__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Default Data from TD__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Array Element TDEnum__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Array Element TDEnum__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Array Size(s)__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Array Size(s)__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Reshape Array to 1D VArray__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Reshape Array to 1D VArray__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Strip Units__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Strip Units__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Set Enum String Value__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Set Enum String Value__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Strings from Enum TD__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Strings from Enum TD__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Strings from Enum__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Strings from Enum__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Encode Section and Key Names__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Encode Section and Key Names__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Read Key (Variant)__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Read Key (Variant)__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Read Section Cluster__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Read Section Cluster__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Cluster Elements TDs__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Cluster Elements TDs__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Get Cluster Element Names__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Get Cluster Element Names__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="Read INI Cluster__ogtk4A668244C627608002181B7F01911EC7.vi" Type="VI" URL="/&lt;vilib&gt;/JKI/_VIPM API_internal_deps/Read INI Cluster__ogtk4A668244C627608002181B7F01911EC7.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
+				<Item Name="Invoke BuildTarget.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Invoke BuildTarget.vi"/>
+				<Item Name="GetTargetBuildSpecs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs.vi"/>
+				<Item Name="BuildTargetBuildSpecification.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/BuildTargetBuildSpecification.vi"/>
 			</Item>
 			<Item Name="Checkmark Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Checkmark Status.ctl"/>
 			<Item Name="Enabled Menu Item Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Enabled Menu Item Status.ctl"/>
@@ -417,6 +482,39 @@
 			<Item Name="LV Config Read Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Boolean.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="LV Config Write String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write String.vi"/>
+			<Item Name="mxLvErrorHandler.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvErrorHandler.vi"/>
+			<Item Name="mxLvDebugDisplayCaller.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvDebugDisplayCaller.vi"/>
+			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
+			<Item Name="mxLvSetIntProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetIntProperty.vi"/>
+			<Item Name="mxLvDeleteProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvDeleteProperty.vi"/>
+			<Item Name="mxLvSetPathProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPathProperty.vi"/>
+			<Item Name="mxLvSetRefProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetRefProperty.vi"/>
+			<Item Name="mxLvSetBooleanProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetBooleanProperty.vi"/>
+			<Item Name="mxLvSetStringProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetStringProperty.vi"/>
+			<Item Name="CDK_GLOBAL_STRINGS.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_GLOBAL_STRINGS.vi"/>
+			<Item Name="mxLvGetProjectRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetProjectRef.vi"/>
+			<Item Name="mxLvGetProjectPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetProjectPath.vi"/>
+			<Item Name="CDK_sTypeDef_ProductVersion.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_ProductVersion.ctl"/>
+			<Item Name="CDK_Utility_GetSetStringVersion.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetSetStringVersion.vi"/>
+			<Item Name="mxLvGetPathProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetPathProperty.vi"/>
+			<Item Name="mxLvGetRefProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetRefProperty.vi"/>
+			<Item Name="mxLvGetBooleanProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetBooleanProperty.vi"/>
+			<Item Name="mxLvGetIntProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetIntProperty.vi"/>
+			<Item Name="mxLvGetStringProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetStringProperty.vi"/>
+			<Item Name="CDK_sTypeDef_Languages.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_Languages.ctl"/>
+			<Item Name="provcom_GetTargetOS.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetTargetOS.vi"/>
+			<Item Name="provcom_Utility_IsEmptyOrWhiteSpace.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_Utility_IsEmptyOrWhiteSpace.vi"/>
+			<Item Name="provcom_CheckForInvalidCharacters.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckForInvalidCharacters.vi"/>
+			<Item Name="AB_UI_Change_Path_from_Label.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Change_Path_from_Label.vi"/>
+			<Item Name="mxLvNIIM.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvNIIM.ctl"/>
+			<Item Name="mxLvGetNIIM.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetNIIM.vi"/>
+			<Item Name="mxLvGetTarget.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetTarget.vi"/>
+			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
+			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
+			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Bookmark Manager" Type="Source Distribution">
@@ -434,8 +532,8 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/17.0</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">/D/Users/cfield/Documents/LabVIEW Data/2017(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/18.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/D/Users/cfield/Documents/LabVIEW Data/2018(32-bit)/ExtraVILib</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
@@ -452,13 +550,13 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Destination[0].path" Type="Path">../builds/Bookmark Manager</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Bookmark Manager/support</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Bookmark Manager/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].destName" Type="Str">Controls Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/Bookmark Manager/controls</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/Bookmark Manager/Controls</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B0DC0D1A-EA1C-4781-84AF-ECAFD94F3674}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{086A9894-FCF9-4243-B63B-839DA3D27944}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
@@ -469,7 +567,6 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib/Eulogy.txt</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[11].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support</Property>
@@ -491,7 +588,6 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[14].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[14].type" Type="Str">Library</Property>
 				<Property Name="Source[15].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Toolkit.lvlib/API</Property>
@@ -514,20 +610,19 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Configs</Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[18].type" Type="Str">Container</Property>
-				<Property Name="Source[19].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[19].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Documentation</Property>
-				<Property Name="Source[19].sourceInclusion" Type="Str">Exclude</Property>
-				<Property Name="Source[19].type" Type="Str">Container</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Documentation/LICENSE-Apache-2.0.txt</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Shortcut Menu.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Documentation/LICENSE-BSD-3-Clause.txt</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Documentation/LICENSE.txt</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib/Main.vi</Property>
-				<Property Name="Source[3].newName" Type="Str">BMark_MainWindow.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
@@ -538,35 +633,30 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[5].newName" Type="Str">Eulogy_BMark_Toolkit.lvlib</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typedefs</Property>
 				<Property Name="Source[6].newName" Type="Str">Eulogy_BMark_Toolkit_</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib/Support</Property>
 				<Property Name="Source[7].newName" Type="Str">Eulogy_BMark_</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib/Controls</Property>
 				<Property Name="Source[8].newName" Type="Str">Eulogy_BMark_</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[9].newName" Type="Str">Eulogy_BMark.lvlib</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">20</Property>
+				<Property Name="SourceCount" Type="Int">22</Property>
 			</Item>
 			<Item Name="Examples" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
