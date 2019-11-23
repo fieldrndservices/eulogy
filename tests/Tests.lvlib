@@ -12,8 +12,8 @@
 </Property>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Setup.vi" Type="VI" URL="../Support/Setup.vi"/>
-		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
+		<Item Name="Setup.vi" Type="VI" URL="../API/Setup.vi"/>
+		<Item Name="Teardown.vi" Type="VI" URL="../API/Teardown.vi"/>
 	</Item>
 	<Item Name="Toolkit.lvlib" Type="Library" URL="../Toolkit/Toolkit.lvlib"/>
 </Library>

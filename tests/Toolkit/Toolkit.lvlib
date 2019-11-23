@@ -15,12 +15,12 @@
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Bury Target.vi" Type="VI" URL="../../Support/Bury Target.vi"/>
-		<Item Name="Dig Target.vi" Type="VI" URL="../../Support/Dig Target.vi"/>
-		<Item Name="Find Target.vi" Type="VI" URL="../../Support/Find Target.vi"/>
-		<Item Name="Is Target.vi" Type="VI" URL="../../Support/Is Target.vi"/>
-		<Item Name="Reanimate Target.vi" Type="VI" URL="../../Support/Reanimate Target.vi"/>
-		<Item Name="Smite Target.vi" Type="VI" URL="../../Support/Smite Target.vi"/>
+		<Item Name="Bury Target.vi" Type="VI" URL="../Support/Bury Target.vi"/>
+		<Item Name="Dig Target.vi" Type="VI" URL="../Support/Dig Target.vi"/>
+		<Item Name="Find Target.vi" Type="VI" URL="../Support/Find Target.vi"/>
+		<Item Name="Is Target.vi" Type="VI" URL="../Support/Is Target.vi"/>
+		<Item Name="Reanimate Target.vi" Type="VI" URL="../Support/Reanimate Target.vi"/>
+		<Item Name="Smite Target.vi" Type="VI" URL="../Support/Smite Target.vi"/>
 	</Item>
 	<Item Name="Bury.vi" Type="VI" URL="../Bury.vi"/>
 	<Item Name="Dig.vi" Type="VI" URL="../Dig.vi"/>
