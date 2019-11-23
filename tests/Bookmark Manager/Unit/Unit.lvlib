@@ -2,6 +2,7 @@
 <Library LVVersion="18008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Tests.lvlib:Bookmark Manager.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Bookmark Manager.lvlib</Property>
+	<Property Name="NI.Lib.FriendGUID" Type="Str">a052ac37-58be-47c7-bedc-d6b577be6e18</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)U!!!*Q(C=\&gt;;^&lt;2N"%-8R*]/"5X:AM)68A"-G,I!&gt;'"/Y!$/U1L9Q,&lt;!&amp;ND!&gt;')1$ZST"J``N$1B")%T9I!%&amp;OO.3Z.O^W2`P9S&amp;J&lt;"_E^ZLOMV(ORI!LHV\W;[\4LSP^'HO`LP8XA4=N@\8JD^N&lt;`VP`[_[`@8M`XP&amp;J_;&gt;.?F!``U6,7N#]0..&amp;8O2&amp;8O2&amp;8O2*HO2*HO2*HO2"(O2"(O2"(O1G.\H*47ZS;VF52#ZSE=PT/K*C]G+CIGB2I"A-2=6&lt;Y3E]B;@Q]&amp;7&amp;J`!5HM*4?"CCQF.Y#E`B+4Q=JM*4?!J0Y3E]F"K3'DMZHM*$?37?R*.Y%E`C95IFHA314*954IL!5.+:@%A]C3@R]&amp;'**`%EHM34?/B7YEE]C3@R*"Y/'7=FBW&lt;?S@&amp;12I%H]!3?Q".Y++X!%XA#4_!*0%SHQ".Y!E1Q96!=AI+$AA("F]!4?0CDQ".Y!E`A#4RUD3M5Y]T-GHEHRW-]RG-]RG-]F*$R')`R')`R5&amp;&lt;'9TT'9TT'QV1S(O-R(A-RET+^4$&amp;TI"FE!O0B.?Y7D[O51_+R^[/ZX+DK'V"^9[FP'07.I,\![AOHPC$K%[U_A?I4I`\"[B_C"KIH6B&gt;5$^3:^R0N3$P1^L1&gt;&lt;5P&lt;U.;UV8TIH1??TW?&gt;4C=&gt;DU=&gt;$A@N^XPN&gt;DNNNVNN.BONVWON6KP,;P72@&gt;E?HK^,PT`R^PXH.(X\0%V@@UT4FV_8N?/2M@_D,?P3;VA&lt;^;\`K&lt;G=IS&gt;ELO.G!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
