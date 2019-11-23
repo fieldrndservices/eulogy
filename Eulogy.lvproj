@@ -567,6 +567,7 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib/Eulogy.txt</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[11].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support</Property>
@@ -588,6 +589,7 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[14].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[14].type" Type="Str">Library</Property>
 				<Property Name="Source[15].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[15].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Toolkit.lvlib/API</Property>
@@ -631,6 +633,7 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[22].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib/Main.vi</Property>
+				<Property Name="Source[3].newName" Type="Str">Graveyard.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
@@ -641,8 +644,10 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].newName" Type="Str">Eulogy_BMark_Toolkit.lvlib</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typedefs</Property>
@@ -663,6 +668,7 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[9].newName" Type="Str">Eulogy_BMark.lvlib</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">23</Property>
 			</Item>
@@ -698,7 +704,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Destination[1].path" Type="Path">../builds/Examples/support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{352E257C-DD30-4FE7-8C31-4D68A763F753}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9FBF7D42-38BF-49B5-B63F-101597234D44}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Dig a Grave - Simple.vi</Property>
@@ -755,6 +761,15 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[20].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[20].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[20].type" Type="Str">Library</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Documentation/LICENSE-Apache-2.0.txt</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Documentation/LICENSE-BSD-3-Clause.txt</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Documentation/LICENSE.txt</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Quick Drop.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -787,7 +802,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Examples/Bury - Simple.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">21</Property>
+				<Property Name="SourceCount" Type="Int">24</Property>
 			</Item>
 			<Item Name="Quick Drop" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -823,7 +838,7 @@ The VIs are renamed with the `Eulogy_QD_` prefix to avoid naming conflictings in
 				<Property Name="Destination[1].path" Type="Path">../builds/Quick Drop/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F7BFE642-A970-4A11-A071-1257F55EE16D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9FBF7D42-38BF-49B5-B63F-101597234D44}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Quick Drop.lvlib/Dig.vi</Property>
@@ -884,6 +899,11 @@ The VIs are renamed with the `Eulogy_QD_` prefix to avoid naming conflictings in
 				<Property Name="Source[21].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Toolkit.lvlib/API/Filter Graves.vi</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[22].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[22].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -920,7 +940,7 @@ The VIs are renamed with the `Eulogy_QD_` prefix to avoid naming conflictings in
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support</Property>
 				<Property Name="Source[9].newName" Type="Str">Eulogy_QD_Toolkit_</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">22</Property>
+				<Property Name="SourceCount" Type="Int">23</Property>
 			</Item>
 			<Item Name="Shortcut Menu" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -958,7 +978,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F7BFE642-A970-4A11-A071-1257F55EE16D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9FBF7D42-38BF-49B5-B63F-101597234D44}</Property>
 				<Property Name="Source[0].newName" Type="Str">Eulogy_ShortcutMenu_Dep_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -1008,6 +1028,11 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Toolkit.lvlib/API</Property>
 				<Property Name="Source[18].newName" Type="Str">Eulogy_ShortcutMenu_Toolkit_</Property>
 				<Property Name="Source[18].type" Type="Str">Container</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[19].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[19].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tests.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -1051,7 +1076,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="Source[9].VI.LLBtopLevel" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">19</Property>
+				<Property Name="SourceCount" Type="Int">20</Property>
 			</Item>
 			<Item Name="Toolkit" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -1218,7 +1243,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Destination[1].path" Type="Path">../builds/Tools Menu/support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A61284AE-3801-496C-A24C-73F1312A81D0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9FBF7D42-38BF-49B5-B63F-101597234D44}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tools Menu.lvlib/Graveyard.vi</Property>
@@ -1241,6 +1266,11 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Toolkit.lvlib/API</Property>
 				<Property Name="Source[12].newName" Type="Str">Eulogy_ToolsMenu_Toolkit_</Property>
 				<Property Name="Source[12].type" Type="Str">Container</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[13].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[13].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tools Menu.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -1285,7 +1315,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typedefs</Property>
 				<Property Name="Source[9].newName" Type="Str">Eulogy_ToolsMenu_Toolkit_</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">13</Property>
+				<Property Name="SourceCount" Type="Int">14</Property>
 			</Item>
 		</Item>
 	</Item>
