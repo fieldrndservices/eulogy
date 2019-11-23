@@ -13,7 +13,7 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="Tests.lvlib:Bookmark Manager.lvlib" Type="Friended Library" URL="../../../tests/Bookmark Manager/Bookmark Manager.lvlib"/>
+		<Item Name="Bookmark Manager.lvlib:Tests.lvlib" Type="Friended Library" URL="../Tests/Tests.lvlib"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -83,4 +83,5 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 	</Item>
 	<Item Name="Eulogy.txt" Type="Document" URL="../Eulogy.txt"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+	<Item Name="Tests.lvlib" Type="Library" URL="../Tests/Tests.lvlib"/>
 </Library>

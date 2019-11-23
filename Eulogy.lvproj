@@ -400,13 +400,13 @@
 				<Item Name="Clean.vi" Type="VI" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/Toolkit/API/Clean.vi"/>
 				<Item Name="LabVIEW Versions.ctl" Type="VI" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/Toolkit/Controls/LabVIEW Versions.ctl"/>
 				<Item Name="Package.vi" Type="VI" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/Toolkit/API/Package.vi"/>
-				<Item Name="Project File.vi" Type="VI" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/Toolkit/API/File Constants/Project File.vi"/>
 				<Item Name="VIAnCtl Analysis App Info.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerctrls.llb/VIAnCtl Analysis App Info.ctl"/>
 				<Item Name="LVBookmarkInfoTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBookmarkInfoTypeDef.ctl"/>
 				<Item Name="VIAnUtil Clear Specific Error.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Clear Specific Error.vi"/>
 				<Item Name="VIAnUtil Has Diagram.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Has Diagram.vi"/>
 				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
+				<Item Name="Labricator.lvlib" Type="Library" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/Toolkit/Labricator.lvlib"/>
 			</Item>
 			<Item Name="Checkmark Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Checkmark Status.ctl"/>
 			<Item Name="Enabled Menu Item Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Enabled Menu Item Status.ctl"/>
@@ -498,7 +498,7 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Source[15].newName" Type="Str">Eulogy_BMark_Toolkit_</Property>
 				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Tests.lvlib/Bookmark Manager.lvlib</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Bookmark Manager.lvlib/Tests.lvlib</Property>
 				<Property Name="Source[16].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[16].type" Type="Str">Library</Property>
