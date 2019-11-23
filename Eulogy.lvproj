@@ -1075,16 +1075,16 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Toolkit/Support VIs</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Toolkit/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].destName" Type="Str">API</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/Toolkit/API</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[3].destName" Type="Str">Controls</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/Toolkit/Controls</Property>
+				<Property Name="Destination[3].destName" Type="Str">Typedefs</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/Toolkit/Typedefs</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B736FA6F-7E9C-48DF-B5F6-B86ED46D2939}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9FBF7D42-38BF-49B5-B63F-101597234D44}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -1112,6 +1112,17 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[13].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Typedefs</Property>
 				<Property Name="Source[13].type" Type="Str">Container</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Tests.lvlib</Property>
+				<Property Name="Source[14].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[14].type" Type="Str">Library</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Documentation/LICENSE-Apache-2.0.txt</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Documentation/LICENSE-BSD-3-Clause.txt</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Documentation/LICENSE.txt</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -1153,7 +1164,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">14</Property>
+				<Property Name="SourceCount" Type="Int">18</Property>
 			</Item>
 			<Item Name="Tools Menu" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
