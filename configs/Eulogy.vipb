@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-03-25 17:43:30" Creator="cfield" Comments="" ID="dc033b522a35c824c1dd8e126f29a45c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-11-23 11:16:44" Creator="cfield" Comments="" ID="5e67641ce5fbf796e3a6561deefc9247">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
-    <Library_Version>1.0.0.40</Library_Version>
+    <Library_Version>1.1.0.40</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -37,28 +37,32 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
       <Copyright/>
       <Packager>Christopher R Field</Packager>
       <URL>http://www.fieldrndservices.com/</URL>
-      <Release_Notes>## [1.0.0] - 2018-08-01
+      <Release_Notes>## [1.1.0] - 2019-11-23
 
 ### Added
 
-- Examples for digging a grave, reanimating, smiting, burying, and using the Graveyard
-- Automated build process
-- Help documentation
-- Descriptions to all controls and indicators for all public VIs
-- Quick Drop Keyboard Shortcuts
-- Shortcut Menu Plugin
-- Custom Bookmark Manager (Graveyard)
-- Initial project structure and on-disk organization
-- Apache-2.0 and MIT license documentation
-- Build specifications for Bookmark Manager, Examples, Quick Drop Keyboard Shortcuts, Shortcut Menu Plugin, Toolkit API, Tools Menu
-- Meaningful VI icons to public Toolkit API VIs
-- Color coded bookmarks to Graveyard
-- Filtering bookmarks by graves or zombies
-- Reanimating corpse frames in graves (Diagram Disable Structures)
-- Smiting zombie frames in graves (Diagram Disable Structures)
-- Burying corpses, i.e. removing graves
-- Double-click object highlighting from within the custom Bookmark Manager
-- Run-time shortcut menus to the tree view of the custom Bookmark Manager</Release_Notes>
+- More theme appropriate status messages to the Bookmark Manager (Graveyard).
+- Saving Bookmark Manager (Graveyard) position, scope, and grouping between usage.
+- Preferences for customizing Bookmark Manager (Graveyard) behavior.
+- Resizable Bookmark Manager (Graveyard) window.
+- Prefix renaming to toolkit library to avoid name collisions.
+- Smite example screenshot to help documentation.
+- Acknowledgements section to the help documentation.
+
+### Changed
+
+- Automated build process to use Labricator instead of custom process.
+
+### Fixed
+
+- Populating Bookmark Manager (Graveyard) with graves and zombies performance. (Issue #1)
+- Searching for bookmarks occurring in infinite loop. (Issue #1)
+- Build to not package duplicate VIs for toolkit
+- Wording and organization in the Concepts help documentation.
+- Underscores used for emphasis instead of HTML tags for help documentation.
+- Install location of Toolkit VIs.
+- Install location of `Programmatically Find Graves.vi` example.
+- Install location of `Programmatically find Zombies.vi` example.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -153,12 +157,6 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>Bookmark Manager/support</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>2</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Bookmark Manager/BMark_MainWindow.vi</Path>
         <Destination>0</Destination>
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>2</Additional_Destination_Index>
@@ -296,32 +294,68 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Toolkit/Eulogy.lvlib</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/Support VIs</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/Controls</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/API</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>Help/Eulogy.chm</Path>
         <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Bookmark Manager/Controls</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Bookmark Manager/Support</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Bookmark Manager/Eulogy_BMark.lvlib</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Bookmark Manager/LICENSE-Apache-2.0.txt</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Bookmark Manager/LICENSE-BSD-3-Clause.txt</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Bookmark Manager/LICENSE.txt</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Bookmark Manager/BMark_MainWindow.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/LICENSE-Apache-2.0.txt</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/LICENSE-BSD-3-Clause.txt</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/LICENSE.txt</Path>
+        <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -336,7 +370,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Namespace/>
       </Namespace_Overrides>
       <Namespace_Overrides>
-        <Path>Toolkit/Eulogy.lvlib</Path>
+        <Path>Toolkit/Toolkit.lvlib</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace>Field_RnD_Services_Eulogy_</Namespace>
       </Namespace_Overrides>
@@ -449,62 +483,6 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Dig.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Quick Drop\Dig.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Bury.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Quick Drop\Bury.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Reanimate.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Quick Drop\Reanimate.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Smite.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Quick Drop\Smite.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Find Graves.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -569,7 +547,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Controls\Grave Frames.ctl</Path>
+        <Path>..\builds\Toolkit\Typedefs\Grave Frames.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -583,7 +561,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Controls\Bookmark Tags.ctl</Path>
+        <Path>..\builds\Toolkit\Typedefs\Bookmark Tags.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -600,7 +578,63 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Path>..\builds\Toolkit\API\Filter Graves.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>72F19849CE49CDDCBC5F8090F5220D08</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Bury.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\API\Bury.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Reanimate.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\API\Reanimate.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Smite.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\API\Smite.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Dig.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\API\Dig.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>7A545FFB2D05E26563C07F16FA3AD0B0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
