@@ -35,6 +35,7 @@ The `Controls` virtual folder is for all controls and typedefs used by the Main.
 		<Item Name="App Info.vi" Type="VI" URL="../Support/App Info.vi"/>
 		<Item Name="App Reference from Info.vi" Type="VI" URL="../Support/App Reference from Info.vi"/>
 		<Item Name="Application By Target.vi" Type="VI" URL="../Support/Application By Target.vi"/>
+		<Item Name="Bookmark Info Change.vi" Type="VI" URL="../Support/Bookmark Info Change.vi"/>
 		<Item Name="Bookmarks View Shortcut Menu Activation.vi" Type="VI" URL="../Support/Bookmarks View Shortcut Menu Activation.vi"/>
 		<Item Name="Bookmarks.vi" Type="VI" URL="../Support/Bookmarks.vi"/>
 		<Item Name="Change Bookmarks Grouping.vi" Type="VI" URL="../Support/Change Bookmarks Grouping.vi"/>

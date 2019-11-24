@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-11-24 13:03:09" Creator="cfield" Comments="" ID="440d7f6db6dc9bae74ce947c8b48ac7a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-11-24 14:48:26" Creator="cfield" Comments="" ID="14b84cd302f01d20c7338f05455438d0">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
-    <Library_Version>1.0.1.44</Library_Version>
+    <Library_Version>1.0.1.45</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -55,8 +55,9 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
 
 ### Fixed
 
-- Populating Bookmark Manager (Graveyard) with graves and zombies performance. (Issue #1)
-- Searching for bookmarks occurring in infinite loop. (Issue #1)
+- Reanimate shortcut menu action failing with Graveyard open.
+- Populating Bookmark Manager (Graveyard) with graves and zombies performance.
+- Searching for bookmarks occurring in infinite loop.
 - Build to not package duplicate VIs for toolkit
 - Wording and organization in the Concepts help documentation.
 - Underscores used for emphasis instead of HTML tags for help documentation.
@@ -625,7 +626,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Path>..\builds\Toolkit\API\Dig.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05746F73CCCD40B70FBDBFAB775BE894</GUID>
+      <GUID>42D78384F5CAE7FBDB42690881350A44</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

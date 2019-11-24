@@ -22,6 +22,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Fixed
 
+- Reanimate shortcut menu action failing when Graveyard is open. (Issue #3)
 - Populating Bookmark Manager (Graveyard) with graves and zombies performance. (Issue #1)
 - Searching for bookmarks occurring in infinite loop. (Issue #1)
 - Build to not package duplicate VIs for toolkit
