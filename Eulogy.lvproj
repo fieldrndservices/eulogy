@@ -49,9 +49,9 @@
 			<Item Name="Programmatically Find Graves.vi" Type="VI" URL="../src/Examples/Programmatically Find Graves.vi"/>
 			<Item Name="Programmatically Find Zombies.vi" Type="VI" URL="../src/Examples/Programmatically Find Zombies.vi"/>
 			<Item Name="Programmatically Reanimate.vi" Type="VI" URL="../src/Examples/Programmatically Reanimate.vi"/>
-			<Item Name="Programmatically Smite.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2018/examples/Field R&amp;D Services/Eulogy/Programmatically Smite.vi"/>
+			<Item Name="Programmatically Smite.vi" Type="VI" URL="../src/Examples/Programmatically Smite.vi"/>
 			<Item Name="Reanimate - Simple.vi" Type="VI" URL="../src/Examples/Reanimate - Simple.vi"/>
-			<Item Name="Smite - Simple.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2018/examples/Field R&amp;D Services/Eulogy/Smite - Simple.vi"/>
+			<Item Name="Smite - Simple.vi" Type="VI" URL="../src/Examples/Smite - Simple.vi"/>
 		</Item>
 		<Item Name="Bookmark Manager.lvlib" Type="Library" URL="../src/Bookmark Manager/Bookmark Manager.lvlib"/>
 		<Item Name="Quick Drop.lvlib" Type="Library" URL="../src/Quick Drop/Quick Drop.lvlib"/>
@@ -472,7 +472,6 @@
 				<Item Name="Invoke BuildTarget.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Invoke BuildTarget.vi"/>
 				<Item Name="GetTargetBuildSpecs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs.vi"/>
 				<Item Name="BuildTargetBuildSpecification.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/BuildTargetBuildSpecification.vi"/>
-				<Item Name="Field_RnD_Services_Eulogy_Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Field R&amp;D Services/Eulogy/Toolkit/Field_RnD_Services_Eulogy_Toolkit.lvlib"/>
 			</Item>
 			<Item Name="Checkmark Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Checkmark Status.ctl"/>
 			<Item Name="Enabled Menu Item Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Enabled Menu Item Status.ctl"/>
@@ -545,7 +544,7 @@ The `Main.vi` is renamed to `Bmark_MainWindow.vi` because this is required for t
 				<Property Name="Bld_previewCacheID" Type="Str">{414D0A9A-FD35-4A5C-AC4E-956CCF757DD1}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Bookmark Manager/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -702,7 +701,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Bld_previewCacheID" Type="Str">{D14B8EF2-A64D-4787-9300-06728101B34C}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Examples/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -744,7 +743,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Examples/Programmatically Smite.vi</Property>
+				<Property Name="Source[16].itemID" Type="Ref"></Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
@@ -803,7 +802,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Examples/Smite - Simple.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
@@ -837,7 +836,7 @@ The VIs are renamed with the `Eulogy_QD_` prefix to avoid naming conflictings in
 				<Property Name="Bld_previewCacheID" Type="Str">{47C24FFC-0823-43C9-89F6-701762A394C6}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Quick Drop/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -981,7 +980,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Bld_previewCacheID" Type="Str">{B23CD3DA-6053-4B73-84D7-9BF70E398FD3}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Shortcut Menu/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -1117,7 +1116,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Bld_previewCacheID" Type="Str">{1A6084DC-6EAC-42E4-A536-D607349E7CFE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Toolkit/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -1257,7 +1256,7 @@ Thus, building the package is a two step process: (1) build the source distribut
 				<Property Name="Bld_previewCacheID" Type="Str">{212714E8-8163-4D35-9DD6-DFD02D85034E}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Tools Menu/log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>

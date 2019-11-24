@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-11-24 15:54:39" Creator="cfield" Comments="" ID="560150c820c4427396a4a15a1701a843">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-11-24 16:13:53" Creator="cfield" Comments="" ID="e567c1e57af47951cbe4b2a8884bc14e">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_Eulogy</Package_File_Name>
-    <Library_Version>1.0.1.49</Library_Version>
+    <Library_Version>1.0.1.50</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -235,12 +235,6 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Examples/Smite - Simple.vi</Path>
-        <Destination>1</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>Examples/Graveyard - Simple.vi</Path>
         <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
@@ -272,12 +266,6 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>Examples/Programmatically Reanimate.vi</Path>
-        <Destination>1</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Examples/Programmatically Smite.vi</Path>
         <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -357,6 +345,18 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
       <Destination_Overrides>
         <Path>Help/Eulogy.chm</Path>
         <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Programmatically Smite.vi</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Smite - Simple.vi</Path>
+        <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -635,7 +635,7 @@ A LabVIEW API is also provided to programmatically use and extend the add-on. Th
         <Path>..\builds\Toolkit\API\Dig.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>115763C59DD9F08B93245456A254E3BF</GUID>
+      <GUID>0F41D91B8F18F8A352C4477E2DEA7F4A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
