@@ -48,4 +48,5 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 		<Item Name="Grave Frames.ctl" Type="VI" URL="../Typedefs/Grave Frames.ctl"/>
 		<Item Name="Hooks.ctl" Type="VI" URL="../Typedefs/Hooks.ctl"/>
 	</Item>
+	<Item Name="Call and Forget.vi" Type="VI" URL="../Support/Call and Forget.vi"/>
 </Library>

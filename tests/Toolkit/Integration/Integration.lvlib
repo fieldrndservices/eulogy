@@ -12,8 +12,12 @@
 </Property>
 	<Item Name="Hooks" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Post-Dig.vi" Type="VI" URL="../Support/Post-Dig.vi"/>
-		<Item Name="Pre-Dig.vi" Type="VI" URL="../Support/Pre-Dig.vi"/>
+		<Item Name="Post-Dig" Type="Folder">
+			<Item Name="Post-Dig.vi" Type="VI" URL="../Hooks/Post-Dig/Post-Dig.vi"/>
+		</Item>
+		<Item Name="Pre-Dig" Type="Folder">
+			<Item Name="Pre-Dig.vi" Type="VI" URL="../Hooks/Pre-Dig/Pre-Dig.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
