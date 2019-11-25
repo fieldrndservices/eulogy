@@ -38,6 +38,7 @@
 	<Item Name="Find Zombies.vi" Type="VI" URL="../Find Zombies.vi"/>
 	<Item Name="Is Grave.vi" Type="VI" URL="../Is Grave.vi"/>
 	<Item Name="Is Zombie.vi" Type="VI" URL="../Is Zombie.vi"/>
+	<Item Name="Post-Bury Hook.vi" Type="VI" URL="../Post-Bury Hook.vi"/>
 	<Item Name="Post-Dig Hook.vi" Type="VI" URL="../Post-Dig Hook.vi"/>
 	<Item Name="Pre-Bury Hook.vi" Type="VI" URL="../Pre-Bury Hook.vi"/>
 	<Item Name="Pre-Dig Hook.vi" Type="VI" URL="../Pre-Dig Hook.vi"/>
