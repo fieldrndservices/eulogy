@@ -40,10 +40,14 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 		<Item Name="Post-Bury.vi" Type="VI" URL="../Support/Post-Bury.vi"/>
 		<Item Name="Post-Dig Template.vi" Type="VI" URL="../Support/Post-Dig Template.vi"/>
 		<Item Name="Post-Dig.vi" Type="VI" URL="../Support/Post-Dig.vi"/>
+		<Item Name="Post-Reanimate Template.vi" Type="VI" URL="../Support/Post-Reanimate Template.vi"/>
+		<Item Name="Post-Reanimate.vi" Type="VI" URL="../Support/Post-Reanimate.vi"/>
 		<Item Name="Pre-Bury Template.vi" Type="VI" URL="../Support/Pre-Bury Template.vi"/>
 		<Item Name="Pre-Bury.vi" Type="VI" URL="../Support/Pre-Bury.vi"/>
 		<Item Name="Pre-Dig Template.vi" Type="VI" URL="../Support/Pre-Dig Template.vi"/>
 		<Item Name="Pre-Dig.vi" Type="VI" URL="../Support/Pre-Dig.vi"/>
+		<Item Name="Pre-Reanimate Template.vi" Type="VI" URL="../Support/Pre-Reanimate Template.vi"/>
+		<Item Name="Pre-Reanimate.vi" Type="VI" URL="../Support/Pre-Reanimate.vi"/>
 		<Item Name="Remove Controls from Selection.vi" Type="VI" URL="../Support/Remove Controls from Selection.vi"/>
 		<Item Name="Write Subdiagram Labels.vi" Type="VI" URL="../Support/Write Subdiagram Labels.vi"/>
 	</Item>
