@@ -36,6 +36,8 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 		<Item Name="Enclose with Diagram Disable Structure.vi" Type="VI" URL="../Support/Enclose with Diagram Disable Structure.vi"/>
 		<Item Name="Find Hook.vi" Type="VI" URL="../Support/Find Hook.vi"/>
 		<Item Name="Hooks Search Path.vi" Type="VI" URL="../Support/Hooks Search Path.vi"/>
+		<Item Name="Post-Bury Template.vi" Type="VI" URL="../Support/Post-Bury Template.vi"/>
+		<Item Name="Post-Bury.vi" Type="VI" URL="../Support/Post-Bury.vi"/>
 		<Item Name="Post-Dig Template.vi" Type="VI" URL="../Support/Post-Dig Template.vi"/>
 		<Item Name="Post-Dig.vi" Type="VI" URL="../Support/Post-Dig.vi"/>
 		<Item Name="Pre-Bury Template.vi" Type="VI" URL="../Support/Pre-Bury Template.vi"/>

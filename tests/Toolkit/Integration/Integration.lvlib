@@ -12,12 +12,9 @@
 </Property>
 	<Item Name="Hooks" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Post-Dig" Type="Folder">
-			<Item Name="Post-Dig.vi" Type="VI" URL="../Hooks/Post-Dig/Post-Dig.vi"/>
-		</Item>
-		<Item Name="Pre-Dig" Type="Folder">
-			<Item Name="Pre-Dig.vi" Type="VI" URL="../Hooks/Pre-Dig/Pre-Dig.vi"/>
-		</Item>
+		<Item Name="Post-Dig.vi" Type="VI" URL="../Hooks/Post-Dig.vi"/>
+		<Item Name="Pre-Bury.vi" Type="VI" URL="../Hooks/Pre-Bury.vi"/>
+		<Item Name="Pre-Dig.vi" Type="VI" URL="../Hooks/Pre-Dig.vi"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -42,6 +39,7 @@
 	<Item Name="Is Grave.vi" Type="VI" URL="../Is Grave.vi"/>
 	<Item Name="Is Zombie.vi" Type="VI" URL="../Is Zombie.vi"/>
 	<Item Name="Post-Dig Hook.vi" Type="VI" URL="../Post-Dig Hook.vi"/>
+	<Item Name="Pre-Bury Hook.vi" Type="VI" URL="../Pre-Bury Hook.vi"/>
 	<Item Name="Pre-Dig Hook.vi" Type="VI" URL="../Pre-Dig Hook.vi"/>
 	<Item Name="Reanimate.vi" Type="VI" URL="../Reanimate.vi"/>
 	<Item Name="Smite.vi" Type="VI" URL="../Smite.vi"/>
