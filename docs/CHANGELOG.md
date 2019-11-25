@@ -22,6 +22,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Fixed
 
+- Table of Contents entry for Smite VI in toolkit API documentation.
+- Bury shortcut menu action failing. (Issue #2)
 - Reanimate shortcut menu action failing when Graveyard is open. (Issue #3)
 - Populating Bookmark Manager (Graveyard) with graves and zombies performance. (Issue #1)
 - Searching for bookmarks occurring in infinite loop. (Issue #1)
