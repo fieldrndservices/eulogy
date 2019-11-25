@@ -24,6 +24,7 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 		<Item Name="Find Zombies.vi" Type="VI" URL="../Find Zombies.vi"/>
 		<Item Name="Is Grave.vi" Type="VI" URL="../Is Grave.vi"/>
 		<Item Name="Is Zombie.vi" Type="VI" URL="../Is Zombie.vi"/>
+		<Item Name="Pre-Dig.vi" Type="VI" URL="../Pre-Dig.vi"/>
 		<Item Name="Reanimate.vi" Type="VI" URL="../Reanimate.vi"/>
 		<Item Name="Smite.vi" Type="VI" URL="../Smite.vi"/>
 	</Item>
@@ -33,6 +34,9 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 		<Item Name="Apply Tombstone.vi" Type="VI" URL="../Support/Apply Tombstone.vi"/>
 		<Item Name="Duplicate Disabled Frame.vi" Type="VI" URL="../Support/Duplicate Disabled Frame.vi"/>
 		<Item Name="Enclose with Diagram Disable Structure.vi" Type="VI" URL="../Support/Enclose with Diagram Disable Structure.vi"/>
+		<Item Name="Find Hook.vi" Type="VI" URL="../Support/Find Hook.vi"/>
+		<Item Name="Hooks Search Path.vi" Type="VI" URL="../Support/Hooks Search Path.vi"/>
+		<Item Name="Pre-Dig Hook.vi" Type="VI" URL="../Support/Pre-Dig Hook.vi"/>
 		<Item Name="Remove Controls from Selection.vi" Type="VI" URL="../Support/Remove Controls from Selection.vi"/>
 		<Item Name="Write Subdiagram Labels.vi" Type="VI" URL="../Support/Write Subdiagram Labels.vi"/>
 	</Item>
@@ -40,5 +44,6 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Bookmark Tags.ctl" Type="VI" URL="../Typedefs/Bookmark Tags.ctl"/>
 		<Item Name="Grave Frames.ctl" Type="VI" URL="../Typedefs/Grave Frames.ctl"/>
+		<Item Name="Hooks.ctl" Type="VI" URL="../Typedefs/Hooks.ctl"/>
 	</Item>
 </Library>
