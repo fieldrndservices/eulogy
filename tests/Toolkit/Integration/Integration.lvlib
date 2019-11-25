@@ -15,9 +15,11 @@
 		<Item Name="Post-Bury.vi" Type="VI" URL="../Hooks/Post-Bury.vi"/>
 		<Item Name="Post-Dig.vi" Type="VI" URL="../Hooks/Post-Dig.vi"/>
 		<Item Name="Post-Reanimate.vi" Type="VI" URL="../Hooks/Post-Reanimate.vi"/>
+		<Item Name="Post-Smite.vi" Type="VI" URL="../Hooks/Post-Smite.vi"/>
 		<Item Name="Pre-Bury.vi" Type="VI" URL="../Hooks/Pre-Bury.vi"/>
 		<Item Name="Pre-Dig.vi" Type="VI" URL="../Hooks/Pre-Dig.vi"/>
 		<Item Name="Pre-Reanimate.vi" Type="VI" URL="../Hooks/Pre-Reanimate.vi"/>
+		<Item Name="Pre-Smite.vi" Type="VI" URL="../Hooks/Pre-Smite.vi"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -44,9 +46,11 @@
 	<Item Name="Post-Bury Hook.vi" Type="VI" URL="../Post-Bury Hook.vi"/>
 	<Item Name="Post-Dig Hook.vi" Type="VI" URL="../Post-Dig Hook.vi"/>
 	<Item Name="Post-Reanimate Hook.vi" Type="VI" URL="../Post-Reanimate Hook.vi"/>
+	<Item Name="Post-Smite Hook.vi" Type="VI" URL="../Post-Smite Hook.vi"/>
 	<Item Name="Pre-Bury Hook.vi" Type="VI" URL="../Pre-Bury Hook.vi"/>
 	<Item Name="Pre-Dig Hook.vi" Type="VI" URL="../Pre-Dig Hook.vi"/>
 	<Item Name="Pre-Reanimate Hook.vi" Type="VI" URL="../Pre-Reanimate Hook.vi"/>
+	<Item Name="Pre-Smite Hook.vi" Type="VI" URL="../Pre-Smite Hook.vi"/>
 	<Item Name="Reanimate.vi" Type="VI" URL="../Reanimate.vi"/>
 	<Item Name="Smite.vi" Type="VI" URL="../Smite.vi"/>
 </Library>
