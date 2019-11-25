@@ -24,6 +24,7 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Bury Target.vi" Type="VI" URL="../Support/Bury Target.vi"/>
 		<Item Name="Dig Target.vi" Type="VI" URL="../Support/Dig Target.vi"/>
+		<Item Name="Empty Target.vi" Type="VI" URL="../Support/Empty Target.vi"/>
 		<Item Name="Find Target.vi" Type="VI" URL="../Support/Find Target.vi"/>
 		<Item Name="Graves Count.vi" Type="VI" URL="../Support/Graves Count.vi"/>
 		<Item Name="Is Target.vi" Type="VI" URL="../Support/Is Target.vi"/>
@@ -35,6 +36,8 @@
 	<Item Name="Dig.vi" Type="VI" URL="../Dig.vi"/>
 	<Item Name="Filter Graves.vi" Type="VI" URL="../Filter Graves.vi"/>
 	<Item Name="Find Graves.vi" Type="VI" URL="../Find Graves.vi"/>
+	<Item Name="Find No Graves with Empty VI.vi" Type="VI" URL="../Find No Graves with Empty VI.vi"/>
+	<Item Name="Find No Zombies with Empty VI.vi" Type="VI" URL="../Find No Zombies with Empty VI.vi"/>
 	<Item Name="Find Zombies.vi" Type="VI" URL="../Find Zombies.vi"/>
 	<Item Name="Is Grave.vi" Type="VI" URL="../Is Grave.vi"/>
 	<Item Name="Is Zombie.vi" Type="VI" URL="../Is Zombie.vi"/>

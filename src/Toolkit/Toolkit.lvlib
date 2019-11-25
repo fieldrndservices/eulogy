@@ -31,6 +31,7 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Application User Name.vi" Type="VI" URL="../Support/Application User Name.vi"/>
 		<Item Name="Apply Tombstone.vi" Type="VI" URL="../Support/Apply Tombstone.vi"/>
+		<Item Name="Call and Forget.vi" Type="VI" URL="../Support/Call and Forget.vi"/>
 		<Item Name="Duplicate Disabled Frame.vi" Type="VI" URL="../Support/Duplicate Disabled Frame.vi"/>
 		<Item Name="Enclose with Diagram Disable Structure.vi" Type="VI" URL="../Support/Enclose with Diagram Disable Structure.vi"/>
 		<Item Name="Find Hook.vi" Type="VI" URL="../Support/Find Hook.vi"/>
@@ -48,5 +49,4 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 		<Item Name="Grave Frames.ctl" Type="VI" URL="../Typedefs/Grave Frames.ctl"/>
 		<Item Name="Hooks.ctl" Type="VI" URL="../Typedefs/Hooks.ctl"/>
 	</Item>
-	<Item Name="Call and Forget.vi" Type="VI" URL="../Support/Call and Forget.vi"/>
 </Library>
