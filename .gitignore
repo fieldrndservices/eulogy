@@ -1,5 +1,7 @@
 *.aliases
 *.lvlps
-builds
-target
-packages
+/builds
+/target
+/packages
+.eulogy
+/Eulogy
