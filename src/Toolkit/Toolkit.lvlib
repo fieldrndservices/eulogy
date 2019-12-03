@@ -13,8 +13,9 @@ The `Support` virtual folder contains the private sub-VIs used internally by the
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="Tests.lvlib:Toolkit.lvlib:Unit.lvlib" Type="Friended Library" URL="../../../tests/Toolkit/Unit/Unit.lvlib"/>
 		<Item Name="Tools Menu.lvlib" Type="Friended Library" URL="../../Tools Menu/Tools Menu.lvlib"/>
+		<Item Name="Tests.lvlib:Toolkit.lvlib:Unit.lvlib" Type="Friended Library" URL="../../../tests/Toolkit/Unit/Unit.lvlib"/>
+		<Item Name="Tests.lvlib:Toolkit.lvlib:Integration.lvlib" Type="Friended Library" URL="../../../tests/Toolkit/Integration/Integration.lvlib"/>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>

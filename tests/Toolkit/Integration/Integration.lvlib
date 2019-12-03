@@ -24,16 +24,20 @@
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Before Hook.vi" Type="VI" URL="../Support/Before Hook.vi"/>
 		<Item Name="Bury Target.vi" Type="VI" URL="../Support/Bury Target.vi"/>
 		<Item Name="Dig Target.vi" Type="VI" URL="../Support/Dig Target.vi"/>
 		<Item Name="Empty Target.vi" Type="VI" URL="../Support/Empty Target.vi"/>
 		<Item Name="Find Target.vi" Type="VI" URL="../Support/Find Target.vi"/>
 		<Item Name="Graves Count.vi" Type="VI" URL="../Support/Graves Count.vi"/>
+		<Item Name="Hook Search Paths.ctl" Type="VI" URL="../Support/Hook Search Paths.ctl"/>
 		<Item Name="Is Target.vi" Type="VI" URL="../Support/Is Target.vi"/>
 		<Item Name="Reanimate Target.vi" Type="VI" URL="../Support/Reanimate Target.vi"/>
 		<Item Name="Smite Target.vi" Type="VI" URL="../Support/Smite Target.vi"/>
 		<Item Name="Zombies Count.vi" Type="VI" URL="../Support/Zombies Count.vi"/>
 	</Item>
+	<Item Name="After Hook.vi" Type="VI" URL="../Support/After Hook.vi"/>
+	<Item Name="Before Dig.vi" Type="VI" URL="../Support/Before Dig.vi"/>
 	<Item Name="Bury.vi" Type="VI" URL="../Bury.vi"/>
 	<Item Name="Dig.vi" Type="VI" URL="../Dig.vi"/>
 	<Item Name="Filter Graves.vi" Type="VI" URL="../Filter Graves.vi"/>
@@ -49,6 +53,7 @@
 	<Item Name="Post-Smite Hook.vi" Type="VI" URL="../Post-Smite Hook.vi"/>
 	<Item Name="Pre-Bury Hook.vi" Type="VI" URL="../Pre-Bury Hook.vi"/>
 	<Item Name="Pre-Dig Hook.vi" Type="VI" URL="../Pre-Dig Hook.vi"/>
+	<Item Name="Pre-Dig User Hook.vi" Type="VI" URL="../Pre-Dig User Hook.vi"/>
 	<Item Name="Pre-Reanimate Hook.vi" Type="VI" URL="../Pre-Reanimate Hook.vi"/>
 	<Item Name="Pre-Smite Hook.vi" Type="VI" URL="../Pre-Smite Hook.vi"/>
 	<Item Name="Reanimate.vi" Type="VI" URL="../Reanimate.vi"/>
