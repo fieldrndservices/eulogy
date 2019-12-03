@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Added
+
+- Before (pre) and after (post) hooks for each action: Bury, Dig, Reanimate, and Smite. (Issue #14)
+- Tools menu item to create hooks. (Issue #16)
+- VI reference inputs and outputs for each toolkit action VI.
+- Controls (inputs) to each toolkit action VI, i.e. Bury, Dig, Reanimate, and Smite, to customize behavior of hook execution.
+- Condition variables to enable and disable hooks through out a project.
+
+### Changed
+
+- Toolkit VI documentation to match new hook-enabled API.
+
 ## [1.0.1] - 2019-11-25
 
 ### Added
