@@ -10,7 +10,7 @@ All notable changes to this project will be documented in this file, which is wr
 - Tools menu item to create hooks. (Issue #16)
 - VI reference inputs and outputs for each toolkit action VI.
 - Controls (inputs) to each toolkit action VI, i.e. Bury, Dig, Reanimate, and Smite, to customize behavior of hook execution.
-- Condition variables to enable and disable hooks through out a project.
+- Conditional Disable symbols to enable and disable hooks through out a project.
 
 ### Changed
 
