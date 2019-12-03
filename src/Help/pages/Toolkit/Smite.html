@@ -24,12 +24,28 @@
 <div id="styleDivScrolling">
 <table class="Borderless">
 <tr>
+<td class="Icon"><img src="/images/cvirn.png" alt="cvirn"></td>
+<td><strong>VI In</strong> is a reference to the VI containing graves with zombies to smite.</td>
+</tr>
+<tr>
 <td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
 <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/c1ddisstructrn.png" alt="c1ddisstructrn"></td>
-<td><strong>Graves</strong> contains references to Diagram Disable Structures with a RIP bookmark tag for their labels.</td>
+<td><strong>Graves</strong> is an array of references to Diagram Disable Structures with a RIP tombstone bookmark tag for their labels.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ccclst.png" alt="ccclst"></td>
+<td><strong>Execute Hooks?</strong> indicates if the Pre and Post bury hooks should be executed. If TRUE, then the corresponding hook will be executed; otherwise, the hook will not be executed.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/c1dpath.png" alt="c1dpath"></td>
+<td><strong>Hook Search Path</strong> is an array of paths to either folders or files where Pre and Post hooks for the bury action should be searched in addition to the toolkit defaults. Paths are indexed in priority order with index zero (0) being the highest priority.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ivirn.png" alt="ivirn"></td>
+<td><strong>VI Out</strong> is a duplicate reference to the VI with zombies that were smote.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>

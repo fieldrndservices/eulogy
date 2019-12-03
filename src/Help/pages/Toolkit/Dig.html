@@ -26,7 +26,7 @@
 <table class="Borderless">
 <tr>
 <td class="Icon"><img src="/images/cvirn.png" alt="cvirn"></td>
-<td><strong>VI In</strong>A reference to the VI where a grave will be dug.</td>
+<td><strong>VI In</strong> is a reference to the VI where a grave will be dug.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
@@ -34,7 +34,19 @@
 </tr>
 <tr>
 <td class="Icon"><img src="/images/c1dgobrn.png" alt="c1dgobrn"></td>
-<td><strong>Selection List[]</strong> References to the GObjects in the VI's block diagram that should be placed in a grave.</td>
+<td><strong>Selection List</strong> is an array of references to the GObjects in the VI's block diagram that should be placed in a grave.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ccclst.png" alt="ccclst"></td>
+<td><strong>Execute Hooks?</strong> indicates if the Pre and Post dig hooks should be executed. If TRUE, then the corresponding hook will be executed; otherwise, the hook will not be executed.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/c1dpath.png" alt="c1dpath"></td>
+<td><strong>Hook Search Path</strong> is an array of paths to either folders or files where Pre and Post hooks for the dig action should be searched in addition to the toolkit defaults. Paths are indexed in priority order with index zero (0) being the highest priority.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ibool.png" alt="ibool"></td>
+<td><strong>Chanage Made?</strong> indicates if any graves were dug anywhere within the VI's block diagram. This will return TRUE if any grave is created.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
@@ -42,7 +54,7 @@
 </tr>
 <tr>
 <td class="Icon"><img src="/images/ivirn.png" alt="ivirn"></td>
-<td><strong>VI Out</strong>A duplicate reference to the VI where the grave was dug.</td>
+<td><strong>VI Out</strong> is a duplicate reference to the VI where the grave was dug.</td>
 </tr>
 </table>
 </div>
