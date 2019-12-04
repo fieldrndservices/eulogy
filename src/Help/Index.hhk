@@ -68,6 +68,10 @@
             </OBJECT>
     </UL>
     <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Hooks">
+        <param name="Local" value="pages\Getting_Started\Hooks.html">
+        </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Is Grave">
         <param name="Local" value="pages\Toolkit\Is_Grave.html">
         </OBJECT>

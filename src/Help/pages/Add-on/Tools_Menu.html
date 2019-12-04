@@ -21,9 +21,10 @@
 <p><strong>Owning Palette:</strong> <a href="/pages/Add-on/Add-on.html">Eulogy Add-on</a></p>
 <p><strong>Requires:</strong> Eulogy, Base Development Environment</p>
 
-<p>Eulogy adds a <strong>Field R&amp;D Services&gt;&gt;Eulogy</strong> sub-menu to the <a href="http://zone.ni.com/reference/en-XX/help/371361M-01/glang/tools_menu/" target="_blank">Tools Menu</a> that includes items for working with legacy code.</p> 
+<p>Eulogy adds a <strong>Field R&amp;D Services&gt;&gt;Eulogy</strong> sub-menu to the <a href="http://zone.ni.com/reference/en-XX/help/371361M-01/glang/tools_menu/" target="_blank">Tools Menu</a> that includes items for working with legacy code.</p>
 
 <ul>
+    <li><strong>Create a Hook...</strong> - Displays a dialog to create a hook <abbr title="Virtual Instrument">VI</abbr> for a Eulogy-related action, such as Burying, Digging, and Reanimating.</li>
     <li><strong>Graveyard...</strong> - Displays the custom Bookmark Manager for monitoring and managing graves and zombies in projects and <abbr title="Virtual Instruments">VIs</abbr>.</li>
 </ul>
 
@@ -34,7 +35,8 @@
 <td>
     <select name="site" size="1" onchange="polyVISelectHandler(this)">
         <option value="">Select a Tools Menu action</option>
-        <option value="#grave-bury">Graveyard...</option>
+        <option value="#create_a_hook">Create a Hook...</option>
+        <option value="#graveyard">Graveyard...</option>
     </select>
 </td>
 </tr>
@@ -44,9 +46,25 @@
 
 <div id="styleDivScrolling">
 
+<h2><a name="create_a_hook">Create a Hook...</a></h2>
+
+<p>This Tools menu action shows a dialog for creating a hook <abbr title="Virutal Instrument">VI</abbr> that is executed either before (pre) or after (post) a Eulogy-related action. Given all of the criteria for creating a hook, this Tools menu action will display a dialog that helps with the creation of a new hook for an Eulogy-related action. The dialog will ensure the <abbr title="Virtual Instrument">VI</abbr> is properly named based on the selected action, placed in an appropriate location, and generate a template <abbr title="Virtual Instrument">VI</abbr> with the appropriate controls, indicators, connection pane, etc. The generated template <abbr title="Virtual Instrument">VI</abbr> will also contain comments and instructions to directly modify the block diagram.</p>
+
+<p>To execute this Tools Menu action:</p>
+
+<ol>
+    <li>Start LabVIEW.</li>
+    <li>Select <strong>Tools&gt;&gt;Field R&amp;D Services&gt;&gt;Eulogy&gt;&gt;Create a Hook...</strong> from the menu bar. The "Create a Hook" dialog will be displayed.</li>
+    <li>Select the appropriate option for each input.</li>
+    <li>Click <strong>CREATE</strong> to generate a hook <abbr title="Virtual Instrument">VI</abbr>. The dialog will disappear.</li>
+    <li>Open the generated hook <abbr title="Virtual Instrument">VI</abbr> in LabVIEW and modify the contents of its block diagram according to the comments and instructions.</li>
+    <li>Save the modified hook <abbr title="Virtual Instrument">VI</abbr>.</li>
+    <li>Execute a Eulogy-related action.</li>
+</ol>
+
 <h2><a name="graveyard">Graveyard...</a></h2>
 
-<p>This Tools Menu action uses launches the <a href="https://forums.ni.com/t5/Developer-Center-Resources/Creating-a-Custom-Bookmark-Manager-for-LabVIEW/ta-p/3513079" target="_blank">custom bookmark manager</a> for viewing graves and zombies in LabVIEW projects and <abbr title="Virtual Instruments">VIs</abbr>. The Graveyard provides addition features and actions to show graves bury corpses, reanimate corpses, and smite zombies using the run-time shortcut menu for tree items. This is the same as using opening the custom bookmark manager via <strong>View&gt;&gt;Bookmark Manager</strong> menu item and selecting <strong>Graveyard</strong> from the <strong>Select a Bookmark Manager</strong> dialog that appears.
+<p>This Tools Menu action launches the <a href="https://forums.ni.com/t5/Developer-Center-Resources/Creating-a-Custom-Bookmark-Manager-for-LabVIEW/ta-p/3513079" target="_blank">custom bookmark manager</a> for viewing graves and zombies in LabVIEW projects and <abbr title="Virtual Instruments">VIs</abbr>. The Graveyard provides addition features and actions to show graves bury corpses, reanimate corpses, and smite zombies using the run-time shortcut menu for tree items. This is the same as using opening the custom bookmark manager via <strong>View&gt;&gt;Bookmark Manager</strong> menu item and selecting <strong>Graveyard</strong> from the <strong>Select a Bookmark Manager</strong> dialog that appears.
 
 <p>To execute this Tools Menu action:</p>
 

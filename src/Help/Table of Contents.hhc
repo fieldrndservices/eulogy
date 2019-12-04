@@ -29,6 +29,10 @@
             <param name="Name" value="Examples">
             <param name="Local" value="pages\Getting_Started\Examples.html">
         </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Hooks">
+            <param name="Local" value="pages\Getting_Started\Hooks.html">
+        </OBJECT>
     </UL>
     <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Add-on">
