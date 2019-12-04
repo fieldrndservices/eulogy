@@ -26,7 +26,7 @@
 
 <p>For each of these actions, a hook <abbr title="Virtual Instrument">VI</abbr> is executed regardless if the action was initated from the Shortcut Menu Plugin (SMP), the Graveyard, Quick Drop Keyboard Shortcut (QDKS) plugin, or toolkit API.</p>
 
-<p>A hook <abbr title="Virtual Instrument">VI</abbr> must have the appropriate name, connector pane pattern, connected terminals, and be located in a specific location in order to be executed before or after a specific Eulogy-related action. The naming convention is a prefixed "Pre" or "Post" followed by a hyphen, "-", then the action name: "Bury", "Dig", "Reanimate", or "Smite", and ending with the file extension, ".vi". For example, the hook to be executed before a Smite action would be, "Pre-Smite.vi", while a hook to be executed after a Dig action would be, "Post-Dig.vi". Thus, there are the following supported hook names:</p>
+<a name="criteria"></a><p>A hook <abbr title="Virtual Instrument">VI</abbr> must have the appropriate name, connector pane pattern, connected terminals, and be located in a specific location in order to be executed before or after a specific Eulogy-related action. The naming convention is a prefixed "Pre" or "Post" followed by a hyphen, "-", then the action name: "Bury", "Dig", "Reanimate", or "Smite", and ending with the file extension, ".vi". For example, the hook to be executed before a Smite action would be, "Pre-Smite.vi", while a hook to be executed after a Dig action would be, "Post-Dig.vi". Thus, there are the following supported hook names:</p>
 
 <ul>
     <li><strong>Pre-Bury.vi</strong> - executed before a corpse, or zombie, is buried within a target <abbr title="Virtual Instrument">VI</abbr>'s block diagram.</li>
@@ -49,6 +49,21 @@
 </ol>
 
 <p>This means that only the hook <abbr title="Virtual Instrument">VI</abbr> at the highest priority location will be executed if it meets the previously mentioned criteria (file name convention, connector pane pattern, and correct connected terminals). Hooks located at lower priority directories will not be executed and ignored.</p>
+
+<p>The recommended process for creating a hook <abbr title="Virtual Instrument">VI</abbr> is to use the <a href="/pages/Add-on/Tools_Menu.html#create-a-hook">Create a Hook...</a> action from Eulogy's <a href="/pages/Add-on/Tools_Menu.html">Tool Menu</a> add-on, but templates VIs for each hook to be copied to the appropriate location and modified to extend Eulogy are located at <code>[vi.lib]\Field R&D Services\Eulogy\Toolkit\Support</code>. The templates contain the "Template" suffix in the file stem. Thus, for each hook, the following template VI exists:</p>
+
+<ul>
+    <li><code>[vi.lib]\Field R&D Services\Eulogy\Toolkit\Support\Pre-Bury Template.vi</code></li>
+    <li><code>[vi.lib]\Field R&D Services\Eulogy\Toolkit\Support\Post-Bury Template.vi</code></li>
+    <li><code>[vi.lib]\Field R&D Services\Eulogy\Toolkit\Support\Pre-Dig Template.vi</code></li>
+    <li><code>[vi.lib]\Field R&D Services\Eulogy\Toolkit\Support\Post-Dig Template.vi</code></li>
+    <li><code>[vi.lib]\Field R&D Services\Eulogy\Toolkit\Support\Pre-Reanimate Template.vi</code></li>
+    <li><code>[vi.lib]\Field R&D Services\Eulogy\Toolkit\Support\Post-Reanimate Template.vi</code></li>
+    <li><code>[vi.lib]\Field R&D Services\Eulogy\Toolkit\Support\Pre-Smite Template.vi</code></li>
+    <li><code>[vi.lib]\Field R&D Services\Eulogy\Toolkit\Support\Post-Smite Template.vi</code></li>
+</ul>
+
+<p>Be sure to copy the file and rename it without the "Template" suffix, i.e. the <code>Pre-Bury Template.vi</code> copy should be renamed to <code>Pre-Bury.vi</code>; otherwise, the corresponding action will not find and execute the hook <abbr title="Virtual Instrument">VI</abbr>.</p>
 
 </body>
 </html>
